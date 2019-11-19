@@ -1,0 +1,20 @@
+<section class="section hero">
+    <div class="hero__image">
+        <img class="lazyload blur-up"
+             sizes="100vw"
+             data-srcset="
+                    {{ asset('images/hero/buy_hero.jpg') | imagine_filter('min_width_1920') }} 1920w,
+                    {{ asset('images/hero/buy_hero.jpg') | imagine_filter('min_width_1200') }} 1200w,
+                    {{ asset('images/hero/buy_hero.jpg') | imagine_filter('min_width_1000') }} 1000w,
+                    {{ asset('images/hero/buy_hero.jpg') | imagine_filter('min_width_900') }} 900w,
+                    {{ asset('images/hero/buy_hero.jpg') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/hero/buy_hero.jpg') | imagine_filter('min_width_600') }} 600w"
+             src="{{ asset('images/hero/buy_hero.jpg') | imagine_filter('small_thumbnail') }}"
+             alt="{% trans %}buy.hero.title{% endtrans %}">
+    </div>
+    <div class="hero__content">
+        <div class="hero__content__container">
+            <h1>{% trans %}buy.hero.title{% endtrans %}</h1>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}tours.title{% endtrans %}{% endblock %}
+{% block meta %}
+    <meta name="description" content="{% trans %}tours.meta.description{% endtrans %}">
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('tours') }}
+{% endblock %}
+
+{% block body %}
+    <main>
+        {{ include('frontend/tours/_hero.html.twig') }}
+
+        {{ include('frontend/tours/_content.html.twig') }}
+    </main>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('tours') }}
+{% endblock %}

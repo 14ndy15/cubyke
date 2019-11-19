@@ -1,0 +1,94 @@
+.team{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 1em;
+
+    @include atLarge{
+        justify-content: space-around;
+        width: 96%;
+        margin: auto;
+    }
+
+    &__title{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &__member{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-bottom: 2em;
+        position: relative;
+
+        @include atLarge{
+            width: 25%;
+            flex-wrap: wrap;
+        }
+
+        &__image{
+            width: 50%;
+            border-radius: 2px;
+            overflow: hidden;
+            height: 48vw;
+            order: 1;
+            box-shadow: 2px 2px 10px rgba(black, .2);
+
+            @include atLarge{
+                height: 18em;
+                width: 18em;
+                min-width: 12em;
+                margin-bottom: 1em;
+            }
+        }
+
+        &__name{
+            width: 48%;
+            text-align: center;
+            order: 2;
+
+            @include atLarge{
+                width: 100%;
+            }
+
+            & h4{
+                margin: .25em;
+            }
+
+            & a{
+                width: 100%;
+                display: block;
+            }
+        }
+
+        &--inverse{
+            .team__member__image{
+                order: 2;
+
+                @include atLarge{
+                    order: 1;
+                }
+            }
+
+            .team__member__name{
+                order: 1;
+
+                @include atLarge{
+                    order: 2;
+                }
+            }
+        }
+    }
+
+    &__more{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 2em auto;
+    }
+}

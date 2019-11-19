@@ -1,0 +1,25 @@
+<section class="content">
+    <div class="content__text">
+        <p>{% trans %}bikes.content.text_1{% endtrans %}</p>
+        <p>{% trans %}bikes.content.text_2{% endtrans %}</p>
+        <p>{% trans %}bikes.content.text_3{% endtrans %}</p>
+    </div>
+
+    <div class="content__image content__image--two">
+        {% for bike in bikes %}
+        <div class="content__image__item">
+            <img class="lazyload blur-up"
+                 sizes="100vw"
+                 data-srcset="
+                    {{ bike.webPath | imagine_filter('min_width_1920') }} 1920w,
+                    {{ bike.webPath | imagine_filter('min_width_1200') }} 1200w,
+                    {{ bike.webPath | imagine_filter('min_width_1000') }} 1000w,
+                    {{ bike.webPath | imagine_filter('min_width_900') }} 900w,
+                    {{ bike.webPath | imagine_filter('min_width_800') }} 800w,
+                    {{ bike.webPath | imagine_filter('min_width_600') }} 600w"
+                 src="{{ bike.webPath | imagine_filter('small_thumbnail') }}"
+                 alt="{{ bike.name }}">
+        </div>
+        {% endfor %}
+    </div>
+</section>

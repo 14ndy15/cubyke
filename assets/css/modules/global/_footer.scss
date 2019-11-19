@@ -1,0 +1,119 @@
+.footer{
+    position: relative;
+    background: white;
+    margin-top: 1.5em;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    & .contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        z-index: 1;
+
+        @include atLarge{
+            width: 32%
+        }
+    }
+
+    & .form-contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+        z-index: 1;
+
+        @include atLarge{
+            width: 32%;
+        }
+    }
+
+    & .legal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        z-index: 1;
+
+        @include atLarge{
+            width: 32%;
+        }
+    }
+
+    & .copyright{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        position: absolute;
+        bottom: 1em;
+        width: 90%;
+        z-index: 1;
+
+        & p{
+            width: 100%;
+            color: white;
+
+            & a{
+                color: white;
+                font-weight: 600;
+            }
+
+            &:first-child{
+                text-align: left;
+            }
+
+            &:last-child{
+                text-align: right;
+            }
+        }
+    }
+
+    & .image{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: -15%;
+
+        &:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 10em;
+            background: linear-gradient(180deg, white, transparent);
+            z-index: 1;
+        }
+    }
+
+    & ul{
+        list-style: none;
+        padding: 0;
+
+        & li{
+            margin: .5em 0;
+
+            &.social{
+                & ul{
+                    list-style: none;
+                    display: flex;
+                    justify-content: flex-start;
+
+                    & li{
+                        display: inline;
+                        margin: auto .5em;
+
+                        &:first-child{
+                            margin-left: 0;
+                        }
+
+                        & img{
+                            width: 1.75em;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

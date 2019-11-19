@@ -1,0 +1,23 @@
+<section class="content">
+    <div class="content__text">
+        {{ blog_entry.getLocale('textAtBeginning') | raw }}
+    </div>
+
+    <div class="content__image content__image--two">
+        {% for image in blog_entry.imagesGallery %}
+        <div class="content__image__item">
+            {{ imgTagContent(
+                image.getWebPath,
+                image.description,
+                "(min-width: 1200) 45vw, 100vw",
+                1920)
+            | raw
+            }}
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="content__text">
+        {{ blog_entry.getLocale('textAtEnding') | raw  }}
+    </div>
+</section>

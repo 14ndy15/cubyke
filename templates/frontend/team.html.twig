@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}team.title{% endtrans %}{% endblock %}
+{% block meta %}
+    <meta name="description" content="{% trans %}team.meta.description{% endtrans %}">
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('team') }}
+{% endblock %}
+
+{% block body %}
+    <main>
+        {{ include('frontend/team/_hero.html.twig') }}
+
+        {{ include('frontend/team/_content.html.twig') }}
+    </main>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('team') }}
+{% endblock %}

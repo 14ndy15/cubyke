@@ -1,0 +1,36 @@
+<section class="section blog">
+
+    {% for blog_entry in blog_entries %}
+    <div class="blog_entry {% if loop.index == 1 %} blog_entry--first {% endif %}">
+        <div class="blog_entry__image">
+            <a href="{{ path('blog_entry_alternative', {'_id': blog_entry.id , '_name': blog_entry.getLocale('title')} ) }}">
+                {{ imgTagContent(
+                    blog_entry.getWebPath,
+                    blog_entry.getLocale('title'),
+                    "100vw",
+                    1920)
+                | raw
+                }}
+            </a>
+        </div>
+        <div class="blog_entry__text">
+            <div class="blog_entry__text__title">
+                <a href="{{ path('blog_entry_alternative', {'_id': blog_entry.id , '_name': blog_entry.getLocale('title')} ) }}">
+                    <h2>{{ blog_entry.getLocale('title') }}</h2>
+                </a>
+            </div>
+            <div class="blog_entry__text__details">
+                <div class="blog_entry__text__details__author_date">
+                    <p><small>Written by: <span>Landy</span> at <span>date</span></small></p>
+                </div>
+            </div>
+            <div class="blog_entry__text__summary">
+                <a href="{{ path('blog_entry_alternative', {'_id': blog_entry.id , '_name': blog_entry.getLocale('title')} ) }}">
+                    {{ blog_entry.getLocale('textAtBeginning') | truncate_html(350, '...') | raw  }}
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+</section>

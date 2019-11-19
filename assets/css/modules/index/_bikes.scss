@@ -1,0 +1,65 @@
+.bikes{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: grid;
+    grid-template-areas:    "title"
+                            "description"
+                            "gallery"
+                            "buy";
+    grid-template-columns: 100%;
+
+    @include atLarge{
+        grid-template-areas:    "title gallery"
+                                "description gallery"
+                                "buy gallery";
+        grid-template-columns: 32% 65%;
+    }
+
+    &__title{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        grid-area: title;
+    }
+
+    &__description{
+        width: 100%;
+        padding: 0 10%;
+
+        grid-area: description;
+    }
+
+
+    &__gallery{
+        grid-area: gallery;
+        display: flex;
+        overflow: hidden;
+
+        &__bike{
+            display: flex;
+            justify-content: center;
+
+            &__title{
+                background: rgba(white, .8);
+                padding: .5em .25em;
+                border-radius: 2px;
+                position: absolute;
+                bottom: 1em;
+
+                & h4{
+                    margin: 0;
+                }
+            }
+
+
+        }
+    }
+
+    &__buy{
+        grid-area: buy;
+
+        width: 100%;
+        padding: 0 10%;
+    }
+}

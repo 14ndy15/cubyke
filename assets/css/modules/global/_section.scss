@@ -1,0 +1,42 @@
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 1.5em;
+
+    &.hero{
+        margin-top: 0;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+
+        & h2 {
+            position: relative;
+            font-size: 1.75em;
+        }
+
+        &--white{
+
+            & h2 {
+                color: white;
+
+                &:after {
+                    background: white;
+                }
+            }
+        }
+    }
+
+    &__description{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0 10%;
+        text-align: center;
+    }
+}

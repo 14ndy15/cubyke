@@ -1,0 +1,125 @@
+<footer class="footer section">
+
+    <div class="contact">
+        <div class="section__title">
+{#            <h2>{% trans %}global.footer.contact{% endtrans %}</h2>#}
+            <h2>Contact</h2>
+        </div>
+
+        <ul>
+            <li><strong>In Cuba</strong></li>
+            <li><a href="tel://+53 56080390">+53 56080390</a></li>
+{#            <li><a href="tel://+53 72144383">+53 72144383</a></li>#}
+            <li><a href="mailto:info@cubyke.com">info@cubyke.<strong>com</strong></a></li>
+            <li>
+                <address>
+                    <dl>Cubyke Travel</dl>
+                    <dl>Ave 7ma, No. 8607, e/86 y 88</dl>
+                    <dl>Miramar-Playa</dl>
+                    <dl>La Habana 11300, Cuba</dl>
+                </address>
+            </li>
+            <li><strong>In German</strong></li>
+            <li><a href="tel://+49 68138376457">+49(0)681 38 37 64 57</a></li>
+            <li><a href="mailto:info@cubyke.de">info@cubyke.<strong>de</strong></a></li>
+            <li>
+                <address>
+                    <dl>Cubyke GmbH</dl>
+                    <dl>Mainzer Straße 183</dl>
+                    <dl>im Rückgebäude D</dl>
+                    <dl>66121 Saarbrücken</dl>
+                </address>
+            </li>
+            <li class="social">
+                <ul>
+                    <li>
+                        <a href="http://www.facebook.com/cubyke">
+                            <img src="{{ asset('images/icons/facebook.svg') }}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/cubyke">
+                            <img src="{{ asset('images/icons/instagram.svg') }}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g147271-d13485075-Reviews-Cubyke-Havana_Ciudad_de_la_Habana_Province_Cuba.html">
+                            <img src="{{ asset('images/icons/tripadvisor.svg') }}" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="form-contact">
+        <div class="section__title">
+            <h2>{% trans %}global.footer.write_to_us{% endtrans %}</h2>
+        </div>
+
+        <form action="" class="form">
+            <div class="form__item">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form__item">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form__item">
+                <label for="message">Message:</label>
+                <textarea type="text" id="message" name="message" rows="4"></textarea>
+            </div>
+
+            <input data-sal="slide-up"
+                   data-sal-delay="500"
+                   type="submit" class="btn btn--border" value="Send message">
+        </form>
+    </div>
+
+    <div class="legal">
+        <div class="section__title">
+            <h2>{% trans %}global.footer.legal{% endtrans %}</h2>
+        </div>
+
+        <ul>
+            <li><a href="{{ path('privacy_policy') }}">{% trans %}global.footer.privacy_policy{% endtrans %}</a></li>
+            <li><a href="{{ path('travel_conditions') }}">{% trans %}global.footer.travel_condition{% endtrans %}</a></li>
+            <li><a href="{{ path('company_information') }}">{% trans %}global.footer.company-information{% endtrans %}</a></li>
+            <li><a href="{{ path('patent') }}">{% trans %}global.footer.patent{% endtrans %}</a></li>
+        </ul>
+    </div>
+
+    <div class="copyright">
+        <p>All rights reserved © 2019</p>
+        <p>Developed by <a href="#">habana.tech</a></p>
+    </div>
+
+    <div class="image">
+        <picture>
+        <source class="lazyload blur-up"
+                media="(min-width: 1200px)"
+                sizes="100vw"
+                data-srcset="
+                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1920') }} 1920w,
+                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1200') }} 1200w,
+                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1000') }} 1000w,
+                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_900') }} 900w,
+                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_800') }} 800w,
+                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_600') }} 600w
+                        ">
+
+        <img class="lazyload blur-up"
+             sizes="100vw"
+             data-srcset="
+                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_1920') }} 1920w,
+                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_1200') }} 1200w,
+                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_1000') }} 1000w,
+                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_900') }} 900w,
+                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_600') }} 600w"
+             src="{{ asset('images/footer/footer_portraid.jpg') | imagine_filter('small_thumbnail') }}"
+             alt="{% trans %}index.us.bike.bike2.title{% endtrans %}">
+        </picture>
+    </div>
+</footer>

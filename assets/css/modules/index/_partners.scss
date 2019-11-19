@@ -1,0 +1,34 @@
+.partners{
+
+    &__logos{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+
+        &__logo{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: .5em auto;
+
+            @include atLarge{
+                width: 21%;
+                margin: 1em auto;
+            }
+
+            & img{
+                max-height: 4em;
+                width: auto;
+
+                @include atLarge{
+                    width: 100%;
+                    height: auto;
+                    min-height: auto;
+                    max-height: initial;
+                }
+            }
+        }
+    }
+}

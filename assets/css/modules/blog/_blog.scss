@@ -1,0 +1,9 @@
+.blog{
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+
+    @include atLarge{
+        width: 90%;
+    }
+}

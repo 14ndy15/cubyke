@@ -1,0 +1,1 @@
+import "../css/company_information.scss";

@@ -1,0 +1,48 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#e23342">
+
+{% if app.request.get('_route')  in ['blog_entry','blog_entry_alternative'] %}
+    <link rel="alternate" hreflang="en" href="{{ absolute_url(path('blog_entry', {'_locale': 'en', '_id': id, '_name': name} )) }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ absolute_url(path('blog_entry', {'_locale': 'en', '_id': id, '_name': name} )) }}" />
+    <link rel="alternate" hreflang="de" href="{{ absolute_url(path('blog_entry', {'_locale': 'de', '_id': id, '_name': name} )) }}" />
+    <link rel="alternate" hreflang="es" href="{{ absolute_url(path('blog_entry', {'_locale': 'es', '_id': id, '_name': name} )) }}" />
+{% else %}
+    <link rel="alternate" hreflang="en" href="{{ absolute_url(path(app.request.get('_route'), {'_locale': 'en'} )) }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ absolute_url(path(app.request.get('_route'), {'_locale': 'en'} )) }}" />
+    <link rel="alternate" hreflang="de" href="{{ absolute_url(path(app.request.get('_route'), {'_locale': 'de'} )) }}" />
+    <link rel="alternate" hreflang="es" href="{{ absolute_url(path(app.request.get('_route'), {'_locale': 'es'} )) }}" />
+{% endif %}
+
+<link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/vnd.microsoft.icon" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "TravelAgency",
+        "name": "Cubyke",
+        "image": "{{ absolute_url(asset('images/hero/hero.jpg')) }}",
+        "logo": "{{ absolute_url(asset('images/logo.png')) }}",
+        "url": "https://www.cubyke.com",
+        "telephone": "+ 53 56080390",
+        "sameAs": ["http://www.facebook.com/cubyke","http://instagram.com/cubyke"],
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Ave 7ma, No. 8607",
+            "addressLocality": " Miramar-Playa",
+            "postalCode": "11300",
+            "addressCountry": "Cuba"
+        },
+        "priceRange" : "$49 - $80",
+        "email" : "info@cubyke.com"
+    }
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132554192-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132554192-1');
+</script>

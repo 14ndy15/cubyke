@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="es" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="O0lWHxC" resname="index.hero.title">
+        <source>index.hero.title</source>
+        <target>Ganas de tener una aventura en Bici?</target>
+      </trans-unit>
+      <trans-unit id="3_vUzLP" resname="index.title">
+        <source>index.title</source>
+        <target>Recorre Cuba y La Habana en Bicicletas eléctricas</target>
+      </trans-unit>
+      <trans-unit id="yJvbWwK" resname="index.meta.description">
+        <source>index.meta.description</source>
+        <target>La combinación de nuestras excepcionales bicicletas y la única Cuba hacen de nuestros viajes una experiencia incomparable. Confía en nuestra palabra.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900|Open+Sans&display=swap');
+body{
+    position: relative;
+    background: white;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    color: $mainDark;
+}
+
+img, video{
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.blur-up {
+    filter: blur(8px);
+    transition: filter 600ms;
+
+    &.lazyloaded {
+        filter: blur(0);
+    }
+}
+
+*::selection {
+    color: white;
+    background: rgba($mainRed, 0.7);
+}
+
+p, small, li, h2, h3, h4, h5, h6, input, label, span{
+    color: $mainLightGrey;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: white;
+    font-weight: 900;
+    text-shadow: 5px 5px 5px rgba(black, .1);
+    font-size: 2em;
+
+    @include atLarge{
+        font-size: 3em;
+    }
+}
+
+p{
+    @include atMedium {
+        line-height: 1.5;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: $mainRed;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}

@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}bike.title{% endtrans %}{% endblock %}
+{% block meta %}
+    <meta name="description" content="{% trans %}bike.meta.description{% endtrans %}">
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('bikes') }}
+{% endblock %}
+
+{% block body %}
+    <main>
+        {{ include('frontend/bikes/_hero.html.twig') }}
+
+        {{ include('frontend/bikes/_content.html.twig') }}
+    </main>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('bikes') }}
+{% endblock %}

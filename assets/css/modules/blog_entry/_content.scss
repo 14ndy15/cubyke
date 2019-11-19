@@ -1,0 +1,38 @@
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;;
+    width: 100%;
+    margin: auto;
+
+    @include atLarge{
+        width: 90%;
+    }
+
+    &__text{
+        width: 90%;
+
+        @include atLarge{
+            width: 60%;
+        }
+    }
+
+    &__image{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+
+        &--two{
+            & > div{
+                width: 100%;
+                margin: .1em auto;
+
+                @include atLarge{
+                    width: 49.75%;
+                }
+
+            }
+        }
+    }
+}

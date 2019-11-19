@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}{% trans %}blog.title{% endtrans %}{% endblock %}
+{% block meta %}
+    <meta name="description" content="{% trans %}blog.meta.description{% endtrans %}">
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('blog') }}
+{% endblock %}
+
+{% block body %}
+    <main>
+
+        {{ include('frontend/blog/_hero.html.twig') }}
+        {{ include('frontend/blog/_content.html.twig') }}
+
+    </main>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('blog') }}
+{% endblock %}

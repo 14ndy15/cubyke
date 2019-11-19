@@ -1,0 +1,162 @@
+<section id="tours" class="section tours">
+
+    <div class="tours__info">
+        <div class="tours__title section__title">
+            <h2>{% trans %}index.tours.title{% endtrans %}</h2>
+        </div>
+
+        <div class="tours__description">
+            <p>{% trans %}index.tours.description{% endtrans %}
+                <a href="{{ path('tours') }}">{% trans %}global.read_more{% endtrans %}</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="tours__tour tours__tour--1">
+        <div class="tours__tour__image">
+            <a href="https://cubyke.trekksoft.com/en_GB/activities1">
+                <img class="lazyload blur-up"
+                     sizes="(min-width: 1200px) 33vw, 100vw"
+                     data-srcset="
+                    {{ asset('images/tours/public-one-day.jpg') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/tours/public-one-day.jpg') | imagine_filter('min_width_600') }} 600w"
+                     src="{{ asset('images/tours/public-one-day.jpg') | imagine_filter('small_thumbnail') }}"
+                     alt="{% trans %}index.tours.tour1.image{% endtrans %}">
+            </a>
+        </div>
+        <div class="tours__tour__text">
+            <div class="tours__tour__text__title">
+                <a href="https://cubyke.trekksoft.com/en_GB/activities1">
+                    <h3>{% trans %}index.tours.tour1.title{% endtrans %}</h3>
+                </a>
+            </div>
+            <div class="tours__tour__text__description">
+                <a href="https://cubyke.trekksoft.com/en_GB/activities1">
+                    <small>{% trans %}index.tours.tour1.description{% endtrans %}</small>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tours__tour tours__tour--2">
+        <div class="tours__tour__image">
+            <a href="https://cubyke.trekksoft.com/en_GB/activities3">
+                <img class="lazyload blur-up"
+                     sizes="(min-width: 1200px) 33vw, 100vw"
+                     data-srcset="
+                    {{ asset('images/tours/public-multi-day.jpg') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/tours/public-multi-day.jpg') | imagine_filter('min_width_600') }} 600w"
+                     src="{{ asset('images/tours/public-multi-day.jpg') | imagine_filter('small_thumbnail') }}"
+                     alt="{% trans %}index.tours.tour2.image{% endtrans %}">
+            </a>
+        </div>
+        <div class="tours__tour__text">
+            <div class="tours__tour__text__title">
+                <a href="https://cubyke.trekksoft.com/en_GB/activities3">
+                    <h3>{% trans %}index.tours.tour2.title{% endtrans %}</h3>
+                </a>
+            </div>
+            <div class="tours__tour__text__description">
+                <a href="https://cubyke.trekksoft.com/en_GB/activities3">
+                    <small>{% trans %}index.tours.tour2.description{% endtrans %}</small>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tours__tour tours__tour--3">
+        <div class="tours__tour__image">
+            <a href="https://cubyke.trekksoft.com/en_GB/activities2">
+                <img class="lazyload blur-up"
+                     sizes="(min-width: 1200px) 33vw, 100vw"
+                     data-srcset="
+                    {{ asset('images/tours/private-one-day.jpg') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/tours/private-one-day.jpg') | imagine_filter('min_width_600') }} 600w"
+                     src="{{ asset('images/tours/private-one-day.jpg') | imagine_filter('small_thumbnail') }}"
+                     alt="{% trans %}index.tours.tour3.image{% endtrans %}">
+            </a>
+        </div>
+        <div class="tours__tour__text">
+            <div class="tours__tour__text__title">
+                <a href="https://cubyke.trekksoft.com/en_GB/activities3">
+                    <h3>{% trans %}index.tours.tour3.title{% endtrans %}</h3>
+                </a>
+            </div>
+            <div class="tours__tour__text__description">
+                <a href="https://cubyke.trekksoft.com/en_GB/activities3">
+                    <small>{% trans %}index.tours.tour3.description{% endtrans %}</small>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tours__tour tours__tour--4">
+        <div class="tours__tour__image">
+            <a href="https://cubyke.trekksoft.com/en_GB/activities4">
+                <img class="lazyload blur-up"
+                     sizes="(min-width: 1200px) 33vw, 100vw"
+                     data-srcset="
+                    {{ asset('images/tours/private-multi-day.jpg') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/tours/private-multi-day.jpg') | imagine_filter('min_width_600') }} 600w"
+                     src="{{ asset('images/tours/private-multi-day.jpg') | imagine_filter('small_thumbnail') }}"
+                     alt="{% trans %}index.tours.tour4.image{% endtrans %}">
+            </a>
+        </div>
+        <div class="tours__tour__text">
+            <div class="tours__tour__text__title">
+                <a href="https://cubyke.trekksoft.com/en_GB/activities4">
+                    <h3>{% trans %}index.tours.tour4.title{% endtrans %}</h3>
+                </a>
+            </div>
+            <div class="tours__tour__text__description">
+                <a href="https://cubyke.trekksoft.com/en_GB/activities4">
+                    <small>{% trans %}index.tours.tour4.description{% endtrans %}</small>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tours__media">
+        <div class="tours__media__video">
+            <video controls autoplay>
+                <source src="{{ asset('video/toques_del_rio.mp4') }}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                {{ imgTagContent(
+                    asset('video/toques_del_rio_init_frame.jpg'),
+                    '',
+                    "(min-width: 1200px): 60vw, 100vw",
+                    1920)
+                | raw
+                }}
+
+            </video>
+        </div>
+        <div class="tours__media__content">
+            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, dolor fugit in minima praesentium provident vel? Ad, amet asperiores consequuntur corporis cumque delectus ex harum molestiae nobis pariatur quos reprehenderit.</p>
+        </div>
+    </div>
+
+    <div class="tours__inside_cuba">
+        <div class="tours__inside_cuba__image">
+            <img class="lazyload blur-up"
+                 sizes="100vw"
+                 data-srcset="
+                    {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1920') }} 1920w,
+                    {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1200') }} 1200w,
+                    {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1000') }} 1000w,
+                    {{ asset('images/tours/cuba.png') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/tours/cuba.png') | imagine_filter('min_width_600') }} 600w"
+                 src="{{ asset('images/tours/cuba.png') | imagine_filter('small_thumbnail') }}"
+                 alt="">
+        </div>
+        <div class="tours__inside_cuba__content">
+            <div class="tours__inside_cuba__content__title">
+                <h3>We offer you know Cuba in 7 day, what do you think?</h3>
+            </div>
+            <div class="tours__inside_cuba__content__action">
+                <a class="btn" href="">Know More</a>
+            </div>
+        </div>
+    </div>
+
+</section>

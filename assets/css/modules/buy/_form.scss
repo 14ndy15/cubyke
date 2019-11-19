@@ -1,0 +1,52 @@
+.build__form .form{
+
+    &__item{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 1em auto;
+
+
+        & > label{
+            position: relative;
+            width: auto;
+            margin: .2em;
+            display: flex;
+            font-weight: 700;
+            align-items: flex-end;
+
+            &:first-child::after{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                bottom: -.25em;
+                background: rgba($mainRed, .7);
+            }
+        }
+
+        & input{
+            width: auto;
+        }
+
+        &__content{
+            width: 100%;
+            margin: .5em auto;
+            display: flex;
+            flex-wrap: wrap;
+
+            &--inline{
+
+                & label{
+                    width: auto;
+                    margin: auto .25em;
+                }
+
+            }
+
+        }
+
+    }
+
+}

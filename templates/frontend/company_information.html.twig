@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}{% trans %}company_information.title{% endtrans %}{% endblock %}
+{% block meta %}
+    <meta name="description" content="{% trans %}company_information.meta.description{% endtrans %}">
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('company_information') }}
+{% endblock %}
+
+{% block body %}
+    <main>
+        {{ include('frontend/company_information/_content.html.twig') }}
+
+        {{ include('frontend/company_information/_content.html.twig') }}
+
+    </main>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('company_information') }}
+{% endblock %}

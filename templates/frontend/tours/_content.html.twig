@@ -1,0 +1,63 @@
+<section class="content">
+    <div class="content__text">
+
+        {{ page.getLocale('content') | raw }}
+
+    </div>
+
+    <div class="content__image content__image--two">
+        <div class="content__image__item">
+            <img class="lazyload blur-up"
+                 sizes="100vw"
+                 data-srcset="
+                    {{ asset('images/pages/tours/campo.png') | imagine_filter('min_width_1920') }} 1920w,
+                    {{ asset('images/pages/tours/campo.png') | imagine_filter('min_width_1200') }} 1200w,
+                    {{ asset('images/pages/tours/campo.png') | imagine_filter('min_width_1000') }} 1000w,
+                    {{ asset('images/pages/tours/campo.png') | imagine_filter('min_width_900') }} 900w,
+                    {{ asset('images/pages/tours/campo.png') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/pages/tours/campo.png') | imagine_filter('min_width_600') }} 600w"
+                 src="{{ asset('images/pages/tours/campo.png') | imagine_filter('small_thumbnail') }}"
+                 alt="{% trans %}tours.hero.title{% endtrans %}">
+        </div>
+        <div class="content__image__item">
+            <img class="lazyload blur-up"
+                 sizes="100vw"
+                 data-srcset="
+                    {{ asset('images/pages/tours/vinales.png') | imagine_filter('min_width_1920') }} 1920w,
+                    {{ asset('images/pages/tours/vinales.png') | imagine_filter('min_width_1200') }} 1200w,
+                    {{ asset('images/pages/tours/vinales.png') | imagine_filter('min_width_1000') }} 1000w,
+                    {{ asset('images/pages/tours/vinales.png') | imagine_filter('min_width_900') }} 900w,
+                    {{ asset('images/pages/tours/vinales.png') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/pages/tours/vinales.png') | imagine_filter('min_width_600') }} 600w"
+                 src="{{ asset('images/pages/tours/vinales.png') | imagine_filter('small_thumbnail') }}"
+                 alt="{% trans %}tours.hero.title{% endtrans %}">
+        </div>
+        <div class="content__image__item">
+            <img class="lazyload blur-up"
+                 sizes="100vw"
+                 data-srcset="
+                    {{ asset('images/pages/tours/canasi.jpg') | imagine_filter('min_width_1920') }} 1920w,
+                    {{ asset('images/pages/tours/canasi.jpg') | imagine_filter('min_width_1200') }} 1200w,
+                    {{ asset('images/pages/tours/canasi.jpg') | imagine_filter('min_width_1000') }} 1000w,
+                    {{ asset('images/pages/tours/canasi.jpg') | imagine_filter('min_width_900') }} 900w,
+                    {{ asset('images/pages/tours/canasi.jpg') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/pages/tours/canasi.jpg') | imagine_filter('min_width_600') }} 600w"
+                 src="{{ asset('images/pages/tours/canasi.jpg') | imagine_filter('small_thumbnail') }}"
+                 alt="{% trans %}tours.hero.title{% endtrans %}">
+        </div>
+        <div class="content__image__item">
+            <img class="lazyload blur-up"
+                 sizes="100vw"
+                 data-srcset="
+                    {{ asset('images/pages/tours/bahia.jpg') | imagine_filter('min_width_1920') }} 1920w,
+                    {{ asset('images/pages/tours/bahia.jpg') | imagine_filter('min_width_1200') }} 1200w,
+                    {{ asset('images/pages/tours/bahia.jpg') | imagine_filter('min_width_1000') }} 1000w,
+                    {{ asset('images/pages/tours/bahia.jpg') | imagine_filter('min_width_900') }} 900w,
+                    {{ asset('images/pages/tours/bahia.jpg') | imagine_filter('min_width_800') }} 800w,
+                    {{ asset('images/pages/tours/bahia.jpg') | imagine_filter('min_width_600') }} 600w"
+                 src="{{ asset('images/pages/tours/bahia.jpg') | imagine_filter('small_thumbnail') }}"
+                 alt="{% trans %}tours.hero.title{% endtrans %}">
+        </div>
+    </div>
+
+</section>

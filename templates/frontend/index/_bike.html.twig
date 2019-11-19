@@ -1,0 +1,41 @@
+<div id="bikes" class="bikes">
+    <div class="bikes__title">
+        <h3>{% trans %}index.us.bike.title{% endtrans %}</h3>
+    </div>
+
+    <div class="bikes__description">
+        <p>{% trans %}index.us.bike.description_1{% endtrans %}
+            <a href="{{ path('bikes') }}">keep reading</a></p>
+
+        <p>{% trans %}index.us.bike.description_2{%endtrans %}</p>
+    </div>
+
+    <div class="bikes__gallery gallery">
+
+        {% for bike in bikes %}
+            <div class="bikes__gallery__bike gallery__item">
+                <img class="lazyload blur-up"
+                     sizes="(min-width: 1200px) 66vw, 100vw"
+                     data-srcset="
+                        {{ bike.webPath | imagine_filter('min_width_1920') }} 1920w,
+                        {{ bike.webPath | imagine_filter('min_width_1200') }} 1200w,
+                        {{ bike.webPath | imagine_filter('min_width_1000') }} 1000w,
+                        {{ bike.webPath | imagine_filter('min_width_900') }} 900w,
+                        {{ bike.webPath | imagine_filter('min_width_800') }} 800w,
+                        {{ bike.webPath | imagine_filter('min_width_600') }} 600w"
+                     src="{{ bike.webPath | imagine_filter('small_thumbnail') }}"
+                     alt="{% trans %}index.us.bike.bike1.title{% endtrans %}">
+                <div class="bikes__gallery__bike__title">
+                    <h4>{{ bike.name }}</h4>
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
+
+    <div class="bikes__buy">
+        <p>{% trans %}index.us.bikes.buy{% endtrans %}
+            <a href="{{ path('buy') }}">{% trans %}index.us.bikes.buy.link{% endtrans %}</a>.
+        </p>
+    </div>
+</div>

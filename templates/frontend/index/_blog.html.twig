@@ -1,0 +1,31 @@
+<section id="blog" class="section blog">
+    <div class="section__title">
+        <h2>{% trans %}index.blog.title{% endtrans %}</h2>
+    </div>
+
+    {% for blog_entry in blog_entries %}
+    <div class="blog__entry">
+        <div class="blog__entry__image">
+            <a href="{{ path('blog_entry_alternative', {'_id': blog_entry.id , '_name': blog_entry.getLocale('title')} ) }}">
+                {{ imgTagContent(
+                    blog_entry.getWebPath,
+                    blog_entry.getLocale('title'),
+                    "100vw",
+                    1920)
+                | raw
+                }}
+            </a>
+        </div>
+        <div class="blog__entry__content">
+            <a href="{{ path('blog_entry_alternative', {'_id': blog_entry.id , '_name': blog_entry.getLocale('title')} ) }}">
+                <h3>{{ blog_entry.getLocale('title') }} <br> <small>{{ blog_entry.dateTime | date('d-M-Y') }}</small></h3>
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+
+    <div class="blog__action">
+        <a href="{{ path('blog') }}" class="btn">See more entries</a>
+    </div>
+
+</section>

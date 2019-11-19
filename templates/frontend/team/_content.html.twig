@@ -1,0 +1,30 @@
+<section class="section team">
+
+    {% for member in teamMembers %}
+    <div class="team__member">
+        <div class="team__member__image">
+            {{ imgTagContent(
+                member.webPath,
+                member.name,
+                "(min-width: 1200px) 33vw, 100vw",
+                "1920")
+            | raw
+            }}
+        </div>
+        <div class="team__member__text">
+            <div class="team__member__text__name">
+                <h2>{{ member.name }}</h2>
+            </div>
+            <div class="team__member__text__position">
+                <h4>{{ member.position }}</h4>
+            </div>
+            <div class="team__member__text__description">
+                <p>
+                    {{ member.getLocale('description') | raw }}
+                </p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+</section>

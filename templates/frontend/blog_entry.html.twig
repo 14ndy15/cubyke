@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}{{ blog_entry.getLocale('title') }}{% endblock %}
+{% block meta %}
+    <meta name="description" content="{{ blog_entry.getLocale('textAtBeginning') | split('<p>')[1] | striptags }}">
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('blog_entry') }}
+{% endblock %}
+
+{% block body %}
+    <main>
+
+        {{ include('frontend/blog_entry/_hero.html.twig') }}
+        {{ include('frontend/blog_entry/_content.html.twig') }}
+
+
+    </main>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('blog_entry') }}
+{% endblock %}

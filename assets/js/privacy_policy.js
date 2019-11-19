@@ -1,0 +1,1 @@
+import '../css/privacy_policy.scss'

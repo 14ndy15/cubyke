@@ -1,0 +1,33 @@
+.hero{
+    position: relative;
+
+    &__image{
+        position: relative;
+        width: auto;
+        height: 65vh;
+        overflow: hidden;
+
+        @include atLarge{
+            height: 95vh;
+        }
+
+        &:before{
+            position: absolute;
+            content: '';
+            height: 100%;
+            width: 100%;
+            background: rgba(black, .1);
+        }
+    }
+
+    &__content{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 2em;
+
+        & h1{
+            color: white;
+        }
+    }
+}

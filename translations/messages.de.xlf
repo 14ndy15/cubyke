@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="de" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="O0lWHxC" resname="index.hero.title">
+        <source>index.hero.title</source>
+        <target>Lust auf Abenteuer?</target>
+      </trans-unit>
+      <trans-unit id="3_vUzLP" resname="index.title">
+        <source>index.title</source>
+        <target>Erkunde Havanna und Cuba mit dem E-Bike</target>
+      </trans-unit>
+      <trans-unit id="yJvbWwK" resname="index.meta.description">
+        <source>index.meta.description</source>
+        <target>Die Kombination aus unseren aussergewoehnlichen Bykes ✌ und dem einzigartigen Cuba machen unsere Trips fuer Dich zu einem unvergleichbaren Erlebnis. Nimm uns beim Wort</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

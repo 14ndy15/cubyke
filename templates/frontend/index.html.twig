@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}{% trans %}index.title{% endtrans %}{% endblock %}
+{% block meta %}
+    <meta name="description" content="{% trans %}index.meta.description{% endtrans %}">
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('index') }}
+{% endblock %}
+
+{% block body %}
+    <main>
+        {{ include('frontend/index/_hero.html.twig') }}
+
+        {{ include('frontend/index/_tours.html.twig') }}
+
+        {{ include('frontend/index/_us.html.twig') }}
+
+        {{ include('frontend/index/_blog.html.twig') }}
+
+        {{ include('frontend/index/_partners.html.twig') }}
+    </main>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('index') }}
+{% endblock %}
