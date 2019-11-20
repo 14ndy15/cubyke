@@ -1,20 +1,16 @@
 <section id="hero" class="section hero">
     <div class="hero__video">
         <video class="video" autoplay loop>
-            <source src="{{ asset('video/hero_video.webm') }}" type='video/webm; codecs="vp8, vorbis"' />
+            <source src="{{ asset('video/hero_video.webm') }}" type='video/webm; codecs="vp9, vorbis"' />
             <source src="{{ asset('video/hero_video.mp4') }}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-            <source src="{{asset('video/hero_video.ogv')}}" type='video/ogg; codecs="theora, vorbis"' />
-            <img class="lazyload blur-up"
-                 sizes="100vw"
-                 data-srcset="
-                    {{ asset('video/hero_video_init_frame.jpg') | imagine_filter('min_width_1920') }} 1920w,
-                    {{ asset('video/hero_video_init_frame.jpg') | imagine_filter('min_width_1200') }} 1200w,
-                    {{ asset('video/hero_video_init_frame.jpg') | imagine_filter('min_width_1000') }} 1000w,
-                    {{ asset('video/hero_video_init_frame.jpg') | imagine_filter('min_width_900') }} 900w,
-                    {{ asset('video/hero_video_init_frame.jpg') | imagine_filter('min_width_800') }} 800w,
-                    {{ asset('video/hero_video_init_frame.jpg') | imagine_filter('min_width_600') }} 600w"
-                 src="{{ asset('video/hero_video_init_frame.jpg') | imagine_filter('small_thumbnail') }}"
-                 alt="{% trans %}index.hero.video.image{% endtrans %}">
+            <source src="{{ asset('video/hero_video.ogv')}}" type='video/ogg; codecs="theora, vorbis"' />
+            {{ imgTagContent(
+                asset('video/toques_del_rio_init_frame.jpg'),
+                '',
+                "100vw",
+                1920)
+            | raw
+            }}
         </video>
     </div>
     <div class="hero__content">
@@ -24,6 +20,6 @@
     <div class="hero__action"
          data-sal="slide-up"
          data-sal-delay="1000">
-        <a class="btn" href="#tours">Show me more</a>
+        <a class="btn" href="#tours">{% trans %}index.hero.tour{% endtrans %}</a>
     </div>
 </section>

@@ -1,7 +1,7 @@
 <section class="section team">
 
     {% for member in teamMembers %}
-    <div class="team__member">
+    <div id="{{ member.id }}" class="team__member">
         <div class="team__member__image">
             {{ imgTagContent(
                 member.webPath,
@@ -19,9 +19,7 @@
                 <h4>{{ member.position }}</h4>
             </div>
             <div class="team__member__text__description">
-                <p>
-                    {{ member.getLocale('description') | raw }}
-                </p>
+                {{ member.getLocale('description') | raw }}
             </div>
         </div>
     </div>

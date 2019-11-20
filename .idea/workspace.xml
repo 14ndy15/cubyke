@@ -1,7 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec1c2f8-5914-4851-b3ac-689c2af9400e" name="Default Changelist" comment="" />
+    <list default="true" id="cec1c2f8-5914-4851-b3ac-689c2af9400e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/modules/basic_page/_content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/modules/basic_page/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/company_information.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/basic_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/blog_entry/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/blog_entry/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/global/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/global/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/index/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/index/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/index/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/index/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/index/_team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/index/_team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/index/_tours.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/index/_tours.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/index/_us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/index/_us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/patent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_bikes.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/privacy_policy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/travel_conditions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/company_information.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/patent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/privacy_policy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/basic_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/travel_conditions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/FrontendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FrontendController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/bikes.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/bikes.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/bikes/_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/bikes/_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/blog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/blog.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/buy.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/buy.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/buy/_build.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/buy/_build.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/buy/_hero.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/buy/_hero.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/company_information.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/company_information/_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/basic_page/_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/company_information/_hero.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/global/_footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/global/_footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/global/_header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/global/_header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_bike.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_bike.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_blog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_blog.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_hero.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_hero.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_inside_cuba.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_partners.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_team.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_team.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_tours.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_tours.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_us.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_us.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/patent.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/patent/_content.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/patent/_hero.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/privacy_policy.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/basic_page.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/privacy_policy/_content.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/privacy_policy/_hero.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/basic_page/_hero.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/team.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/team.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/team/_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/team/_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/tours.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/tours.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/tours/_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/tours/_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/travel_conditions.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/travel_conditions/_content.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/travel_conditions/_hero.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/messages.de.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.de.xlf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/messages.en.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.en.xlf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/messages.es.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.es.xlf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +72,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -131,27 +193,28 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1TIo1zWGCaiugzxA8CcxuKNIirV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/water/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css/modules/basic_page" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\src\Entity" />
-      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\templates\frontend\travel_conditions" />
-      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\templates\frontend\privacy_policy" />
-      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\templates\frontend\patent" />
-      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\templates\frontend" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\templates\frontend\bikes" />
       <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\assets\css" />
       <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\assets\js\modules\index" />
       <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\assets\js\modules\global" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\14ndy\Documents\webwork\new.cubyke\assets\css\modules\basic_page" />
+      <recent name="C:\Users\14ndy\Documents\webwork\new.cubyke\assets\css\modules" />
+      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\src\Entity" />
+      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\templates\frontend\travel_conditions" />
+      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\templates\frontend\privacy_policy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,10 +290,27 @@
       <workItem from="1574038961181" duration="2161000" />
       <workItem from="1574088640781" duration="1595000" />
       <workItem from="1574182402367" duration="468000" />
+      <workItem from="1574184153877" duration="816000" />
+      <workItem from="1574219211655" duration="7058000" />
+      <workItem from="1574262219836" duration="8460000" />
+      <workItem from="1574281824900" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

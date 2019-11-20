@@ -4,12 +4,8 @@
     &__image{
         position: relative;
         width: auto;
-        height: 65vh;
+        height: 90vh;
         overflow: hidden;
-
-        @include atLarge{
-            height: 95vh;
-        }
 
         &:before{
             position: absolute;
@@ -26,11 +22,9 @@
         justify-content: center;
         position: absolute;
         bottom: 2em;
-        width: 75%;
         z-index: 1;
 
         & h1{
-            text-align: center;
             color: white;
         }
     }

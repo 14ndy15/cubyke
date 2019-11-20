@@ -31,10 +31,7 @@ Encore
     .addEntry('buy', './assets/js/buy.js')
     .addEntry('blog', './assets/js/blog.js')
     .addEntry('blog_entry', './assets/js/blog_entry.js')
-    .addEntry('company_information', './assets/js/company_information.js')
-    .addEntry('privacy_policy', './assets/js/privacy_policy.js')
-    .addEntry('travel_conditions', './assets/js/travel_conditions.js')
-    .addEntry('patent', './assets/js/patent.js')
+    .addEntry('basic_page', './assets/js/basic_page.js')
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()

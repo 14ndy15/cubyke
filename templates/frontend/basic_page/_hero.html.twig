@@ -1,0 +1,16 @@
+<section class="section hero">
+    <div class="hero__image">
+        {{ imgTagContent(
+            page.webPath,
+            page.getLocale('title'),
+            "100vw",
+            1920)
+        | raw
+        }}
+    </div>
+    <div class="hero__content">
+        <div class="hero__content__container">
+            <h1>{{ page.getLocale('title') }}</h1>
+        </div>
+    </div>
+</section>

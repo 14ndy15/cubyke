@@ -98,10 +98,10 @@ easy_admin:
                     - {property: codeName, label: 'Code Name'}
                     - {property: titleEn, label: 'Title in English'}
                     - {property: titleEs, label: 'Title in Spanish'}
-                    - {property: titleDe, label: 'Title in Dutch'}
+                    - {property: titleDe, label: 'Title in Deutsch'}
                     - {property: contentEn, type: fos_ckeditor, label: 'Content in English'}
                     - {property: contentEs, type: fos_ckeditor, label: 'Content in Spanish'}
-                    - {property: contentDe, type: fos_ckeditor, label: 'Content in Dutch'}
+                    - {property: contentDe, type: fos_ckeditor, label: 'Content in Deutsch'}
                     - {property: file, type: file, label: 'Image at Hero'}
             list:
                 title: 'Basic Pages'
@@ -128,3 +128,17 @@ easy_admin:
                     - {property: 'category', label: Category}
                     - {property: 'getWebPath', label: Image, type: 'image'}
                     - {property: 'description', label: Description}
+
+        KeyValues:
+            class: App\Entity\KeyValues
+            label: Key Values
+            form:
+                title: 'Add Key'
+                fields:
+                    - {property: name, label: 'Key'}
+                    - {property: value, label: 'Value'}
+            list:
+                title: Key Values
+                fields:
+                    - {property: name, label: 'Key'}
+                    - {property: value, label: 'Value'}

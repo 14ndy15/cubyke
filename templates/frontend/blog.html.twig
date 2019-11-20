@@ -1,9 +1,9 @@
 {% extends 'base.html.twig' %}
 
 
-{% block title %}{% trans %}blog.title{% endtrans %}{% endblock %}
+{% block title %} {{ page.getLocale('title') }} {% endblock %}
 {% block meta %}
-    <meta name="description" content="{% trans %}blog.meta.description{% endtrans %}">
+    <meta name="description" content="{{ page.getLocale('content') | truncate_html(150, '...') | striptags }}">
 {% endblock %}
 
 {% block stylesheets %}

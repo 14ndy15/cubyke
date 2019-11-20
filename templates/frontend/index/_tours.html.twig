@@ -116,26 +116,6 @@
         </div>
     </div>
 
-    <div class="tours__media">
-        <div class="tours__media__video">
-            <video controls autoplay>
-                <source src="{{ asset('video/toques_del_rio.mp4') }}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                {{ imgTagContent(
-                    asset('video/toques_del_rio_init_frame.jpg'),
-                    '',
-                    "(min-width: 1200px): 60vw, 100vw",
-                    1920)
-                | raw
-                }}
-
-            </video>
-        </div>
-        <div class="tours__media__content">
-            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, dolor fugit in minima praesentium provident vel? Ad, amet asperiores consequuntur corporis cumque delectus ex harum molestiae nobis pariatur quos reprehenderit.</p>
-        </div>
-    </div>
-
     <div class="tours__inside_cuba">
         <div class="tours__inside_cuba__image">
             <img class="lazyload blur-up"
@@ -151,10 +131,10 @@
         </div>
         <div class="tours__inside_cuba__content">
             <div class="tours__inside_cuba__content__title">
-                <h3>We offer you know Cuba in 7 day, what do you think?</h3>
+                <h3>{% trans %}index.tour.inside_cuba.title{% endtrans %}</h3>
             </div>
             <div class="tours__inside_cuba__content__action">
-                <a class="btn" href="">Know More</a>
+                <a class="btn" href="">index.tour.inside_cuba.button</a>
             </div>
         </div>
     </div>

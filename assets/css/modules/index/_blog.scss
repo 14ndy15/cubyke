@@ -45,6 +45,14 @@
             width: 90%;
             border-radius: 2px;
             text-align: center;
+
+            & a{
+                text-decoration: none;
+            }
+
+            & h3{
+                margin: .2em auto;
+            }
         }
     }
 

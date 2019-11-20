@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}{{ page.getLocale('title') }}{% endblock %}
+{% block meta %}
+    <meta name="description" content="">
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('basic_page') }}
+{% endblock %}
+
+{% block body %}
+    <main>
+        {{ include('frontend/basic_page/_hero.html.twig') }}
+
+        {{ include('frontend/basic_page/_content.html.twig') }}
+
+    </main>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('basic_page') }}
+{% endblock %}

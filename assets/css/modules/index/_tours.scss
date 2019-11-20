@@ -108,52 +108,13 @@
         }
     }
 
-    &__media{
-        grid-area: media;
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        margin: 2em 1em;
-
-        &__video{
-            width: 100%;
-            height: auto;
-            overflow: hidden;
-            border-radius: 2px;
-            box-shadow: 2px 2px 10px rgba(black, .2);
-
-            @include atLarge{
-                width: 62%;
-                height: 80vh;
-            }
-
-            & video{
-                min-height: auto;
-
-                @include atLarge{
-                    min-height: 100%;
-                }
-            }
-        }
-
-        &__content{
-            width: 100%;
-
-            @include atLarge{
-                width: 33%;
-            }
-        }
-    }
-
     &__inside_cuba{
         grid-area: inside_cuba;
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 2em 0;
+        margin: 2em 0 1em 0;
 
         &__image{
             width: 100%;
@@ -202,7 +163,18 @@
             &__action{
                 display: flex;
                 justify-content: center;
+                flex-wrap: wrap;
                 width: 100%;
+
+                & a{
+                    margin: 1em auto;
+
+                    @include atLarge{
+                        margin: 0 3em;
+                    }
+                }
+
+
             }
         }
     }

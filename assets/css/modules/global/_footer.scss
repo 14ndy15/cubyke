@@ -39,6 +39,21 @@
         @include atLarge{
             width: 32%;
         }
+
+        & li.logo {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 0 1em 2em;
+            & img {
+                height: 3em;
+                width: auto;
+            }
+
+            & p{
+                margin: 0;
+                width: 100%;
+            }
+        }
     }
 
     & .copyright{
@@ -46,9 +61,13 @@
         flex-wrap: wrap;
         margin: auto;
         position: absolute;
-        bottom: 1em;
+        bottom: 2em;
         width: 90%;
         z-index: 1;
+
+        @include atLarge{
+            bottom: -70%;
+        }
 
         & p{
             width: 100%;
@@ -73,7 +92,13 @@
         width: 100%;
         height: 100%;
         position: relative;
-        top: -15%;
+        top: 0;
+        z-index: 0;
+
+        @include atLarge{
+            position: absolute;
+            top: 70%;
+        }
 
         &:before{
             content: '';

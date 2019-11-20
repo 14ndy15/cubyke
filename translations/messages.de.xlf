@@ -5,9 +5,176 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
+      <trans-unit id="yqAli1q" resname="buy.hero.title">
+        <source>buy.hero.title</source>
+        <target>__buy.hero.title</target>
+      </trans-unit>
+      <trans-unit id="J.DI4Pa" resname="global.footer.write_to_us">
+        <source>global.footer.write_to_us</source>
+        <target>Kontaktiere uns</target>
+      </trans-unit>
+      <trans-unit id="abfRnnl" resname="global.footer.legal">
+        <source>global.footer.legal</source>
+        <target>__global.footer.legal</target>
+      </trans-unit>
+      <trans-unit id="55LZJCs" resname="global.footer.privacy_policy">
+        <source>global.footer.privacy_policy</source>
+        <target>__global.footer.privacy_policy</target>
+      </trans-unit>
+      <trans-unit id="SYDZRgL" resname="global.footer.travel_condition">
+        <source>global.footer.travel_condition</source>
+        <target>__global.footer.travel_condition</target>
+      </trans-unit>
+      <trans-unit id="ggZoQ4v" resname="global.footer.company-information">
+        <source>global.footer.company-information</source>
+        <target>__global.footer.company-information</target>
+      </trans-unit>
+      <trans-unit id="DwBtxOh" resname="global.footer.patent">
+        <source>global.footer.patent</source>
+        <target>__global.footer.patent</target>
+      </trans-unit>
+      <trans-unit id="9r0DD02" resname="index.us.bike.title">
+        <source>index.us.bike.title</source>
+        <target>Unsere Bikes</target>
+      </trans-unit>
+      <trans-unit id="jpobwUZ" resname="index.us.bike.description_1">
+        <source>index.us.bike.description_1</source>
+        <target>Unsere Cubykes sind technisch hochmoderne
+        und einzigartige Elektrofahrräder,
+        die in Deutschland hergestellt werden
+        und im Design durch Cuba inspiriert wurden.
+        Die Motorunterstützung ist sensorgesteuert
+        und entspricht den europäischen Richtlinien
+        für Elektrofahrräder...</target>
+      </trans-unit>
+      <trans-unit id="xdpjXBQ" resname="index.us.bike.description_2">
+        <source>index.us.bike.description_2</source>
+        <target>Natürlich haben wir auch klassische
+        Trekking-, City-, Mountainbike- und
+        Kompaktfahrräder auf Lager.
+        Was auch immer du wünscht, in Kuba sind
+        wir auf dich und dein Abenteuer vorbereitet.</target>
+      </trans-unit>
+      <trans-unit id="nD1euuu" resname="index.us.bike.bike1.title">
+        <source>index.us.bike.bike1.title</source>
+        <target>__index.us.bike.bike1.title</target>
+      </trans-unit>
+      <trans-unit id="Ug5H1HO" resname="index.us.bikes.buy">
+        <source>index.us.bikes.buy</source>
+        <target>Wenn du am Kauf eines außergewöhnlichen
+        Cubykes interessiert bist, schick uns deine</target>
+      </trans-unit>
+      <trans-unit id="c1_Rr2s" resname="index.us.bikes.buy.link">
+        <source>index.us.bikes.buy.link</source>
+        <target>Anfrage</target>
+      </trans-unit>
+      <trans-unit id="WyL8eur" resname="index.blog.title">
+        <source>index.blog.title</source>
+        <target>Blog</target>
+      </trans-unit>
       <trans-unit id="O0lWHxC" resname="index.hero.title">
         <source>index.hero.title</source>
-        <target>Lust auf Abenteuer?</target>
+        <target>Lust auf ein E-Bike Abenteuer in Cuba?</target>
+      </trans-unit>
+      <trans-unit id="eKO.PE_" resname="index.hero.subtitle">
+        <source>index.hero.subtitle</source>
+        <target>Dann los - mach Dich bereit für Dein ultimatives Cuba-Erlebnis!</target>
+      </trans-unit>
+      <trans-unit id="RcBZaoG" resname="index.us.team.title">
+        <source>index.us.team.title</source>
+        <target>Team</target>
+      </trans-unit>
+      <trans-unit id="9vVYILW" resname="index.us.team.see_more">
+        <source>index.us.team.see_more</source>
+        <target>__index.us.team.see_more</target>
+      </trans-unit>
+      <trans-unit id="IofHe4h" resname="index.tours.title">
+        <source>index.tours.title</source>
+        <target>E-Bike Touren</target>
+      </trans-unit>
+      <trans-unit id="jy2U_AM" resname="index.tours.description">
+        <source>index.tours.description</source>
+        <target>Wir fahren mit dir auf unseren Cubykes
+        durch Kuba und seine beeindruckenden
+        Landschaften mit beeindruckenden Menschen
+        und auf beeindruckenden Rädern… natürlich
+        steuern wir auch viele Kolonialstädte wie
+        zum Beispiel Havanna, Trinidad und Cienfuegos
+        an, aber wir durchqueren auch die
+        wunderschönen Biosphärenreservate Cubas
+        wie Viñales, Las Terrazas, El Nicho,
+        Topes de Collantes, Las Escaleras de
+        Jaruco, die Isla De La Juventud und mehr </target>
+      </trans-unit>
+      <trans-unit id="ny5yuzj" resname="global.read_more">
+        <source>global.read_more</source>
+        <target>weiter...</target>
+      </trans-unit>
+      <trans-unit id="yPLM26l" resname="index.tours.tour1.image">
+        <source>index.tours.tour1.image</source>
+        <target>__index.tours.tour1.image</target>
+      </trans-unit>
+      <trans-unit id="bodZ8A." resname="index.tours.tour1.title">
+        <source>index.tours.tour1.title</source>
+        <target>Offene Halb- und Tagestrips</target>
+      </trans-unit>
+      <trans-unit id="sgZT2_4" resname="index.tours.tour1.description">
+        <source>index.tours.tour1.description</source>
+        <target>zu festen Abfahrtszeiten</target>
+      </trans-unit>
+      <trans-unit id="aHh1oBk" resname="index.tours.tour2.image">
+        <source>index.tours.tour2.image</source>
+        <target>__index.tours.tour2.image</target>
+      </trans-unit>
+      <trans-unit id="y5QS.ry" resname="index.tours.tour2.title">
+        <source>index.tours.tour2.title</source>
+        <target>Offene Mehrtagestrips</target>
+      </trans-unit>
+      <trans-unit id="QSmWuFN" resname="index.tours.tour2.description">
+        <source>index.tours.tour2.description</source>
+        <target>zu festen Abfahrtszeiten mit Übernachtung und Verpflegung</target>
+      </trans-unit>
+      <trans-unit id="hvbeqe2" resname="index.tours.tour3.image">
+        <source>index.tours.tour3.image</source>
+        <target>__index.tours.tour3.image</target>
+      </trans-unit>
+      <trans-unit id="GWnY9Gp" resname="index.tours.tour3.title">
+        <source>index.tours.tour3.title</source>
+        <target>Private Halb- und Tagestrips</target>
+      </trans-unit>
+      <trans-unit id="caIO2IJ" resname="index.tours.tour3.description">
+        <source>index.tours.tour3.description</source>
+        <target>Dein Wunschtrip zum Wunschtermin </target>
+      </trans-unit>
+      <trans-unit id="whI0qRf" resname="index.tours.tour4.image">
+        <source>index.tours.tour4.image</source>
+        <target>__index.tours.tour4.image</target>
+      </trans-unit>
+      <trans-unit id="ixRolXR" resname="index.tours.tour4.title">
+        <source>index.tours.tour4.title</source>
+        <target>Private Mehrtagestrips</target>
+      </trans-unit>
+      <trans-unit id="SpV6el8" resname="index.tours.tour4.description">
+        <source>index.tours.tour4.description</source>
+        <target>Dein Wunschtrip zum Wunschtermin mit Übernachtung und Verpflegung </target>
+      </trans-unit>
+      <trans-unit id="n8g44fM" resname="index.us.title">
+        <source>index.us.title</source>
+        <target>Wir</target>
+      </trans-unit>
+      <trans-unit id="FWQyVxH" resname="index.us.description">
+        <source>index.us.description</source>
+        <target>
+The name Cubyke was inspired by our passion for Cuba and cycling. We build Cubykes because it's just fun to build and ride them. Because we find them beautiful. And because we consider it the most vital and sustainable way to experience many of the most beautiful places in the world.
+
+We travel with you on our cubykes through Cuba and its impressive landscapes with its impressive people and on impressive bikes ... of course we also drive to a lot of colonial cities such as Havana, Trinidad and Cienfuegos, but we also cross the beautiful cuban biosphere reserves in Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, Isla De La Juventud and more.
+
+Most of all, our tours with the Cubykes are fun, unique and unforgettable, taking you to places and streets, out of the usual tourist trails - that's how you experience the authentic Cuba. You will be fascinated by the variety of impressions you will receive and you will keep for a long time.
+
+The fascination of foreign cultures, the design of old-fashion frames in combination with modern technology and cruising along rivers or shore promenades into the sunset – that is how Cubyke makes our dreams come true and the world a little bit more colorful. We hope that you soon will join one of our gourmet tours through the largest island of the Caribbean!
+
+Many people have never experienced Cuba as intensively and differently as they do on our tours - Cuba auténtica! Our tripadvisor reviews speak for themselves!
+</target>
       </trans-unit>
       <trans-unit id="3_vUzLP" resname="index.title">
         <source>index.title</source>
@@ -15,7 +182,35 @@
       </trans-unit>
       <trans-unit id="yJvbWwK" resname="index.meta.description">
         <source>index.meta.description</source>
-        <target>Die Kombination aus unseren aussergewoehnlichen Bykes ✌ und dem einzigartigen Cuba machen unsere Trips fuer Dich zu einem unvergleichbaren Erlebnis. Nimm uns beim Wort</target>
+        <target>Die Kombination aus unseren aussergewoehnlichen
+        Bykes ✌ und dem einzigartigen
+        Cuba machen unsere Trips
+        fuer Dich zu einem unvergleichbaren
+        Erlebnis. Nimm uns beim Wort</target>
+      </trans-unit>
+      <trans-unit id="ohicB0W" resname="global.see_more">
+        <source>global.see_more</source>
+        <target>Mehr Infos</target>
+      </trans-unit>
+      <trans-unit id="WREOlKa" resname="index.tour.inside_cuba.title">
+        <source>index.tour.inside_cuba.title</source>
+        <target>__index.tour.inside_cuba.title</target>
+      </trans-unit>
+      <trans-unit id="uwgI6F0" resname="index.blog.more">
+        <source>index.blog.more</source>
+        <target>__index.blog.more</target>
+      </trans-unit>
+      <trans-unit id="VfGd_Ic" resname="index.hero.tour">
+        <source>index.hero.tour</source>
+        <target>Unsere Touren</target>
+      </trans-unit>
+      <trans-unit id="9J_K08f" resname="index.us.description_1">
+        <source>index.us.description_1</source>
+        <target>__index.us.description_1</target>
+      </trans-unit>
+      <trans-unit id="WaTU2Wf" resname="index.us.description_2">
+        <source>index.us.description_2</source>
+        <target>__index.us.description_2</target>
       </trans-unit>
     </body>
   </file>

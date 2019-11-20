@@ -22,7 +22,7 @@ class FrontendController extends AbstractController
     {
         $teamMembers = $this->getDoctrine()
             ->getRepository(TeamMember::class)
-            ->getByOrder(4);
+            ->getByOrder(10);
 
         $bikes = $this->getDoctrine()
             ->getRepository(Bike::class)
@@ -135,8 +135,12 @@ class FrontendController extends AbstractController
      */
     public function buy()
     {
+        $page = $this->getDoctrine()
+            ->getRepository(BasicPage::class)
+            ->findByCodeName('buy');
+
         return $this->render('frontend/buy.html.twig', [
-            'controller_name' => 'FrontendController',
+            'page' => $page,
         ]);
     }
 
@@ -165,8 +169,6 @@ class FrontendController extends AbstractController
 
 
 
-
-
     /**
      * @Route("/{_locale}/company-information",
      *     defaults={"_locale": "en"},
@@ -177,9 +179,9 @@ class FrontendController extends AbstractController
     {
         $page = $this->getDoctrine()
             ->getRepository(BasicPage::class)
-            ->findBy(['codeName'=>'company_information']);
+            ->findByCodeName('company_information');
 
-        return $this->render('frontend/company_information.html.twig', [
+        return $this->render('frontend/basic_page.html.twig', [
             'page' => $page,
         ]);
     }
@@ -194,9 +196,9 @@ class FrontendController extends AbstractController
     {
         $page = $this->getDoctrine()
             ->getRepository(BasicPage::class)
-            ->findBy(['codeName'=>'privacy_policy']);
+            ->findByCodeName('privacy_policy');
 
-        return $this->render('frontend/privacy_policy.html.twig', [
+        return $this->render('frontend/basic_page.html.twig', [
             'page' => $page,
         ]);
     }
@@ -211,9 +213,9 @@ class FrontendController extends AbstractController
     {
         $page = $this->getDoctrine()
             ->getRepository(BasicPage::class)
-            ->findBy(['codeName'=>'patent']);
+            ->findByCodeName('patent');
 
-        return $this->render('frontend/patent.html.twig', [
+        return $this->render('frontend/basic_page.html.twig', [
             'page' => $page,
         ]);
     }
@@ -228,9 +230,9 @@ class FrontendController extends AbstractController
     {
         $page = $this->getDoctrine()
             ->getRepository(BasicPage::class)
-            ->findBy(['codeName'=>'travel_conditions']);
+            ->findByCodeName('travel_conditions');
 
-        return $this->render('frontend/travel_conditions.html.twig', [
+        return $this->render('frontend/basic_page.html.twig', [
             'page' => $page,
         ]);
     }

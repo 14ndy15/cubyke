@@ -29,5 +29,6 @@ yarn-error.log
 ###< liip/imagine-bundle ###
 
 /public/uploads/
+/docs/
 /public/video/
 /.env

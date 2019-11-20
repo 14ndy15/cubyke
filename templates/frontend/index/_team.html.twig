@@ -7,28 +7,23 @@
     {% for member in teamMembers %}
     <div id="member-" class="team__member {% if loop.index % 2 == 0 %} team__member--inverse {% endif %}">
             <div class="team__member__image">
-                <img class="lazyload blur-up"
-                     sizes="(min-width: 1200px) 33vw, 100vw"
-                     data-srcset="
-                    {{ member.webPath | imagine_filter('min_width_1920') }} 1920w,
-                    {{ member.webPath | imagine_filter('min_width_1200') }} 1200w,
-                    {{ member.webPath | imagine_filter('min_width_1000') }} 1000w,
-                    {{ member.webPath | imagine_filter('min_width_900') }} 900w,
-                    {{ member.webPath | imagine_filter('min_width_800') }} 800w,
-                    {{ member.webPath | imagine_filter('min_width_600') }} 600w"
-                         src="{{ member.webPath | imagine_filter('small_thumbnail') }}"
-                         alt="{{ member.name }}">
+                <a href="{{ path('team') }}#{{ member.id }}">
+                {{ imgTagContent(
+                    member.webPath,
+                    member.name,
+                    "(min-width: 1200px) 33vw, 100vw",
+                    1920)
+                | raw
+                }}
+                </a>
             </div>
             <div class="team__member__name">
+                <a href="{{ path('team') }}#member.id">
                 <h4>{{ member.name }}</h4>
                 <span>{{ member.position }}</span>
+                </a>
             </div>
         </div>
     {% endfor %}
 
-    <div class="team__more"
-         data-sal="slide-up"
-         data-sal-delay="250">
-        <a href="{{ path('team') }}" class="btn">{% trans %}index.us.team.see_more{% endtrans %}</a>
-    </div>
 </div>

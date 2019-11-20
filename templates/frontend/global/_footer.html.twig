@@ -7,7 +7,7 @@
         </div>
 
         <ul>
-            <li><strong>In Cuba</strong></li>
+            <li><strong>{% trans %}global.footer.in_cuba{% endtrans %}</strong></li>
             <li><a href="tel://+53 56080390">+53 56080390</a></li>
 {#            <li><a href="tel://+53 72144383">+53 72144383</a></li>#}
             <li><a href="mailto:info@cubyke.com">info@cubyke.<strong>com</strong></a></li>
@@ -19,7 +19,7 @@
                     <dl>La Habana 11300, Cuba</dl>
                 </address>
             </li>
-            <li><strong>In German</strong></li>
+            <li><strong>{% trans %}global.footer.in_germany{% endtrans %}</strong></li>
             <li><a href="tel://+49 68138376457">+49(0)681 38 37 64 57</a></li>
             <li><a href="mailto:info@cubyke.de">info@cubyke.<strong>de</strong></a></li>
             <li>
@@ -79,10 +79,15 @@
 
     <div class="legal">
         <div class="section__title">
-            <h2>{% trans %}global.footer.legal{% endtrans %}</h2>
+{#            <h2>{% trans %}global.footer.legal{% endtrans %}</h2>#}
+            <h2>&nbsp;</h2>
         </div>
 
         <ul>
+            <li class="logo">
+                <img class="lazyload blur-up" data-src="{{ asset('images/ecotur_logo.png') }}" alt="Ecotur logo">
+                <p><small>Represented in Cuba by Ecotur</small></p>
+            </li>
             <li><a href="{{ path('privacy_policy') }}">{% trans %}global.footer.privacy_policy{% endtrans %}</a></li>
             <li><a href="{{ path('travel_conditions') }}">{% trans %}global.footer.travel_condition{% endtrans %}</a></li>
             <li><a href="{{ path('company_information') }}">{% trans %}global.footer.company-information{% endtrans %}</a></li>
@@ -97,29 +102,25 @@
 
     <div class="image">
         <picture>
-        <source class="lazyload blur-up"
-                media="(min-width: 1200px)"
-                sizes="100vw"
-                data-srcset="
-                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1920') }} 1920w,
-                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1200') }} 1200w,
-                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1000') }} 1000w,
-                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_900') }} 900w,
-                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_800') }} 800w,
-                            {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_600') }} 600w
-                        ">
+            <source class="lazyload blur-up"
+                    media="(min-width: 1200px)"
+                    sizes="100vw"
+                    data-srcset="
+                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1920') }} 1920w,
+                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1200') }} 1200w,
+                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1000') }} 1000w,
+                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_900') }} 900w,
+                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_800') }} 800w,
+                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_600') }} 600w
+                            ">
 
-        <img class="lazyload blur-up"
-             sizes="100vw"
-             data-srcset="
-                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_1920') }} 1920w,
-                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_1200') }} 1200w,
-                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_1000') }} 1000w,
-                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_900') }} 900w,
-                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_800') }} 800w,
-                    {{ asset('images/footer/footer_portraid.jpg') | imagine_filter('min_width_600') }} 600w"
-             src="{{ asset('images/footer/footer_portraid.jpg') | imagine_filter('small_thumbnail') }}"
-             alt="{% trans %}index.us.bike.bike2.title{% endtrans %}">
+            {{ imgTagContent(
+                asset('images/footer/footer_portraid.jpg'),
+                'Bikes in Havana bay',
+                "100vw",
+                1920)
+            | raw
+            }}
         </picture>
     </div>
 </footer>

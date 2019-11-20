@@ -7,7 +7,7 @@
     <body>
       <trans-unit id="O0lWHxC" resname="index.hero.title">
         <source>index.hero.title</source>
-        <target>Ready for an adventure in bicycle?</target>
+        <target>Ready for a bike adventure in Cuba?</target>
       </trans-unit>
       <trans-unit id="3_vUzLP" resname="index.title">
         <source>index.title</source>
@@ -19,7 +19,7 @@
       </trans-unit>
       <trans-unit id="IofHe4h" resname="index.tours.title">
         <source>index.tours.title</source>
-        <target>Know Cuba in our tours</target>
+        <target>Discover Cuba on our tours</target>
       </trans-unit>
       <trans-unit id="jy2U_AM" resname="index.tours.description">
         <source>index.tours.description</source>
@@ -92,7 +92,7 @@
       </trans-unit>
       <trans-unit id="n8g44fM" resname="index.us.title">
         <source>index.us.title</source>
-        <target>Us</target>
+        <target>About us</target>
       </trans-unit>
       <trans-unit id="FWQyVxH" resname="index.us.description">
         <source>index.us.description</source>
@@ -107,15 +107,15 @@
       </trans-unit>
       <trans-unit id="RcBZaoG" resname="index.us.team.title">
         <source>index.us.team.title</source>
-        <target>Team</target>
+        <target>Our team</target>
       </trans-unit>
       <trans-unit id="9vVYILW" resname="index.us.team.see_more">
         <source>index.us.team.see_more</source>
-        <target>See all team</target>
+        <target>See more</target>
       </trans-unit>
       <trans-unit id="9r0DD02" resname="index.us.bike.title">
         <source>index.us.bike.title</source>
-        <target>Our Bikes</target>
+        <target>Our bikes</target>
       </trans-unit>
       <trans-unit id="jpobwUZ" resname="index.us.bike.description_1">
         <source>index.us.bike.description_1</source>
@@ -167,11 +167,7 @@
       </trans-unit>
       <trans-unit id="ohicB0W" resname="global.see_more">
         <source>global.see_more</source>
-        <target>__global.see_more</target>
-      </trans-unit>
-      <trans-unit id="AaeSUVD" resname="global.see_less">
-        <source>global.see_less</source>
-        <target>__global.see_less</target>
+        <target>See more</target>
       </trans-unit>
       <trans-unit id="c1_Rr2s" resname="index.us.bikes.buy.link">
         <source>index.us.bikes.buy.link</source>
@@ -181,14 +177,6 @@
         <source>index.blog.title</source>
         <target>Blog</target>
       </trans-unit>
-      <trans-unit id="2DXUzYV" resname="index.partners.title">
-        <source>index.partners.title</source>
-        <target>Partners</target>
-      </trans-unit>
-      <trans-unit id="OT8pP4Q" resname="index.partners.description">
-        <source>index.partners.description</source>
-        <target>Backed and supported by</target>
-      </trans-unit>
       <trans-unit id="tdvFO9M" resname="index.hero.video.image">
         <source>index.hero.video.image</source>
         <target>__index.hero.video.image</target>
@@ -197,97 +185,101 @@
         <source>index.hero.subtitle</source>
         <target>Let’s go - get ready for your incomparable Cuba experience!</target>
       </trans-unit>
-      <trans-unit id="Jiv4bfU" resname="tours.hero.title">
-        <source>tours.hero.title</source>
-        <target>__tours.hero.title</target>
-      </trans-unit>
-      <trans-unit id="mnRiFO9" resname="tour.hero.title">
-        <source>tour.hero.title</source>
-        <target>Know Cuba in our tours</target>
-      </trans-unit>
-      <trans-unit id="XX5ik1K" resname="tours.title">
-        <source>tours.title</source>
-        <target>Know Cuba in our tours</target>
-      </trans-unit>
-      <trans-unit id="4V5zqkr" resname="tours.meta.description">
-        <source>tours.meta.description</source>
-        <target>__tours.meta.description</target>
-      </trans-unit>
-      <trans-unit id="z1kJvP5" resname="tours.content.text_1">
-        <source>tours.content.text_1</source>
-        <target>We travel with you on our cubykes through Cuba and its impressive landscapes with its impressive people and on impressive bikes ... of course we also drive to a lot of colonial cities such as Havana, Trinidad and Cienfuegos, but we also cross the beautiful cuban biosphere reserves in Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, Isla De La Juventud and more.</target>
-      </trans-unit>
-      <trans-unit id="4Gj27Q4" resname="tours.content.text_2">
-        <source>tours.content.text_2</source>
-        <target>Most of all, our tours with the Cubykes are fun, unique and unforgettable, taking you to places and streets, out of the usual tourist trails - that's how you experience the authentic Cuba. You will be fascinated by the variety of impressions you will receive and you will keep for a long time.</target>
-      </trans-unit>
-      <trans-unit id="U_HAg9F" resname="tours.content.text_3">
-        <source>tours.content.text_3</source>
-        <target>The fascination of foreign cultures, the design of old-fashion frames in combination with modern technology and cruising along rivers or shore promenades into the sunset – that is how Cubyke makes our dreams come true and the world a little bit more colorful. We hope that you soon will join one of our gourmet tours through the largest island of the Caribbean!</target>
-      </trans-unit>
-      <trans-unit id="hj.Wtpy" resname="tours.content.text_4">
-        <source>tours.content.text_4</source>
-        <target>Many people have never experienced Cuba as intensively and differently as they do on our tours - Cuba auténtica! Our tripadvisor reviews speak for themselves!</target>
-      </trans-unit>
       <trans-unit id="TNzBcCU" resname="bikes.content.text_1">
         <source>bikes.content.text_1</source>
-        <target>Our Cubykes are technically top-modern and unique electric bikes that are made in Germany, but inspired in design by Cuba. The engine assistance is sensor-controlled and complies with the European guidelines for electric bicycles. </target>
+        <target>__bikes.content.text_1</target>
       </trans-unit>
       <trans-unit id="EUj2Mi2" resname="bikes.content.text_2">
         <source>bikes.content.text_2</source>
-        <target>You can choose between 15 levels of support. This allows you to control the individual level of support according completely to your needs. In the lower Eco mode, with the 612 watts battery you can drive up to 120 km and the electric assistance helps up to 25 km/h, then the support is switched off and the e-bike driven by pure pedaling.</target>
+        <target>__bikes.content.text_2</target>
       </trans-unit>
       <trans-unit id="IIMLdmz" resname="bikes.content.text_3">
         <source>bikes.content.text_3</source>
-        <target>The bikes are equipped with very good lights, so that also the night tours appear in the right light.</target>
+        <target>__bikes.content.text_3</target>
       </trans-unit>
-      <trans-unit id="QdrI.MZ" resname="bikes.hero.title">
-        <source>bikes.hero.title</source>
-        <target>Our bikes</target>
+      <trans-unit id="1YpGUUQ" resname="blog.title">
+        <source>blog.title</source>
+        <target>__blog.title</target>
       </trans-unit>
-      <trans-unit id="Gk.tI4r" resname="team.title">
-        <source>team.title</source>
-        <target>Team</target>
-      </trans-unit>
-      <trans-unit id="8icsX6X" resname="team.meta.description">
-        <source>team.meta.description</source>
-        <target>__team.meta.description</target>
-      </trans-unit>
-      <trans-unit id="1J8CAkL" resname="team.hero.title">
-        <source>team.hero.title</source>
-        <target>Our team</target>
-      </trans-unit>
-      <trans-unit id="JdYzV6H" resname="bike.title">
-        <source>bike.title</source>
-        <target>Bikes</target>
-      </trans-unit>
-      <trans-unit id="mve.jsW" resname="bike.meta.description">
-        <source>bike.meta.description</source>
-        <target>__bike.meta.description</target>
+      <trans-unit id="pFsPR9o" resname="blog.meta.description">
+        <source>blog.meta.description</source>
+        <target>__blog.meta.description</target>
       </trans-unit>
       <trans-unit id="yqAli1q" resname="buy.hero.title">
         <source>buy.hero.title</source>
-        <target>Bike Configurator</target>
+        <target>__buy.hero.title</target>
       </trans-unit>
       <trans-unit id="FIIfjs0" resname="buy.title">
         <source>buy.title</source>
-        <target>Bike Configurator</target>
+        <target>__buy.title</target>
       </trans-unit>
       <trans-unit id="TZkliTQ" resname="buy.meta.description">
         <source>buy.meta.description</source>
         <target>__buy.meta.description</target>
       </trans-unit>
-      <trans-unit id="TLS2dal" resname="blog.hero.title">
-        <source>blog.hero.title</source>
-        <target>Our stories on a bike</target>
+      <trans-unit id="J.DI4Pa" resname="global.footer.write_to_us">
+        <source>global.footer.write_to_us</source>
+        <target>Write us</target>
       </trans-unit>
-      <trans-unit id="1YpGUUQ" resname="blog.title">
-        <source>blog.title</source>
-        <target>Our stories on a bike</target>
+      <trans-unit id="abfRnnl" resname="global.footer.legal">
+        <source>global.footer.legal</source>
+        <target>Legal</target>
       </trans-unit>
-      <trans-unit id="pFsPR9o" resname="blog.meta.description">
-        <source>blog.meta.description</source>
-        <target>__blog.meta.description</target>
+      <trans-unit id="55LZJCs" resname="global.footer.privacy_policy">
+        <source>global.footer.privacy_policy</source>
+        <target>Privacy Policy</target>
+      </trans-unit>
+      <trans-unit id="SYDZRgL" resname="global.footer.travel_condition">
+        <source>global.footer.travel_condition</source>
+        <target>Terms and Conditions</target>
+      </trans-unit>
+      <trans-unit id="ggZoQ4v" resname="global.footer.company-information">
+        <source>global.footer.company-information</source>
+        <target>Company Information</target>
+      </trans-unit>
+      <trans-unit id="DwBtxOh" resname="global.footer.patent">
+        <source>global.footer.patent</source>
+        <target>Patente</target>
+      </trans-unit>
+      <trans-unit id="WREOlKa" resname="index.tour.inside_cuba.title">
+        <source>index.tour.inside_cuba.title</source>
+        <target>__index.tour.inside_cuba.title</target>
+      </trans-unit>
+      <trans-unit id="9J_K08f" resname="index.us.description_1">
+        <source>index.us.description_1</source>
+        <target>The name Cubyke was inspired by our passion for Cuba and cycling. We build Cubykes because it's just fun to build and ride them. Because we find them beautiful. And because we consider it the most vital and sustainable way to experience many of the most beautiful places in the world.</target>
+      </trans-unit>
+      <trans-unit id="WaTU2Wf" resname="index.us.description_2">
+        <source>index.us.description_2</source>
+        <target>We travel with you on our cubykes through Cuba and its impressive landscapes with its impressive people and on impressive bikes ... of course we also drive to a lot of colonial cities such as Havana, Trinidad and Cienfuegos, but we also cross the beautiful cuban biosphere reserves in Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, Isla De La Juventud and more.</target>
+      </trans-unit>
+      <trans-unit id="GYct3n0" resname="index.us.description_3">
+        <source>index.us.description_3</source>
+        <target>Most of all, our tours with the Cubykes are fun, unique and unforgettable, taking you to places and streets, out of the usual tourist trails - that's how you experience the authentic Cuba. You will be fascinated by the variety of impressions you will receive and you will keep for a long time.</target>
+      </trans-unit>
+      <trans-unit id="QVN4gyQ" resname="index.us.description_4">
+        <source>index.us.description_4</source>
+        <target>The fascination of foreign cultures, the design of old-fashion frames in combination with modern technology and cruising along rivers or shore promenades into the sunset – that is how Cubyke makes our dreams come true and the world a little bit more colorful. We hope that you soon will join one of our gourmet tours through the largest island of the Caribbean!</target>
+      </trans-unit>
+      <trans-unit id="qZmp1WD" resname="index.us.description_5">
+        <source>index.us.description_5</source>
+        <target>Many people have never experienced Cuba as intensively and differently as they do on our tours - Cuba auténtica! Our tripadvisor reviews speak for themselves!</target>
+      </trans-unit>
+      <trans-unit id="uwgI6F0" resname="index.blog.more">
+        <source>index.blog.more</source>
+        <target>More blogs</target>
+      </trans-unit>
+      <trans-unit id="VfGd_Ic" resname="index.hero.tour">
+        <source>index.hero.tour</source>
+        <target>Our tours</target>
+      </trans-unit>
+      <trans-unit id="Mk.P_Sf" resname="global.footer.in_germany">
+        <source>global.footer.in_germany</source>
+        <target>In Germany</target>
+      </trans-unit>
+      <trans-unit id="MKDj0aZ" resname="global.footer.in_cuba">
+        <source>global.footer.in_cuba</source>
+        <target>In Cuba</target>
       </trans-unit>
     </body>
   </file>

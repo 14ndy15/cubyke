@@ -9,22 +9,22 @@
         <ul>
             <li><a href="{{ path('index') }}#hero">Home</a></li>
             <li><a href="{{ url('index') }}#tours">Tours</a></li>
-            <li><a href="{{ url('index') }}#us">Us</a></li>
+            <li><a href="{{ url('index') }}#bikes">Bikes</a></li>
+            <li><a href="{{ url('index') }}#us">About us</a></li>
             <li><a href="{{ url('index') }}#blog">Blog</a></li>
-            <li><a href="{{ url('index') }}#partners">Partners</a></li>
             <li class="border"><a href="https://cubyke.trekksoft.com">Book</a></li>
         </ul>
 
         <ul>
 
             {% if app.request.get('_route')  in ['blog_entry','blog_entry_alternative'] %}
-                <li><a href="{{ path('blog_entry', {'_locale': 'en', '_id': id, '_name': name} ) }}">English</a></li>
-                <li><a href="{{ path('blog_entry', {'_locale': 'es', '_id': id, '_name': name} ) }}">Español</a></li>
-                <li><a href="{{ path('blog_entry', {'_locale': 'de', '_id': id, '_name': name} ) }}">Dustch</a></li>
+                <li><a href="{{ path('blog_entry', {'_locale': 'en', '_id': id, '_name': name} ) }}">EN</a></li>
+                <li><a href="{{ path('blog_entry', {'_locale': 'es', '_id': id, '_name': name} ) }}">ES</a></li>
+                <li><a href="{{ path('blog_entry', {'_locale': 'de', '_id': id, '_name': name} ) }}">DE</a></li>
             {% else %}
-                <li><a href="{{ path(app.request.get('_route'), {'_locale': 'en'} ) }}">English</a></li>
-                <li><a href="{{ path(app.request.get('_route'), {'_locale': 'es'} ) }}">Español</a></li>
-                <li><a href="{{ path(app.request.get('_route'), {'_locale': 'de'} ) }}">Dustch</a></li>
+                <li><a href="{{ path(app.request.get('_route'), {'_locale': 'en'} ) }}">EN</a></li>
+                <li><a href="{{ path(app.request.get('_route'), {'_locale': 'es'} ) }}">ES</a></li>
+                <li><a href="{{ path(app.request.get('_route'), {'_locale': 'de'} ) }}">DE</a></li>
             {% endif %}
 
         </ul>
