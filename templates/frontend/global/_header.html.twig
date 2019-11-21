@@ -7,12 +7,11 @@
 
     <nav class="header__nav">
         <ul>
-            <li><a href="{{ path('index') }}#hero">Home</a></li>
-            <li><a href="{{ url('index') }}#tours">Tours</a></li>
-            <li><a href="{{ url('index') }}#bikes">Bikes</a></li>
-            <li><a href="{{ url('index') }}#us">About us</a></li>
-            <li><a href="{{ url('index') }}#blog">Blog</a></li>
-            <li class="border"><a href="https://cubyke.trekksoft.com">Book</a></li>
+            <li><a href="{{ path('index') }}#hero">{% trans %}global.header.home{% endtrans %}</a></li>
+            <li><a href="{{ url('index') }}#tours">{% trans %}global.header.tours{% endtrans %}</a></li>
+            <li><a href="{{ url('index') }}#bikes">{% trans %}global.header.bikes{% endtrans %}</a></li>
+            <li><a href="{{ url('index') }}#us">{% trans %}global.header.about_us{% endtrans %}</a></li>
+            <li><a href="{{ url('index') }}#blog">{% trans %}global.header.blog{% endtrans %}</a></li>
         </ul>
 
         <ul>

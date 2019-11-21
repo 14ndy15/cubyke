@@ -281,6 +281,26 @@
         <source>global.footer.in_cuba</source>
         <target>In Cuba</target>
       </trans-unit>
+      <trans-unit id="1UyEULu" resname="global.header.home">
+        <source>global.header.home</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="vbgr67H" resname="global.header.tours">
+        <source>global.header.tours</source>
+        <target>Tours</target>
+      </trans-unit>
+      <trans-unit id="ak93kbW" resname="global.header.bikes">
+        <source>global.header.bikes</source>
+        <target>Bikes</target>
+      </trans-unit>
+      <trans-unit id="EFI3.Uk" resname="global.header.about_us">
+        <source>global.header.about_us</source>
+        <target>About us</target>
+      </trans-unit>
+      <trans-unit id="fFYxBvH" resname="global.header.blog">
+        <source>global.header.blog</source>
+        <target>Blog</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

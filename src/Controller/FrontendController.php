@@ -5,8 +5,8 @@ namespace App\Controller;
 use App\Entity\BasicPage;
 use App\Entity\Bike;
 use App\Entity\BlogEntry;
-use App\Entity\Partners;
 use App\Entity\TeamMember;
+use App\Entity\Tour;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -20,6 +20,10 @@ class FrontendController extends AbstractController
      */
     public function index()
     {
+        $tours = $this->getDoctrine()
+            ->getRepository(Tour::class)
+            ->getByOrder();
+
         $teamMembers = $this->getDoctrine()
             ->getRepository(TeamMember::class)
             ->getByOrder(10);
@@ -28,19 +32,15 @@ class FrontendController extends AbstractController
             ->getRepository(Bike::class)
             ->findAll();
 
-        $partners = $this->getDoctrine()
-            ->getRepository(Partners::class)
-            ->findAll();
-
         $blog_entries = $this->getDoctrine()
             ->getRepository(BlogEntry::class)
             ->findMostRecent(3);
 
         return $this->render('frontend/index.html.twig', [
+            'tours' => $tours,
             'teamMembers' => $teamMembers,
             'bikes' => $bikes,
             'blog_entries' => $blog_entries,
-            'partners' => $partners,
         ]);
     }
 

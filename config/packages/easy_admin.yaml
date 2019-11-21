@@ -11,6 +11,32 @@ easy_admin:
         datetime: 'd/m/Y H:i'
     entities:
         # List the entity class name you want to manage
+        Tour:
+            class: App\Entity\Tour
+            label: Tour
+            form:
+                title: 'Add or update a Tour'
+                fields:
+                    - {property: titleEn, label: 'Title in English'}
+                    - {property: titleEs, label: 'Title in Spanish'}
+                    - {property: titleDe, label: 'Title in German'}
+                    - {property: descriptionEn, label: 'Description in English'}
+                    - {property: descriptionEs, label: 'Description in Spanish'}
+                    - {property: descriptionDe, label: 'Description in German'}
+                    - {property: urlEn, label: 'Url in trekksoft in English'}
+                    - {property: urlEs, label: 'Url in trekksoft in Spanish'}
+                    - {property: urlDe, label: 'Url in trekksoft in German'}
+                    - {property: file, type: file, label: Image}
+                    - {property: position, label: Position}
+            list:
+                title: 'Tours'
+                fields:
+                    - {property: titleEn, label: Title (EN)}
+                    - {property: descriptionEn, label: Description (EN)}
+                    - {property: urlEn, label: Url (EN)}
+                    - {property: position, label: Position}
+                    - {property: getWebPath, type: image, label: Image}
+
         BlogEntry:
             class: App\Entity\BlogEntry
             label: Blog Entry
@@ -72,22 +98,6 @@ easy_admin:
                 fields:
                     - {property: 'name', label: 'Name'}
                     - {property: 'getWebPath', label: 'Image', type: 'image'}
-
-        Partners:
-            class: App\Entity\Partners
-            label: Partners
-            form:
-                title: 'Add Partner'
-                fields:
-                    - {property: name, label: 'Name'}
-                    - {property: file, type: file, label: 'Image'}
-                    - {property: url, label: 'Website'}
-            list:
-                title: 'Partners'
-                fields:
-                    - {property: 'name', label: 'Name'}
-                    - {property: 'url', label: 'Website'}
-                    - {property: 'getWebPath', label: 'Image', type: image}
 
         BasicPage:
             class: App\Entity\BasicPage

@@ -164,6 +164,54 @@
         <source>index.meta.description</source>
         <target>__index.meta.description</target>
       </trans-unit>
+      <trans-unit id="MKDj0aZ" resname="global.footer.in_cuba">
+        <source>global.footer.in_cuba</source>
+        <target>__global.footer.in_cuba</target>
+      </trans-unit>
+      <trans-unit id="Mk.P_Sf" resname="global.footer.in_germany">
+        <source>global.footer.in_germany</source>
+        <target>__global.footer.in_germany</target>
+      </trans-unit>
+      <trans-unit id="1UyEULu" resname="global.header.home">
+        <source>global.header.home</source>
+        <target>__global.header.home</target>
+      </trans-unit>
+      <trans-unit id="vbgr67H" resname="global.header.tours">
+        <source>global.header.tours</source>
+        <target>__global.header.tours</target>
+      </trans-unit>
+      <trans-unit id="ak93kbW" resname="global.header.bikes">
+        <source>global.header.bikes</source>
+        <target>__global.header.bikes</target>
+      </trans-unit>
+      <trans-unit id="EFI3.Uk" resname="global.header.about_us">
+        <source>global.header.about_us</source>
+        <target>__global.header.about_us</target>
+      </trans-unit>
+      <trans-unit id="fFYxBvH" resname="global.header.blog">
+        <source>global.header.blog</source>
+        <target>__global.header.blog</target>
+      </trans-unit>
+      <trans-unit id="uwgI6F0" resname="index.blog.more">
+        <source>index.blog.more</source>
+        <target>__index.blog.more</target>
+      </trans-unit>
+      <trans-unit id="VfGd_Ic" resname="index.hero.tour">
+        <source>index.hero.tour</source>
+        <target>__index.hero.tour</target>
+      </trans-unit>
+      <trans-unit id="WREOlKa" resname="index.tour.inside_cuba.title">
+        <source>index.tour.inside_cuba.title</source>
+        <target>__index.tour.inside_cuba.title</target>
+      </trans-unit>
+      <trans-unit id="9J_K08f" resname="index.us.description_1">
+        <source>index.us.description_1</source>
+        <target>__index.us.description_1</target>
+      </trans-unit>
+      <trans-unit id="WaTU2Wf" resname="index.us.description_2">
+        <source>index.us.description_2</source>
+        <target>__index.us.description_2</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
