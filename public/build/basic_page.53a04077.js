@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["basic_page"],{"/fW3":function(n,i,t){"use strict";t.r(i);t("QEtK")},QEtK:function(n,i,t){}},[["/fW3","runtime"]]]);
