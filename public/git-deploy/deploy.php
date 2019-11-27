@@ -21,6 +21,7 @@ require "auth.php";
 		'git submodule update',
 		'git submodule status',
 		'rm -r $PWD/../../var/cache/prod/',
+        'rm -r $PWD/../../var/cache/dev/',
 	);
 	// Run the commands for output
 	$output = '';
