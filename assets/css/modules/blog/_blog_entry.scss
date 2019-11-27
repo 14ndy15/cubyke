@@ -12,6 +12,22 @@
 
     &__image{
         width: 100%;
+        overflow: hidden;
+
+        @include atLarge{
+            height: 45vh;
+        }
+
+        &:hover{
+            & img{
+                transform: scale(1.05);
+            }
+        }
+
+        & img{
+            transition: transform .5s ease-in-out;
+
+        }
     }
 
     &__text{
@@ -22,6 +38,10 @@
 
         &__title{
             width: 100%;
+
+            & a{
+                text-decoration: none;
+            }
         }
 
         &__details{
@@ -35,6 +55,10 @@
 
         &__summary{
             width: 100%;
+
+            & a{
+                text-decoration: none;
+            }
         }
     }
 

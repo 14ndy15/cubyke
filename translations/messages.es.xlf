@@ -11,55 +11,51 @@
       </trans-unit>
       <trans-unit id="J.DI4Pa" resname="global.footer.write_to_us">
         <source>global.footer.write_to_us</source>
-        <target>__global.footer.write_to_us</target>
+        <target>Escríbenos</target>
       </trans-unit>
       <trans-unit id="abfRnnl" resname="global.footer.legal">
         <source>global.footer.legal</source>
-        <target>__global.footer.legal</target>
+        <target></target>
       </trans-unit>
       <trans-unit id="55LZJCs" resname="global.footer.privacy_policy">
         <source>global.footer.privacy_policy</source>
-        <target>__global.footer.privacy_policy</target>
+        <target>Politica de privacidad</target>
       </trans-unit>
       <trans-unit id="SYDZRgL" resname="global.footer.travel_condition">
         <source>global.footer.travel_condition</source>
-        <target>__global.footer.travel_condition</target>
+        <target>Condiciones</target>
       </trans-unit>
       <trans-unit id="ggZoQ4v" resname="global.footer.company-information">
         <source>global.footer.company-information</source>
-        <target>__global.footer.company-information</target>
+        <target>Información de la compañia</target>
       </trans-unit>
       <trans-unit id="DwBtxOh" resname="global.footer.patent">
         <source>global.footer.patent</source>
-        <target>__global.footer.patent</target>
+        <target>Patente</target>
       </trans-unit>
-      <trans-unit id="9r0DD02" resname="index.us.bike.title">
-        <source>index.us.bike.title</source>
-        <target>__index.us.bike.title</target>
+      <trans-unit id="9r0DD02" resname="index.bike.title">
+        <source>index.bike.title</source>
+        <target>Nuestras Bicis</target>
       </trans-unit>
-      <trans-unit id="jpobwUZ" resname="index.us.bike.description_1">
-        <source>index.us.bike.description_1</source>
-        <target>__index.us.bike.description_1</target>
+      <trans-unit id="jpobwUZ" resname="index.bike.description_1">
+        <source>index.bike.description_1</source>
+        <target>Nuestras Cubykes son bicicletas eléctricas con tecnología de punta y vanguardistas y únicas, fabricadas en Alemania, pero inspiradas en su diseño de Cuba. La asistencia del motor está controlada por sensores y cumple con las directrices europeas para bicicletas eléctricas</target>
       </trans-unit>
-      <trans-unit id="xdpjXBQ" resname="index.us.bike.description_2">
-        <source>index.us.bike.description_2</source>
-        <target>__index.us.bike.description_2</target>
+      <trans-unit id="xdpjXBQ" resname="index.bike.description_2">
+        <source>index.bike.description_2</source>
+        <target>Por supuesto, también tenemos disponibles bicicletas de trekking, de ciudad, de montaña y compactas. Lo que desees, en Cuba estamos preparados para ti y tu aventura.</target>
       </trans-unit>
-      <trans-unit id="nD1euuu" resname="index.us.bike.bike1.title">
-        <source>index.us.bike.bike1.title</source>
-        <target>__index.us.bike.bike1.title</target>
+      <trans-unit id="Ug5H1HO" resname="index.bikes.buy">
+        <source>index.bikes.buy</source>
+        <target>Si estás interesado en comprar una Cubyke exclusiva, envíanos </target>
       </trans-unit>
-      <trans-unit id="Ug5H1HO" resname="index.us.bikes.buy">
-        <source>index.us.bikes.buy</source>
-        <target>__index.us.bikes.buy</target>
-      </trans-unit>
-      <trans-unit id="c1_Rr2s" resname="index.us.bikes.buy.link">
-        <source>index.us.bikes.buy.link</source>
-        <target>__index.us.bikes.buy.link</target>
+      <trans-unit id="c1_Rr2s" resname="index.bikes.buy.link">
+        <source>index.bikes.buy.link</source>
+        <target>tu solicitud</target>
       </trans-unit>
       <trans-unit id="WyL8eur" resname="index.blog.title">
         <source>index.blog.title</source>
-        <target>__index.blog.title</target>
+        <target>Blog</target>
       </trans-unit>
       <trans-unit id="O0lWHxC" resname="index.hero.title">
         <source>index.hero.title</source>
@@ -79,7 +75,7 @@
       </trans-unit>
       <trans-unit id="IofHe4h" resname="index.tours.title">
         <source>index.tours.title</source>
-        <target>Recorridos</target>
+        <target>Nuestros recorridos</target>
       </trans-unit>
       <trans-unit id="jy2U_AM" resname="index.tours.description">
         <source>index.tours.description</source>
@@ -98,103 +94,51 @@
       </trans-unit>
       <trans-unit id="ny5yuzj" resname="global.read_more">
         <source>global.read_more</source>
-        <target>__global.read_more</target>
-      </trans-unit>
-      <trans-unit id="yPLM26l" resname="index.tours.tour1.image">
-        <source>index.tours.tour1.image</source>
-        <target>__index.tours.tour1.image</target>
-      </trans-unit>
-      <trans-unit id="bodZ8A." resname="index.tours.tour1.title">
-        <source>index.tours.tour1.title</source>
-        <target>__index.tours.tour1.title</target>
-      </trans-unit>
-      <trans-unit id="sgZT2_4" resname="index.tours.tour1.description">
-        <source>index.tours.tour1.description</source>
-        <target>__index.tours.tour1.description</target>
-      </trans-unit>
-      <trans-unit id="aHh1oBk" resname="index.tours.tour2.image">
-        <source>index.tours.tour2.image</source>
-        <target>__index.tours.tour2.image</target>
-      </trans-unit>
-      <trans-unit id="y5QS.ry" resname="index.tours.tour2.title">
-        <source>index.tours.tour2.title</source>
-        <target>__index.tours.tour2.title</target>
-      </trans-unit>
-      <trans-unit id="QSmWuFN" resname="index.tours.tour2.description">
-        <source>index.tours.tour2.description</source>
-        <target>__index.tours.tour2.description</target>
-      </trans-unit>
-      <trans-unit id="hvbeqe2" resname="index.tours.tour3.image">
-        <source>index.tours.tour3.image</source>
-        <target>__index.tours.tour3.image</target>
-      </trans-unit>
-      <trans-unit id="GWnY9Gp" resname="index.tours.tour3.title">
-        <source>index.tours.tour3.title</source>
-        <target>__index.tours.tour3.title</target>
-      </trans-unit>
-      <trans-unit id="caIO2IJ" resname="index.tours.tour3.description">
-        <source>index.tours.tour3.description</source>
-        <target>__index.tours.tour3.description</target>
-      </trans-unit>
-      <trans-unit id="whI0qRf" resname="index.tours.tour4.image">
-        <source>index.tours.tour4.image</source>
-        <target>__index.tours.tour4.image</target>
-      </trans-unit>
-      <trans-unit id="ixRolXR" resname="index.tours.tour4.title">
-        <source>index.tours.tour4.title</source>
-        <target>__index.tours.tour4.title</target>
-      </trans-unit>
-      <trans-unit id="SpV6el8" resname="index.tours.tour4.description">
-        <source>index.tours.tour4.description</source>
-        <target>__index.tours.tour4.description</target>
+        <target>leer más</target>
       </trans-unit>
       <trans-unit id="n8g44fM" resname="index.us.title">
         <source>index.us.title</source>
-        <target>__index.us.title</target>
-      </trans-unit>
-      <trans-unit id="FWQyVxH" resname="index.us.description">
-        <source>index.us.description</source>
-        <target>__index.us.description</target>
+        <target>Sobre nosotros</target>
       </trans-unit>
       <trans-unit id="3_vUzLP" resname="index.title">
         <source>index.title</source>
-        <target>__index.title</target>
+        <target>Recorrer La Habana y Cuba en Bicicletas eléctricas</target>
       </trans-unit>
       <trans-unit id="yJvbWwK" resname="index.meta.description">
         <source>index.meta.description</source>
-        <target>__index.meta.description</target>
+        <target>La combinación de nuestras excepcionales bicicletas ✌ y la única Cuba hacen de nuestros viajes una experiencia incomparable. Confía en nuestra palabra.</target>
       </trans-unit>
       <trans-unit id="MKDj0aZ" resname="global.footer.in_cuba">
         <source>global.footer.in_cuba</source>
-        <target>__global.footer.in_cuba</target>
+        <target>En Cuba</target>
       </trans-unit>
       <trans-unit id="Mk.P_Sf" resname="global.footer.in_germany">
         <source>global.footer.in_germany</source>
-        <target>__global.footer.in_germany</target>
+        <target>En Alemania</target>
       </trans-unit>
       <trans-unit id="1UyEULu" resname="global.header.home">
         <source>global.header.home</source>
-        <target>__global.header.home</target>
+        <target>Inicio</target>
       </trans-unit>
       <trans-unit id="vbgr67H" resname="global.header.tours">
         <source>global.header.tours</source>
-        <target>__global.header.tours</target>
+        <target>Recorridos</target>
       </trans-unit>
       <trans-unit id="ak93kbW" resname="global.header.bikes">
         <source>global.header.bikes</source>
-        <target>__global.header.bikes</target>
+        <target>Nuestras bicis</target>
       </trans-unit>
       <trans-unit id="EFI3.Uk" resname="global.header.about_us">
         <source>global.header.about_us</source>
-        <target>__global.header.about_us</target>
+        <target>Nosotros</target>
       </trans-unit>
       <trans-unit id="fFYxBvH" resname="global.header.blog">
         <source>global.header.blog</source>
-        <target>__global.header.blog</target>
+        <target>Blog</target>
       </trans-unit>
       <trans-unit id="uwgI6F0" resname="index.blog.more">
         <source>index.blog.more</source>
-        <target>__index.blog.more</target>
+        <target>Más blogs</target>
       </trans-unit>
       <trans-unit id="VfGd_Ic" resname="index.hero.tour">
         <source>index.hero.tour</source>
@@ -202,15 +146,43 @@
       </trans-unit>
       <trans-unit id="WREOlKa" resname="index.tour.inside_cuba.title">
         <source>index.tour.inside_cuba.title</source>
-        <target>__index.tour.inside_cuba.title</target>
+        <target>Oferta especial para el fin de año</target>
       </trans-unit>
       <trans-unit id="9J_K08f" resname="index.us.description_1">
         <source>index.us.description_1</source>
-        <target>__index.us.description_1</target>
+        <target>El nombre Cubyke esta inspirado en nuestra pasión por Cuba y el ciclismo. Construimos Cubykes porque es divertido construirlas y montarlas. Porque las encontramos hermosas. Y porque consideramos que es la forma más vital y sostenible de experimentar muchos de los lugares más hermosos del mundo.</target>
       </trans-unit>
       <trans-unit id="WaTU2Wf" resname="index.us.description_2">
         <source>index.us.description_2</source>
-        <target>__index.us.description_2</target>
+        <target>Viajamos contigo en nuestras Cubykes por Cuba, mostrándote sus impresionantes paisajes, conociendo a su gente alegre y solidaria, en bicicletas increíbles. Por supuesto vamos a muchas ciudades coloniales como a La Habana, Trinidad y Cienfuegos, pero también cruzamos las hermosas reservas de la bisofera como Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, la Isla de la Juventud y más</target>
+      </trans-unit>
+      <trans-unit id="KBNkDzN" resname="global.footer.index.name">
+        <source>global.footer.index.name</source>
+        <target>Su nombre</target>
+      </trans-unit>
+      <trans-unit id="iwaYn_." resname="global.footer.email">
+        <source>global.footer.email</source>
+        <target>Su correo</target>
+      </trans-unit>
+      <trans-unit id="QkVlKbN" resname="global.footer.message">
+        <source>global.footer.message</source>
+        <target>Que nos quieres decir</target>
+      </trans-unit>
+      <trans-unit id="KUX74NO" resname="global.footer.send_message">
+        <source>global.footer.send_message</source>
+        <target>Enviar</target>
+      </trans-unit>
+      <trans-unit id="3piGqM7" resname="global.footer.represent_ecotur">
+        <source>global.footer.represent_ecotur</source>
+        <target>Representado en Cuba por Ecotur</target>
+      </trans-unit>
+      <trans-unit id="TxxWrq6" resname="index.tour.inside_cuba.subtitle">
+        <source>index.tour.inside_cuba.subtitle</source>
+        <target>Cuba Central 30.12. – 08.01.</target>
+      </trans-unit>
+      <trans-unit id="V9gzmqp" resname="index.tour.inside_cuba.button">
+        <source>index.tour.inside_cuba.button</source>
+        <target>Reserva ahora!</target>
       </trans-unit>
     </body>
   </file>

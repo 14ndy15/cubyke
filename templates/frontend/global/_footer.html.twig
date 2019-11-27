@@ -59,21 +59,21 @@
 
         <form action="" class="form">
             <div class="form__item">
-                <label for="name">Name:</label>
+                <label for="name">{% trans %}global.footer.index.name{% endtrans %}:</label>
                 <input type="text" id="name" name="name">
             </div>
             <div class="form__item">
-                <label for="email">Email:</label>
+                <label for="email">{% trans %}global.footer.email{% endtrans %}:</label>
                 <input type="email" id="email" name="email">
             </div>
             <div class="form__item">
-                <label for="message">Message:</label>
+                <label for="message">{% trans %}global.footer.message{% endtrans %}:</label>
                 <textarea type="text" id="message" name="message" rows="4"></textarea>
             </div>
 
             <input data-sal="slide-up"
                    data-sal-delay="500"
-                   type="submit" class="btn btn--border" value="Send message">
+                   type="submit" class="btn btn--border" value="{% trans %}global.footer.send_message{% endtrans %}">
         </form>
     </div>
 
@@ -86,7 +86,7 @@
         <ul>
             <li class="logo">
                 <img class="lazyload blur-up" data-src="{{ asset('images/ecotur_logo.png') }}" alt="Ecotur logo">
-                <p><small>Represented in Cuba by Ecotur</small></p>
+                <p><small>{% trans %}global.footer.represent_ecotur{% endtrans %}</small></p>
             </li>
             <li><a href="{{ path('privacy_policy') }}">{% trans %}global.footer.privacy_policy{% endtrans %}</a></li>
             <li><a href="{{ path('travel_conditions') }}">{% trans %}global.footer.travel_condition{% endtrans %}</a></li>

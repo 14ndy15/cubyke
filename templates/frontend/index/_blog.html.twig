@@ -6,7 +6,7 @@
     {% for blog_entry in blog_entries %}
     <div class="blog__entry">
         <div class="blog__entry__image">
-            <a href="{{ path('blog_entry_alternative', {'_id': blog_entry.id , '_name': blog_entry.getLocale('title')} ) }}">
+            <a href="{{ path('blog_entry', {'_id': blog_entry.id , '_name': blog_entry.getLocale('title')} ) }}">
                 {{ imgTagContent(
                     blog_entry.getWebPath,
                     blog_entry.getLocale('title'),

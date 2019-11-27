@@ -32,59 +32,11 @@
                 but we also cross the beautiful cuban
                 biosphere reserves in Viñales, Las Terrazas,
                 El Nicho, Topes de Collantes,
-                Las Escaleras de Jaruco, Isla De La Juventud and more...</target>
+                Las Escaleras de Jaruco, Isla De La Juventud and more</target>
       </trans-unit>
       <trans-unit id="VFpNLNk" resname="global.read.more">
         <source>global.read.more</source>
         <target>keep reading</target>
-      </trans-unit>
-      <trans-unit id="yPLM26l" resname="index.tours.tour1.image">
-        <source>index.tours.tour1.image</source>
-        <target>__index.tours.tour1.image</target>
-      </trans-unit>
-      <trans-unit id="bodZ8A." resname="index.tours.tour1.title">
-        <source>index.tours.tour1.title</source>
-        <target>Public half and full day trips</target>
-      </trans-unit>
-      <trans-unit id="sgZT2_4" resname="index.tours.tour1.description">
-        <source>index.tours.tour1.description</source>
-        <target>with fixed departure times</target>
-      </trans-unit>
-      <trans-unit id="aHh1oBk" resname="index.tours.tour2.image">
-        <source>index.tours.tour2.image</source>
-        <target>__index.tours.tour2.image</target>
-      </trans-unit>
-      <trans-unit id="y5QS.ry" resname="index.tours.tour2.title">
-        <source>index.tours.tour2.title</source>
-        <target>Public multiday trips</target>
-      </trans-unit>
-      <trans-unit id="QSmWuFN" resname="index.tours.tour2.description">
-        <source>index.tours.tour2.description</source>
-        <target>with fixed departure times board and lodging</target>
-      </trans-unit>
-      <trans-unit id="hvbeqe2" resname="index.tours.tour3.image">
-        <source>index.tours.tour3.image</source>
-        <target>__index.tours.tour3.image</target>
-      </trans-unit>
-      <trans-unit id="GWnY9Gp" resname="index.tours.tour3.title">
-        <source>index.tours.tour3.title</source>
-        <target>Private half and full day trips</target>
-      </trans-unit>
-      <trans-unit id="caIO2IJ" resname="index.tours.tour3.description">
-        <source>index.tours.tour3.description</source>
-        <target>Your own trip to your desired date</target>
-      </trans-unit>
-      <trans-unit id="whI0qRf" resname="index.tours.tour4.image">
-        <source>index.tours.tour4.image</source>
-        <target>__index.tours.tour4.image</target>
-      </trans-unit>
-      <trans-unit id="ixRolXR" resname="index.tours.tour4.title">
-        <source>index.tours.tour4.title</source>
-        <target>Private multi-day trips</target>
-      </trans-unit>
-      <trans-unit id="SpV6el8" resname="index.tours.tour4.description">
-        <source>index.tours.tour4.description</source>
-        <target>Your own trip to your desired date with board and lodging</target>
       </trans-unit>
       <trans-unit id="ny5yuzj" resname="global.read_more">
         <source>global.read_more</source>
@@ -113,55 +65,55 @@
         <source>index.us.team.see_more</source>
         <target>See more</target>
       </trans-unit>
-      <trans-unit id="9r0DD02" resname="index.us.bike.title">
-        <source>index.us.bike.title</source>
+      <trans-unit id="9r0DD02" resname="index.bike.title">
+        <source>index.bike.title</source>
         <target>Our bikes</target>
       </trans-unit>
-      <trans-unit id="jpobwUZ" resname="index.us.bike.description_1">
-        <source>index.us.bike.description_1</source>
+      <trans-unit id="jpobwUZ" resname="index.bike.description_1">
+        <source>index.bike.description_1</source>
         <target>Our Cubykes are technically top-modern and unique
                 electric bikes that are made in Germany,
                 but inspired in design by Cuba.
                 The engine assistance is sensor-controlled and
                 complies with the European guidelines for electric bicycles...</target>
       </trans-unit>
-      <trans-unit id="xdpjXBQ" resname="index.us.bike.description_2">
-        <source>index.us.bike.description_2</source>
+      <trans-unit id="xdpjXBQ" resname="index.bike.description_2">
+        <source>index.bike.description_2</source>
         <target>Of course we also have classic trekking, city,
                 mountain bike and compact bikes in stock.
                 Whatever you wish, in Cuba we are prepared
                 for you and your adventure.</target>
       </trans-unit>
-      <trans-unit id="nD1euuu" resname="index.us.bike.bike1.title">
-        <source>index.us.bike.bike1.title</source>
+      <trans-unit id="nD1euuu" resname="index.bike.bike1.title">
+        <source>index.bike.bike1.title</source>
         <target>Cubyke Compañero</target>
       </trans-unit>
-      <trans-unit id="8rJG5pG" resname="index.us.bike.bike2.title">
-        <source>index.us.bike.bike2.title</source>
+      <trans-unit id="8rJG5pG" resname="index.bike.bike2.title">
+        <source>index.bike.bike2.title</source>
         <target>Cubyke Compañera</target>
       </trans-unit>
-      <trans-unit id="DF5RdeP" resname="index.us.bike.bike3.title">
-        <source>index.us.bike.bike3.title</source>
+      <trans-unit id="DF5RdeP" resname="index.bike.bike3.title">
+        <source>index.bike.bike3.title</source>
         <target>E - Gazelle Puur NL / Miss Grace </target>
       </trans-unit>
-      <trans-unit id="04Azk6q" resname="index.us.bike.bike4.title">
-        <source>index.us.bike.bike4.title</source>
+      <trans-unit id="04Azk6q" resname="index.bike.bike4.title">
+        <source>index.bike.bike4.title</source>
         <target>E - Electra - Townie</target>
       </trans-unit>
-      <trans-unit id="N6FaYoD" resname="index.us.bike.bike5.title">
-        <source>index.us.bike.bike5.title</source>
+      <trans-unit id="N6FaYoD" resname="index.bike.bike5.title">
+        <source>index.bike.bike5.title</source>
         <target>E - Raleigh - Urban</target>
       </trans-unit>
-      <trans-unit id="p96DB9q" resname="index.us.bike.bike6.title">
-        <source>index.us.bike.bike6.title</source>
+      <trans-unit id="p96DB9q" resname="index.bike.bike6.title">
+        <source>index.bike.bike6.title</source>
         <target>E - BH - Rebel</target>
       </trans-unit>
-      <trans-unit id="OhHa8gA" resname="index.us.bike.bike7.title">
-        <source>index.us.bike.bike7.title</source>
+      <trans-unit id="OhHa8gA" resname="index.bike.bike7.title">
+        <source>index.bike.bike7.title</source>
         <target>E - Gazelle - Orange C330 / C7 / C8</target>
       </trans-unit>
-      <trans-unit id="Ug5H1HO" resname="index.us.bikes.buy">
-        <source>index.us.bikes.buy</source>
+      <trans-unit id="Ug5H1HO" resname="index.bikes.buy">
+        <source>index.bikes.buy</source>
         <target>If you are interested in purchasing an
                 exclusive Cubyke, please send us</target>
       </trans-unit>
@@ -169,8 +121,8 @@
         <source>global.see_more</source>
         <target>See more</target>
       </trans-unit>
-      <trans-unit id="c1_Rr2s" resname="index.us.bikes.buy.link">
-        <source>index.us.bikes.buy.link</source>
+      <trans-unit id="c1_Rr2s" resname="index.bikes.buy.link">
+        <source>index.bikes.buy.link</source>
         <target>your request</target>
       </trans-unit>
       <trans-unit id="WyL8eur" resname="index.blog.title">
@@ -243,7 +195,7 @@
       </trans-unit>
       <trans-unit id="WREOlKa" resname="index.tour.inside_cuba.title">
         <source>index.tour.inside_cuba.title</source>
-        <target>__index.tour.inside_cuba.title</target>
+        <target>Special New-Years offer</target>
       </trans-unit>
       <trans-unit id="9J_K08f" resname="index.us.description_1">
         <source>index.us.description_1</source>
@@ -251,7 +203,7 @@
       </trans-unit>
       <trans-unit id="WaTU2Wf" resname="index.us.description_2">
         <source>index.us.description_2</source>
-        <target>We travel with you on our cubykes through Cuba and its impressive landscapes with its impressive people and on impressive bikes ... of course we also drive to a lot of colonial cities such as Havana, Trinidad and Cienfuegos, but we also cross the beautiful cuban biosphere reserves in Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, Isla De La Juventud and more.</target>
+        <target>We travel with you on our cubykes through Cuba and its impressive landscapes with its impressive people and on impressive bikes ... of course we also drive to a lot of colonial cities such as Havana, Trinidad and Cienfuegos, but we also cross the beautiful cuban biosphere reserves in Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, Isla De La Juventud and more</target>
       </trans-unit>
       <trans-unit id="GYct3n0" resname="index.us.description_3">
         <source>index.us.description_3</source>
@@ -300,6 +252,34 @@
       <trans-unit id="fFYxBvH" resname="global.header.blog">
         <source>global.header.blog</source>
         <target>Blog</target>
+      </trans-unit>
+      <trans-unit id="TxxWrq6" resname="index.tour.inside_cuba.subtitle">
+        <source>index.tour.inside_cuba.subtitle</source>
+        <target>Central Cuba 30.12 - 08.01</target>
+      </trans-unit>
+      <trans-unit id="V9gzmqp" resname="index.tour.inside_cuba.button">
+        <source>index.tour.inside_cuba.button</source>
+        <target>Book now!</target>
+      </trans-unit>
+      <trans-unit id="KBNkDzN" resname="global.footer.index.name">
+        <source>global.footer.index.name</source>
+        <target>Your name</target>
+      </trans-unit>
+      <trans-unit id="iwaYn_." resname="global.footer.email">
+        <source>global.footer.email</source>
+        <target>Your email</target>
+      </trans-unit>
+      <trans-unit id="QkVlKbN" resname="global.footer.message">
+        <source>global.footer.message</source>
+        <target>Message</target>
+      </trans-unit>
+      <trans-unit id="KUX74NO" resname="global.footer.send_message">
+        <source>global.footer.send_message</source>
+        <target>Send message</target>
+      </trans-unit>
+      <trans-unit id="3piGqM7" resname="global.footer.represent_ecotur">
+        <source>global.footer.represent_ecotur</source>
+        <target>Represented in Cuba by Ecotur</target>
       </trans-unit>
     </body>
   </file>

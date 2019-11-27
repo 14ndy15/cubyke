@@ -3,13 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="cec1c2f8-5914-4851-b3ac-689c2af9400e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/modules/index/_team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/index/_team.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/easy_admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/FrontendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FrontendController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Partners.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/PartnersRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/frontend/global/_header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/global/_header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/blog/_blog_entry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/blog/_blog_entry.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/global/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/global/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/index/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/index/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/modules/index/_tours.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/modules/index/_tours.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/0.b593350b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/1.60de0241.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/2.9e9aeb4f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/2.bfb2a68f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/app.0eb85c8b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/app.bf7d5b92.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/basic_page.26a10024.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/basic_page.53a04077.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/bikes.6d90f66f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/bikes.8600a9ff.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/blog.38454bb7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/blog.607cfcc6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/blog_entry.47bbff1f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/blog_entry.ff4451aa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/buy.4d20714c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/buy.5ea8c646.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/entrypoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/entrypoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/index.29a1e9ac.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/index.9c2fb8ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/runtime.dca8fcdd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/team.1449b220.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/team.ff8b5601.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/tours.c279011b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/tours.e3aae138.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/global/_footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/global/_footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_bikes.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_bikes.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_blog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_blog.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_hero.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_hero.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/frontend/index/_tours.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_tours.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_us.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_us.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/messages.de.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.de.xlf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/messages.en.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.en.xlf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translations/messages.es.xlf" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.es.xlf" afterDir="false" />
@@ -216,8 +245,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.watch" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +276,9 @@
       <workItem from="1574219211655" duration="7058000" />
       <workItem from="1574262219836" duration="8460000" />
       <workItem from="1574281824900" duration="6553000" />
+      <workItem from="1574370094462" duration="1113000" />
+      <workItem from="1574438660248" duration="2542000" />
+      <workItem from="1574876590084" duration="5538000" />
     </task>
     <servers />
   </component>

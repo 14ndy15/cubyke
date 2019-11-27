@@ -6,7 +6,7 @@
         </div>
 
         <div class="tours__description">
-            <p>{% trans %}index.tours.description{% endtrans %}
+            <p>{% trans %}index.tours.description{% endtrans %}...
                 <a href="{{ path('tours') }}">{% trans %}global.read_more{% endtrans %}</a>
             </p>
         </div>
@@ -45,7 +45,7 @@
         <div class="tours__inside_cuba__image">
             {{ imgTagContent(
                 asset('images/tours/cuba.png'),
-                '',
+                'Special New-Years offer',
                 "(min-width: 1200px) 33vw, 100vw",
                 1920)
             | raw
@@ -53,10 +53,20 @@
         </div>
         <div class="tours__inside_cuba__content">
             <div class="tours__inside_cuba__content__title">
-                <h3>{% trans %}index.tour.inside_cuba.title{% endtrans %}</h3>
+                <h3>{% trans %}index.tour.inside_cuba.title{% endtrans %} -25% <span>2464 EUR</span> </h3>
+            </div>
+            <div class="tours__inside_cuba__content__subtitle">
+                <h4>{% trans %}index.tour.inside_cuba.subtitle{% endtrans %}</h4>
             </div>
             <div class="tours__inside_cuba__content__action">
-                <a class="btn" href="">index.tour.inside_cuba.button</a>
+                {% if app.request.locale == 'de' %}
+                    {% set url = 'https://cubyke.trekksoft.com/de/activity/219223/central-cuba' %}
+                {% elseif app.request.locale == 'es' %}
+                    {% set url = 'https://cubyke.trekksoft.com/es/activity/219223/central-cuba' %}
+                {% else %}
+                    {% set url = 'https://cubyke.trekksoft.com/en_GB/activity/219223/central-cuba' %}
+                {% endif %}
+                <a class="btn" href="{{ url }}">{% trans %}index.tour.inside_cuba.button{% endtrans %}</a>
             </div>
         </div>
     </div>
