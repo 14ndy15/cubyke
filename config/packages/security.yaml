@@ -5,7 +5,7 @@ security:
             memory:
                 users:
                     landy:
-                        password: $argon2i$v=19$m=65536,t=4,p=1$V3FwUEYyaDJxOVcubVFTbw$4lKmSSgNr1Agr91Xem58W8USObguSms3HZg1xevqN44
+                        password: $argon2i$v=19$m=65536,t=4,p=1$MmJ6VVMvbG1IMkhEQVVkWQ$ogxH9pwx9+tSHWqg4yUls7AiH5/fXk34uedQEaJh3dM
                         roles: ['ROLES_USER', 'ROLE_ADMIN']
     encoders:
         Symfony\Component\Security\Core\User\User:
