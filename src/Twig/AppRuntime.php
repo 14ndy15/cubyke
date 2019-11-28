@@ -25,7 +25,6 @@ class AppRuntime implements RuntimeExtensionInterface
         $sizes = [1920, 1200, 1000, 900, 800, 600];
     	$html = '';
     	$i = count($sizes) - 1;
-    	dump($i);
     	while ( $i >= 0 and $max_size >= $sizes[$i]) {
             $value = $sizes[$i];
             $i--;
