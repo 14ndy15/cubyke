@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cec1c2f8-5914-4851-b3ac-689c2af9400e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/base/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/liip_imagine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/liip_imagine.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Twig/AppRuntime.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Twig/AppRuntime.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -241,7 +243,7 @@
       <workItem from="1574370094462" duration="1113000" />
       <workItem from="1574438660248" duration="2542000" />
       <workItem from="1574876590084" duration="19060000" />
-      <workItem from="1574957869776" duration="2956000" />
+      <workItem from="1574957869776" duration="6567000" />
     </task>
     <servers />
   </component>
