@@ -3,6 +3,7 @@
     "app": {
       "js": [
         "/build/runtime.js",
+        "/build/vendors~app~buy~index.js",
         "/build/vendors~app.js",
         "/build/app.js"
       ],
@@ -14,7 +15,8 @@
     "index": {
       "js": [
         "/build/runtime.js",
-        "/build/vendors~buy~index.js",
+        "/build/vendors~app~buy~index.js",
+        "/build/vendors~index.js",
         "/build/index.js"
       ],
       "css": [
@@ -51,7 +53,7 @@
     "buy": {
       "js": [
         "/build/runtime.js",
-        "/build/vendors~buy~index.js",
+        "/build/vendors~app~buy~index.js",
         "/build/buy.js"
       ],
       "css": [

@@ -142,7 +142,7 @@
       </trans-unit>
       <trans-unit id="VfGd_Ic" resname="index.hero.tour">
         <source>index.hero.tour</source>
-        <target>__index.hero.tour</target>
+        <target>Ver recorridos</target>
       </trans-unit>
       <trans-unit id="WREOlKa" resname="index.tour.inside_cuba.title">
         <source>index.tour.inside_cuba.title</source>

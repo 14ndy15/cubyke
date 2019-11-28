@@ -20,5 +20,6 @@
   "build/tours.js": "/build/tours.js",
   "build/vendors~app.css": "/build/vendors~app.css",
   "build/vendors~app.js": "/build/vendors~app.js",
-  "build/vendors~buy~index.js": "/build/vendors~buy~index.js"
+  "build/vendors~app~buy~index.js": "/build/vendors~app~buy~index.js",
+  "build/vendors~index.js": "/build/vendors~index.js"
 }

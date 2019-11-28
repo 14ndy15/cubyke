@@ -1,100 +1,268 @@
-.header{
-    position: fixed;
+.header {
     z-index: 2;
-    height: 2em;
+    background: $mainDarkRed;
+    position: absolute;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 0;
 
-    &__logo{
-        position: relative;
-        max-width: 8em;
-        z-index: 2;
-        margin: .25em .5em;
+    @include atLarge{
+        padding: 0 8em 0 4em;
+        position: fixed;
     }
 
-    &__nav{
+    & .logo {
+        width: 4em;
+        margin: 0 1em;
         position: absolute;
-        width: 100%;
-        height: 50vh;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 1.5em 0;
-
-        top: 0;
-        transform: translateY(-90%);
-        transition: transform .5s ease-in-out;
-
-        background: linear-gradient(-45deg, rgba($mainRed, .9), rgba($mainDark, .9));
-        clip-path: polygon(0 0, 0 50%, 50% 100%, 100% 50%, 100% 0%);
+        left: 1em;
 
         @include atLarge{
-            justify-content: right;
-            transform: translateY(0%);
-            height: auto;
-            clip-path: none;
-            padding: .25em 0;
+            position: relative;
+            left: auto;
+            width: 8em;
+            margin: 0;
+        }
+    }
+
+    & .nav {
+        width: 100%;
+        position: absolute;
+        top: 3.3em;
+        background: $mainDarkRed;
+
+        @include atLarge{
+            position: relative;
+            top: 0;
+            display: block;
+            width: auto;
+            background: transparent;
         }
 
-        & ul{
-            position: relative;
-            width: 80%;
-            padding: 0;
+        & ul {
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
             list-style: none;
-            text-align: center;
 
+            & li {
+                margin: auto .5em;
+                padding: .5em;
+                border: 1px transparent solid;
+                transition: border .3s ease-in-out;
 
-            & li{
-                margin: .5em;
-
-                a{
-                    color: white;
-                }
-
-                @include atLarge{
-                    display: inline;
-                }
-
-                & .border{
+                &:hover {
                     border: 1px white solid;
                 }
-            }
 
-            &:first-child{
-                align-self: center;
-                margin: 0;
-
-                @include atLarge{
-                    width: 40%;
-                    margin-left: 25%;
-                }
-            }
-
-            &:nth-child(2){
-                margin-top: 1em;
-
-                @include atLarge{
-                    width: 33.33%;
-                }
-
-                &::before{
-                    position: absolute;
-                    content: '';
-                    width: 40%;
-                    margin: 0 30%;
-                    height: 2px;
-                    left: 0;
-                    top: -1em;
-                    background: white;
-
-                    @include atLarge{
-                        display: none;
-                    }
+                & a {
+                    color: white;
+                    text-decoration: none;
                 }
             }
         }
 
-        &:hover, &--visible{
-            transform: translateY(0%);
+    }
+
+    & .menu-icon{
+        order: 2;
+        width: 20px;
+        height: 19px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto 1em;
+        right: 1em;
+        z-index: 3;
+
+        @include atLarge {
+            display: none;
+            right: auto;
         }
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: white;
+            transform-origin: 0 0;
+            transition: transform .3s ease-out;
+        }
+
+        &__middle{
+            position: absolute;
+            top: 8px;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: white;
+            transition: all .3s ease-out;
+            transform-origin: 0 50%;
+
+        }
+
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: white;
+            transform-origin: 0 100%;
+            transition: transform .3s ease-out;
+        }
+
+        &--close-x{
+            &::before{
+                transform: rotate(45deg) scaleX(1.25);
+            }
+
+            .menu-icon__middle{
+                opacity: 0;
+                transform: scaleX(0);
+            }
+
+            &::after{
+                transform: rotate(-45deg) scale(1.25) translateY(1px);
+            }
+        }
+    }
+
+    & .lang{
+        order: 1;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        z-index: 2;
+
+        @include atLarge {
+            width: auto;
+            opacity: 1;
+            z-index: 1;
+        }
+
+
+        & > ul > li {
+            border-bottom: 1px white solid;
+            text-transform: uppercase;
+        }
+
+        & ul {
+            padding-left: 0;
+            margin: 0;
+        }
+
+        & li {
+            color: #fff;
+            background: rgba($mainRed, .9);
+            display: block;
+            float: left;
+            padding: .55em;
+            position: relative;
+            text-decoration: none;
+            transition-duration: 0.5s;
+            transition: all;
+            border-bottom: 1px transparent solid;
+
+            &:hover{
+                border-bottom: 1px $mainRed solid;
+            }
+
+            & a{
+                color: white;
+                font-size: .9em;
+                font-weight: 500;
+            }
+        }
+
+        & ul li ul {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            transition: all 0.5s ease;
+            margin-top: .5em;
+            left: 0;
+            display: none;
+            top: 1.7em;
+        }
+
+        & ul li:hover > ul,
+        & ul li ul:hover {
+            visibility: visible;
+            opacity: 1;
+            display: block;
+        }
+
+        & ul li ul li {
+            width: 100%;
+        }
+    }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-6-6 16:43:40
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation swing-in-top-bck
+ * ----------------------------------------
+ */
+@keyframes swing-in-top-bck {
+    0% {
+        -webkit-transform: rotateX(70deg);
+        transform: rotateX(70deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 1;
+    }
+}
+
+@keyframes swing-out-top-bck {
+    0% {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotateX(-100deg);
+        transform: rotateX(-100deg);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        opacity: 0;
+    }
+}
+
+
+.swing-in-top-bck {
+    animation: swing-in-top-bck .4s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+    animation-delay: .3s;
+}
+
+.swing-out-top-bck {
+    animation: swing-out-top-bck .25s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+    @include atLarge{
+        animation: none;
     }
 }

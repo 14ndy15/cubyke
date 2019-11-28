@@ -43,13 +43,32 @@
 
     <div class="tours__inside_cuba">
         <div class="tours__inside_cuba__image">
-            {{ imgTagContent(
-                asset('images/tours/cuba.png'),
-                'Special New-Years offer',
-                "(min-width: 1200px) 33vw, 100vw",
-                1920)
-            | raw
-            }}
+
+            <picture class="gallery__item">
+                <source class="lazyload"
+                        media="(min-width: 1200px)"
+                        sizes="100vw"
+                        data-srcset="
+                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1920') }} 1920w,
+                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1200') }} 1200w,
+                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1000') }} 1000w,
+                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_900') }} 900w,
+                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_800') }} 800w,
+                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_600') }} 600w">
+
+                <img class="lazyload blur-up"
+                     sizes="100vw"
+                     src="{{ asset('images/tours/cuba_portraid.png') | imagine_filter('small_thumbnail') }}"
+                     alt="Special New-Years offer"
+                     data-srcset="
+                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_1920') }} 1920w,
+                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_1200') }} 1200w,
+                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_1000') }} 1000w,
+                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_900') }} 900w,
+                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_800') }} 800w,
+                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_600') }} 600w"
+                     >
+            </picture>
         </div>
         <div class="tours__inside_cuba__content">
             <div class="tours__inside_cuba__content__title">

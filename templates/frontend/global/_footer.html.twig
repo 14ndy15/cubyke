@@ -6,10 +6,9 @@
             <h2>Contact</h2>
         </div>
 
-        <ul>
+        <ul class="contact__info">
             <li><strong>{% trans %}global.footer.in_cuba{% endtrans %}</strong></li>
             <li><a href="tel://+53 56080390">+53 56080390</a></li>
-{#            <li><a href="tel://+53 72144383">+53 72144383</a></li>#}
             <li><a href="mailto:info@cubyke.com">info@cubyke.<strong>com</strong></a></li>
             <li>
                 <address>
@@ -19,6 +18,8 @@
                     <dl>La Habana 11300, Cuba</dl>
                 </address>
             </li>
+        </ul>
+        <ul class="contact__info">
             <li><strong>{% trans %}global.footer.in_germany{% endtrans %}</strong></li>
             <li><a href="tel://+49 68138376457">+49(0)681 38 37 64 57</a></li>
             <li><a href="mailto:info@cubyke.de">info@cubyke.<strong>de</strong></a></li>
@@ -30,24 +31,24 @@
                     <dl>66121 Saarbrücken</dl>
                 </address>
             </li>
-            <li class="social">
-                <ul>
-                    <li>
-                        <a href="http://www.facebook.com/cubyke">
-                            <img src="{{ asset('images/icons/facebook.svg') }}" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://instagram.com/cubyke">
-                            <img src="{{ asset('images/icons/instagram.svg') }}" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.tripadvisor.com/Attraction_Review-g147271-d13485075-Reviews-Cubyke-Havana_Ciudad_de_la_Habana_Province_Cuba.html">
-                            <img src="{{ asset('images/icons/tripadvisor.svg') }}" alt="">
-                        </a>
-                    </li>
-                </ul>
+
+        </ul>
+
+        <ul class="contact__social">
+            <li>
+                <a href="http://www.facebook.com/cubyke">
+                    <img src="{{ asset('images/icons/facebook.svg') }}" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="http://instagram.com/cubyke">
+                    <img src="{{ asset('images/icons/instagram.svg') }}" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tripadvisor.com/Attraction_Review-g147271-d13485075-Reviews-Cubyke-Havana_Ciudad_de_la_Habana_Province_Cuba.html">
+                    <img src="{{ asset('images/icons/tripadvisor.svg') }}" alt="">
+                </a>
             </li>
         </ul>
     </div>
