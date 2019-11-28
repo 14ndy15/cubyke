@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["team"],{"6qHT":function(n,w,s){},NwsV:function(n,w,s){"use strict";s.r(w);s("6qHT")}},[["NwsV","runtime"]]]);

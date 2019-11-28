@@ -3,8 +3,33 @@
   <component name="ChangeListManager">
     <list default="true" id="cec1c2f8-5914-4851-b3ac-689c2af9400e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_hero.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_hero.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_tours.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_tours.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/0.b593350b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/1.60de0241.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/2.bfb2a68f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/2.e627c5a7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/app.7cfd6de3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/app.817cb486.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/basic_page.53a04077.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/basic_page.79b28f20.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/bikes.6d90f66f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/bikes.875e4752.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/blog.38454bb7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/blog.8bacf39f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/blog_entry.151054fb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/blog_entry.ff4451aa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/buy.4d20714c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/buy.bc404273.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/entrypoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/entrypoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/index.436aef0f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/index.9c2fb8ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/runtime.dca8fcdd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/team.240616e7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/team.ff8b5601.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/tours.ded35631.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/tours.e3aae138.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twig/AppRuntime.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Twig/AppRuntime.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index/_team.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index/_team.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,18 +173,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\templates\frontend\bikes" />
+      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\assets\css" />
+      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\assets\js\modules\index" />
+      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\assets\js\modules\global" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\14ndy\Documents\webwork\new.cubyke\assets\js\modules\global" />
       <recent name="C:\Users\14ndy\Documents\webwork\new.cubyke\assets\css\modules\global" />
       <recent name="C:\Users\14ndy\Documents\webwork\new.cubyke\assets\css\modules\basic_page" />
       <recent name="C:\Users\14ndy\Documents\webwork\new.cubyke\assets\css\modules" />
       <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\src\Entity" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\templates\frontend\bikes" />
-      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\assets\css" />
-      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\assets\js\modules\index" />
-      <recent name="C:\Users\14ndy\Documents\webwork\cubyke3\assets\js\modules\global" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.watch">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -207,9 +232,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.watch" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.watch" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +267,7 @@
       <workItem from="1574370094462" duration="1113000" />
       <workItem from="1574438660248" duration="2542000" />
       <workItem from="1574876590084" duration="19060000" />
-      <workItem from="1574957869776" duration="624000" />
+      <workItem from="1574957869776" duration="2425000" />
     </task>
     <servers />
   </component>
