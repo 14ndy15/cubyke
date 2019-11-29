@@ -11,8 +11,8 @@ liip_imagine:
         extrasmall_thumbnail:
 
             # set your image quality defaults
-            jpeg_quality:          60
-            png_compression_level: 8
+            jpeg_quality:          20
+            png_compression_level: 10
 
             # setup the filter steps to apply for this transformation
             filters:
