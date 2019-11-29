@@ -50,7 +50,7 @@ class AppRuntime implements RuntimeExtensionInterface
                                   $sizes = '100vw',
                                   $max_sizes = 800)
     {
-        $img_thumbnail = file_get_contents($this->imagineCacheManager->getBrowserPath($imagePath, 'small_thumbnail'));
+        $img_thumbnail = file_get_contents($this->imagineCacheManager->getBrowserPath($imagePath, 'extrasmall_thumbnail'));
         // Encode the image string data into base64
         $img_thumbnail = base64_encode($img_thumbnail);
 
