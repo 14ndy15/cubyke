@@ -45,7 +45,7 @@
         und im Design durch Cuba inspiriert wurden.
         Die Motorunterstützung ist sensorgesteuert
         und entspricht den europäischen Richtlinien
-        für Elektrofahrräder...</target>
+        für Elektrofahrräder</target>
       </trans-unit>
       <trans-unit id="xdpjXBQ" resname="index.bike.description_2">
         <source>index.bike.description_2</source>
@@ -108,7 +108,7 @@
       </trans-unit>
       <trans-unit id="ny5yuzj" resname="global.read_more">
         <source>global.read_more</source>
-        <target>weiter...</target>
+        <target>weiter</target>
       </trans-unit>
       <trans-unit id="n8g44fM" resname="index.us.title">
         <source>index.us.title</source>

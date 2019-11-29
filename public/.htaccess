@@ -1,5 +1,5 @@
 DirectoryIndex app.php
-
+SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
 # Options FollowSymlinks
 
 <IfModule mod_negotiation.c>
@@ -46,7 +46,7 @@ DirectoryIndex app.php
 
     # Rewrite all other queries to the front controller.
     RewriteRule ^ %{ENV:BASE}/index.php [L]
-
+    RewriteCond %{REQUEST_URI} !git-deploy/deploy.php$
     <IfModule mod_headers.c>
         # Serve gzip compressed CSS files if they exist and the client accepts gzip.
         RewriteCond %{HTTP:Accept-encoding} gzip
