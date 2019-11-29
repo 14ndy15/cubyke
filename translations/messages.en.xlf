@@ -19,7 +19,7 @@
       </trans-unit>
       <trans-unit id="IofHe4h" resname="index.tours.title">
         <source>index.tours.title</source>
-        <target>Discover Cuba on our tours</target>
+        <target>Discover Cuba by our tours</target>
       </trans-unit>
       <trans-unit id="jy2U_AM" resname="index.tours.description">
         <source>index.tours.description</source>
@@ -72,7 +72,7 @@
       <trans-unit id="jpobwUZ" resname="index.bike.description_1">
         <source>index.bike.description_1</source>
         <target>Our Cubykes are technically top-modern and unique
-                electric bikes that are made in Germany,
+                electric bikes that are handmade in Germany,
                 but inspired in design by Cuba.
                 The engine assistance is sensor-controlled and
                 complies with the European guidelines for electric bicycles</target>
@@ -80,7 +80,7 @@
       <trans-unit id="xdpjXBQ" resname="index.bike.description_2">
         <source>index.bike.description_2</source>
         <target>Of course we also have classic trekking, city,
-                mountain bike and compact bikes in stock.
+                mountain bikes and compact bikes in stock.
                 Whatever you wish, in Cuba we are prepared
                 for you and your adventure.</target>
       </trans-unit>
@@ -171,7 +171,7 @@
       </trans-unit>
       <trans-unit id="J.DI4Pa" resname="global.footer.write_to_us">
         <source>global.footer.write_to_us</source>
-        <target>Write us</target>
+        <target>Contact us directly</target>
       </trans-unit>
       <trans-unit id="abfRnnl" resname="global.footer.legal">
         <source>global.footer.legal</source>
@@ -199,11 +199,11 @@
       </trans-unit>
       <trans-unit id="9J_K08f" resname="index.us.description_1">
         <source>index.us.description_1</source>
-        <target>The name Cubyke was inspired by our passion for Cuba and cycling. We build Cubykes because it's just fun to build and ride them. Because we find them beautiful. And because we consider it the most vital and sustainable way to experience many of the most beautiful places in the world.</target>
+        <target>The name Cubyke was inspired by our passion for Cuba and cycling. We construct Cubykes because it is just fun to construct and ride them. Because we love everyone of our e-bikes. And because we consider it the most vital and sustainable way to experience many of the most beautiful places in the world.</target>
       </trans-unit>
       <trans-unit id="WaTU2Wf" resname="index.us.description_2">
         <source>index.us.description_2</source>
-        <target>We travel with you on our cubykes through Cuba and its impressive landscapes with its impressive people and on impressive bikes ... of course we also drive to a lot of colonial cities such as Havana, Trinidad and Cienfuegos, but we also cross the beautiful cuban biosphere reserves in Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, Isla De La Juventud and more</target>
+        <target>We travel with you on our Cubykes through Cuba and its impressive landscapes with its impressive people and on impressive bikes ... of course we also drive to a lot of colonial cities such as Havana, Trinidad and Cienfuegos, but we also cross the beautiful cuban biosphere reserves in Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, Isla De La Juventud and more</target>
       </trans-unit>
       <trans-unit id="GYct3n0" resname="index.us.description_3">
         <source>index.us.description_3</source>
