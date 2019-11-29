@@ -50,13 +50,15 @@ class AppRuntime implements RuntimeExtensionInterface
                                   $sizes = '100vw',
                                   $max_sizes = 800)
     {
-        $img_thumbnail = file_get_contents($this->imagineCacheManager->getBrowserPath($imagePath, 'extrasmall_thumbnail'));
+//        $img_thumbnail = file_get_contents($this->imagineCacheManager->getBrowserPath($imagePath, 'extrasmall_thumbnail'));
         // Encode the image string data into base64
-        $img_thumbnail = base64_encode($img_thumbnail);
+//        $img_thumbnail = base64_encode($img_thumbnail);
+        $img_thumbnail = $this->imagineCacheManager->getBrowserPath($imagePath, 'extrasmall_thumbnail');
 
         $html ="<img class=\"lazyload blur-up\" sizes=\"$sizes\" ";
 
-        $html .= "src=\"data:image/jpeg;charset=utf-8;base64,$img_thumbnail\"";
+//        $html .= "src=\"data:image/jpeg;charset=utf-8;base64,$img_thumbnail\"";
+        $html .= "src=\"$img_thumbnail\"";
 
         $html .= " data-srcset=\"".$this->filterSrcset($imagePath, $max_sizes)."\"
                          alt=\"$alt\">";
