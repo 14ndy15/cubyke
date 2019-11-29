@@ -30,4 +30,5 @@ yarn-error.log
 /public/uploads/
 /docs/
 /public/video/
+/public/.htaccess
 /.env
