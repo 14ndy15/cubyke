@@ -56,18 +56,13 @@
                             {{ asset('images/tours/cuba.png') | imagine_filter('min_width_800') }} 800w,
                             {{ asset('images/tours/cuba.png') | imagine_filter('min_width_600') }} 600w">
 
-                <img class="lazyload blur-up"
-                     sizes="100vw"
-                     data-src="{{ asset('images/tours/cuba_portraid.png') | imagine_filter('small_thumbnail') }}"
-                     alt="Special New-Years offer"
-                     data-srcset="
-                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_1920') }} 1920w,
-                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_1200') }} 1200w,
-                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_1000') }} 1000w,
-                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_900') }} 900w,
-                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_800') }} 800w,
-                            {{ asset('images/tours/cuba_portraid.png') | imagine_filter('min_width_600') }} 600w"
-                     >
+                {{ imgTagContent(
+                    asset('images/tours/cuba_portraid.png'),
+                    'Special New-Years offer',
+                    "100vw",
+                    1920)
+                | raw
+                }}
             </picture>
         </div>
         <div class="tours__inside_cuba__content">
