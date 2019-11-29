@@ -14,17 +14,13 @@
 
         {% for bike in bikes %}
             <div class="bikes__gallery__bike gallery__item">
-                <img class="lazyload blur-up"
-                     sizes="(min-width: 1200px) 66vw, 100vw"
-                     data-srcset="
-                        {{ bike.webPath | imagine_filter('min_width_1920') }} 1920w,
-                        {{ bike.webPath | imagine_filter('min_width_1200') }} 1200w,
-                        {{ bike.webPath | imagine_filter('min_width_1000') }} 1000w,
-                        {{ bike.webPath | imagine_filter('min_width_900') }} 900w,
-                        {{ bike.webPath | imagine_filter('min_width_800') }} 800w,
-                        {{ bike.webPath | imagine_filter('min_width_600') }} 600w"
-                     src="{{ bike.webPath | imagine_filter('small_thumbnail') }}"
-                     alt="{% trans %}index.us.bike.bike1.title{% endtrans %}">
+                {{ imgTagContent(
+                    bike.webPath,
+                    bike.name,
+                    "(min-width: 1200px) 66vw, 100vw",
+                    1920)
+                | raw
+                }}
                 <div class="bikes__gallery__bike__title">
                     <h4>{{ bike.name }}</h4>
                 </div>
