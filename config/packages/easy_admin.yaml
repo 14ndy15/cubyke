@@ -3,7 +3,7 @@ easy_admin:
     design:
         brand_color: '#e23342'
         form_theme:
-            - '@EasyAdmin/Form/bootstrap_4.html.twig'
+            - '@EasyAdmin/form/bootstrap_4.html.twig'
             - '@FOSCKEditor/Form/ckeditor_widget.html.twig'
     formats:
         date: 'd/m/Y'
