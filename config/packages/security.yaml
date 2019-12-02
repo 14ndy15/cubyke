@@ -5,11 +5,12 @@ security:
             memory:
                 users:
                     landy:
-                        password: $argon2i$v=19$m=65536,t=4,p=1$MmJ6VVMvbG1IMkhEQVVkWQ$ogxH9pwx9+tSHWqg4yUls7AiH5/fXk34uedQEaJh3dM
+                        password: $2y$12$P6AQdkA07fx.BLKsmpeCT.Nm0pwAyoV6L8ad5dSN.wC5VYZxvF/cy
                         roles: ['ROLES_USER', 'ROLE_ADMIN']
     encoders:
         Symfony\Component\Security\Core\User\User:
-            algorithm: auto
+            algorithm: bcrypt
+            cost: 12
     firewalls:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
