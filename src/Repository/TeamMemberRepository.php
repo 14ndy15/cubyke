@@ -22,11 +22,10 @@ class TeamMemberRepository extends ServiceEntityRepository
     /**
     * @return TeamMember[] Returns an array of TeamMember objects
     */
-    public function getByOrder($amount = 10)
+    public function getByOrder()
     {
         return $this->createQueryBuilder('t')
             ->orderBy('t.orderPos', 'ASC')
-            ->setMaxResults($amount)
             ->getQuery()
             ->getResult()
         ;
