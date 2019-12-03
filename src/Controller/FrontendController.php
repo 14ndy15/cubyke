@@ -28,7 +28,7 @@ class FrontendController extends AbstractController
 
         $teamMembers = $this->getDoctrine()
             ->getRepository(TeamMember::class)
-            ->getByOrder(10);
+            ->getByOrder();
 
         $bikes = $this->getDoctrine()
             ->getRepository(Bike::class)
