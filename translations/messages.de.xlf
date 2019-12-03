@@ -157,7 +157,7 @@
       </trans-unit>
       <trans-unit id="Mk.P_Sf" resname="global.footer.in_germany">
         <source>global.footer.in_germany</source>
-        <target>In Germany</target>
+        <target>In Deutschland</target>
       </trans-unit>
       <trans-unit id="1UyEULu" resname="global.header.home">
         <source>global.header.home</source>
@@ -197,7 +197,7 @@
       </trans-unit>
       <trans-unit id="QkVlKbN" resname="global.footer.message">
         <source>global.footer.message</source>
-        <target>Nachricht</target>
+        <target>Ihre Nachricht</target>
       </trans-unit>
       <trans-unit id="KUX74NO" resname="global.footer.send_message">
         <source>global.footer.send_message</source>

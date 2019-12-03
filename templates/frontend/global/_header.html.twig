@@ -23,34 +23,15 @@
 
     <div class="lang">
         <ul>
-            <li>
-                <a href="#">{{ app.request.locale }}</a>
-                <ul class="dropdown">
-                    {% if app.request.get('_route')  in ['blog_entry','blog_entry_alternative'] %}
-                        {% if app.request.locale == 'es' %}
-                            <li><a href="{{ path('blog_entry', {'_locale': 'en', '_id': id, '_name': name} ) }}">EN</a></li>
-                            <li><a href="{{ path('blog_entry', {'_locale': 'de', '_id': id, '_name': name} ) }}">DE</a></li>
-                        {% elseif app.request.locale == 'de' %}
-                            <li><a href="{{ path('blog_entry', {'_locale': 'en', '_id': id, '_name': name} ) }}">EN</a></li>
-                            <li><a href="{{ path('blog_entry', {'_locale': 'es', '_id': id, '_name': name} ) }}">ES</a></li>
-                        {% else  %}
-                            <li><a href="{{ path('blog_entry', {'_locale': 'es', '_id': id, '_name': name} ) }}">ES</a></li>
-                            <li><a href="{{ path('blog_entry', {'_locale': 'de', '_id': id, '_name': name} ) }}">DE</a></li>
-                        {% endif %}
-                    {% else %}
-                        {% if app.request.locale == 'es' %}
-                            <li><a href="{{ path(app.request.get('_route'), {'_locale': 'en'} ) }}">EN</a></li>
-                            <li><a href="{{ path(app.request.get('_route'), {'_locale': 'de'} ) }}">DE</a></li>
-                        {% elseif app.request.locale == 'de' %}
-                            <li><a href="{{ path(app.request.get('_route'), {'_locale': 'en'} ) }}">EN</a></li>
-                            <li><a href="{{ path(app.request.get('_route'), {'_locale': 'es'} ) }}">ES</a></li>
-                        {% else %}
-                            <li><a href="{{ path(app.request.get('_route'), {'_locale': 'es'} ) }}">ES</a></li>
-                            <li><a href="{{ path(app.request.get('_route'), {'_locale': 'de'} ) }}">DE</a></li>
-                        {% endif %}
-                    {% endif %}
-                </ul>
-            </li>
+            {% if app.request.get('_route')  in ['blog_entry','blog_entry_alternative'] %}
+                <li class="{% if app.request.locale == 'en' %}selected{% endif %}"><a href="{{ path('blog_entry', {'_locale': 'en', '_id': id, '_name': name} ) }}">EN</a></li>
+                <li class="{% if app.request.locale == 'es' %}selected{% endif %}"><a href="{{ path('blog_entry', {'_locale': 'es', '_id': id, '_name': name} ) }}">ES</a></li>
+                <li class="{% if app.request.locale == 'de' %}selected{% endif %}"><a href="{{ path('blog_entry', {'_locale': 'de', '_id': id, '_name': name} ) }}">DE</a></li>
+            {% else %}
+                <li class="{% if app.request.locale == 'en' %}selected{% endif %}"><a href="{{ path(app.request.get('_route'), {'_locale': 'en'} ) }}">EN</a></li>
+                <li class="{% if app.request.locale == 'es' %}selected{% endif %}"><a href="{{ path(app.request.get('_route'), {'_locale': 'es'} ) }}">ES</a></li>
+                <li class="{% if app.request.locale == 'de' %}selected{% endif %}"><a href="{{ path(app.request.get('_route'), {'_locale': 'de'} ) }}">DE</a></li>
+            {% endif %}
         </ul>
     </div>
 </header>

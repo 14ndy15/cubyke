@@ -15,7 +15,10 @@
 
         {{ include('frontend/global/_header.html.twig') }}
 
-        {% block body %}{% endblock %}
+        {{  render(controller('App\\Controller\\FrontendController::usCitizenText'))  }}
+
+        {% block body %}
+        {% endblock %}
 
         {{ include('frontend/global/_footer.html.twig') }}
 

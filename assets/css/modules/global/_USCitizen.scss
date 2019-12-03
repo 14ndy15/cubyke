@@ -1,0 +1,72 @@
+.US_Citizen{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    z-index: 2;
+
+    position: fixed;
+    padding: .5em 1em;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: $mainRed;
+    transform: translateY(calc( 100% - 4.5em));
+    transition: transform .3s ease-in-out;
+
+    @include atLarge{
+        right: 1em;
+        width: 30%;
+    }
+
+    &--expand{
+        transform: translateY(0%);
+    }
+
+    @keyframes hideInfo {
+        0%{
+            transform: translateY(0%);
+            opacity: 1;
+            z-index: 2;
+        }
+        100%{
+            transform: translateY(100%);
+            opacity: 1;
+            z-index: 2;
+        }
+    }
+
+    &--hide{
+        opacity: 0;
+        z-index: -2;
+        animation: hideInfo .3s ease-in-out 1;
+    }
+
+    &__info{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+
+        & h3 {
+            color: white;
+            a {
+                text-decoration: underline;
+                color: white;
+            }
+        }
+    }
+
+    &__content{
+        & h3{
+            color: white;
+
+        }
+
+        & p{
+            color: white;
+            line-height: 1.2;
+        }
+    }
+}

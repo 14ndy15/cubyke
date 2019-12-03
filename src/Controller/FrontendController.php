@@ -10,8 +10,10 @@ use App\Entity\Tour;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
+
 class FrontendController extends AbstractController
 {
+    use GeoIp;
     /**
      * @Route("/{_locale}",
      *     defaults={"_locale": "en"},
@@ -234,6 +236,15 @@ class FrontendController extends AbstractController
 
         return $this->render('frontend/basic_page.html.twig', [
             'page' => $page,
+        ]);
+    }
+
+    public function usCitizenText()
+    {
+        $isUs =  $this->isUS();
+        $existCookie =  !isset($_COOKIE['readUSCitizenInfo']);
+        return $this->render('frontend/global/_textUSCitizen.html.twig', [
+            'show' => $isUs && $existCookie,
         ]);
     }
 }
