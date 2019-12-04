@@ -7,7 +7,7 @@
     {% for member in teamMembers %}
     <div id="member-{{ member.id }}" class="team__member {% if loop.index % 2 == 0 %} team__member--inverse {% endif %}">
             <div class="team__member__image">
-                <a href="{{ path('team') }}#{{ member.id }}">
+                <a href="{{ path('team') }}#{{ member.name | url_encode }}">
                 {{ imgTagContent(
                     member.webPath,
                     member.name,

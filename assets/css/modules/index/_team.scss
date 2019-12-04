@@ -7,7 +7,7 @@
     margin-bottom: 1em;
 
     @include atLarge{
-        justify-content: space-around;
+        justify-content: center;
         width: 96%;
         margin: auto;
     }

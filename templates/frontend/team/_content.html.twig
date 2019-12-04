@@ -1,7 +1,7 @@
 <section class="section team">
 
     {% for member in teamMembers %}
-    <div id="{{ member.id }}" class="team__member">
+    <div id="{{ member.name | url_encode }}" class="team__member">
         <div class="team__member__image">
             {{ imgTagContent(
                 member.webPath,
