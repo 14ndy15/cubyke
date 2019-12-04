@@ -1,7 +1,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#e23342">
-<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
 
 {% if app.request.get('_route')  in ['blog_entry','blog_entry_alternative'] %}
     <link rel="alternate" hreflang="en" href="{{ absolute_url(path('blog_entry', {'_locale': 'en', '_id': id, '_name': name} )) }}" />
