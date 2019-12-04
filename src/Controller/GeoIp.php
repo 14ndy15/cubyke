@@ -11,8 +11,7 @@ trait GeoIp
 {
     function isUS(){
         $userIp = $_SERVER['REMOTE_ADDR'];
-
-        return true;
+        
         $client = HttpClient::create();
         try {
             $response = $client->request('GET', 'https://api.ipdata.co/' . $userIp . '?api-key=' . APIKEY);
