@@ -50,6 +50,21 @@ class TeamMember extends ImageField
      */
     private $orderPos;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $positionEn;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $postitionEs;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $positionDe;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -132,6 +147,42 @@ class TeamMember extends ImageField
     public function setOrderPos(?int $orderPos): self
     {
         $this->orderPos = $orderPos;
+
+        return $this;
+    }
+
+    public function getPositionEn(): ?string
+    {
+        return $this->positionEn;
+    }
+
+    public function setPositionEn(?string $positionEn): self
+    {
+        $this->positionEn = $positionEn;
+
+        return $this;
+    }
+
+    public function getPostitionEs(): ?string
+    {
+        return $this->postitionEs;
+    }
+
+    public function setPostitionEs(?string $postitionEs): self
+    {
+        $this->postitionEs = $postitionEs;
+
+        return $this;
+    }
+
+    public function getPositionDe(): ?string
+    {
+        return $this->positionDe;
+    }
+
+    public function setPositionDe(string $positionDe): self
+    {
+        $this->positionDe = $positionDe;
 
         return $this;
     }

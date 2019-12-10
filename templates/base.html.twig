@@ -1,3 +1,11 @@
+{% if app.request.locale == 'es' %}
+    {% set trekksoftLink = 'https://cubyke.trekksoft.com/es' %}
+{% elseif app.request.locale == 'de' %}
+    {% set trekksoftLink = 'https://cubyke.trekksoft.com/de' %}
+{% else %}
+    {% set trekksoftLink = 'https://cubyke.trekksoft.com/en_GB' %}
+{% endif %}
+
 <!DOCTYPE html>
 <html lang="{{ app.request.locale }}">
     <head>

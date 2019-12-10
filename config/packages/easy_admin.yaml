@@ -70,17 +70,19 @@ easy_admin:
                 title: 'Add team member'
                 fields:
                     - {property: name, label: 'Name'}
-                    - {property: position, label: 'Position in Company'}
+                    - {property: positionEn, label: 'Position in Company (EN)'}
+                    - {property: positionEs, label: 'Position in Company (ES)'}
+                    - {property: positionDe, label: 'Position in Company (DE)'}
                     - {property: file, type: 'file', label: 'Image'}
-                    - {property: descriptionEn, type: fos_ckeditor, label: 'Description in english'}
-                    - {property: descriptionEs, type: fos_ckeditor, label: 'Description in spanish'}
-                    - {property: descriptionDe, type: fos_ckeditor, label: 'Description in german'}
+                    - {property: descriptionEn, type: fos_ckeditor, label: 'Description (EN))'}
+                    - {property: descriptionEs, type: fos_ckeditor, label: 'Description (ES)'}
+                    - {property: descriptionDe, type: fos_ckeditor, label: 'Description (DE)'}
                     - {property: orderPos, label: 'Position for order'}
             list:
                 title: 'Team members'
                 fields:
                     - {property: 'name', label: 'Name'}
-                    - {property: 'position'}
+                    - {property: 'positionEn', label: 'Position in Company'}
                     - {property: 'descriptionEn', label: 'Description (EN)'}
                     - {property: 'getWebPath', label: 'Image', type: 'image'}
                     - {property: 'orderPos', label: 'Order'}

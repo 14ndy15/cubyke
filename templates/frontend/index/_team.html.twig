@@ -20,7 +20,7 @@
             <div class="team__member__name">
                 <a href="{{ path('team') }}#{{ member.id }}">
                 <h4>{{ member.name }}</h4>
-                <span>{{ member.position }}</span>
+                <span>{{ member.getLocale('position') | raw }}</span>
                 </a>
             </div>
         </div>

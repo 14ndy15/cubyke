@@ -19,7 +19,7 @@
       </trans-unit>
       <trans-unit id="55LZJCs" resname="global.footer.privacy_policy">
         <source>global.footer.privacy_policy</source>
-        <target>Privacy Policy</target>
+        <target>Datenschutz</target>
       </trans-unit>
       <trans-unit id="SYDZRgL" resname="global.footer.travel_condition">
         <source>global.footer.travel_condition</source>

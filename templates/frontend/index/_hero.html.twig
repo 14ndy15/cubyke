@@ -9,10 +9,11 @@
     <div class="hero__content">
         <h1>{% trans %}index.hero.title{% endtrans %}</h1>
         <h2>{% trans %}index.hero.subtitle{% endtrans %}</h2>
+        <div class="hero__content__action"
+             data-sal="slide-up"
+             data-sal-delay="1000">
+            <a class="btn" href="{{ trekksoftLink }}">{% trans %}index.hero.tour{% endtrans %}</a>
+        </div>
     </div>
-    <div class="hero__action"
-         data-sal="slide-up"
-         data-sal-delay="1000">
-        <a class="btn" href="#tours">{% trans %}index.hero.tour{% endtrans %}</a>
-    </div>
+
 </section>

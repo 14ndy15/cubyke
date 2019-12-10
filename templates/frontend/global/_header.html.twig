@@ -1,4 +1,3 @@
-
 <header class="header">
 
     <div class="logo">
@@ -11,10 +10,12 @@
         <div class="menu-icon__middle"></div>
     </div>
 
+
     <nav class="nav swing-out-top-bck">
         <ul>
             <li><a href="{{ path('index') }}#hero">{% trans %}global.header.home{% endtrans %}</a></li>
-            <li><a href="{{ url('index') }}#tours">{% trans %}global.header.tours{% endtrans %}</a></li>
+{#            <li><a href="{{ url('index') }}#tours">{% trans %}global.header.tours{% endtrans %}</a></li>#}
+            <li><a href="{{ trekksoftLink }}">{% trans %}global.header.tours{% endtrans %}</a></li>
             <li><a href="{{ url('index') }}#bikes">{% trans %}global.header.bikes{% endtrans %}</a></li>
             <li><a href="{{ url('index') }}#us">{% trans %}global.header.about_us{% endtrans %}</a></li>
             <li><a href="{{ url('index') }}#blog">{% trans %}global.header.blog{% endtrans %}</a></li>
