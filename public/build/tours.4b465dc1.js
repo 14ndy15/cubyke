@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["tours"],{"0Mul":function(n,t,u){},tpzK:function(n,t,u){"use strict";u.r(t);u("0Mul")}},[["tpzK","runtime"]]]);

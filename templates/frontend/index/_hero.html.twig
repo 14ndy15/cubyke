@@ -1,4 +1,5 @@
 <section id="hero" class="section hero">
+
     <div class="hero__video">
         <video class="video" autoplay loop poster="{{ asset('video/video_init_frame.jpg') | imagine_filter('min_width_1000') }}">
             <source src="{{ asset('video/hero_video.webm') }}" type='video/webm; codecs="vp9, vorbis"' />
@@ -6,14 +7,19 @@
             <source src="{{ asset('video/hero_video.ogv')}}" type='video/ogg; codecs="theora, vorbis"' />
         </video>
     </div>
+
     <div class="hero__content">
         <h1>{% trans %}index.hero.title{% endtrans %}</h1>
         <h2>{% trans %}index.hero.subtitle{% endtrans %}</h2>
         <div class="hero__content__action"
              data-sal="slide-up"
-             data-sal-delay="1000">
+             data-sal-delay="500">
             <a class="btn" href="{{ trekksoftLink }}">{% trans %}index.hero.tour{% endtrans %}</a>
         </div>
+    </div>
+
+    <div class="hero__scroll">
+        <a href="#tours" class="icon-scroll"></a>
     </div>
 
 </section>
