@@ -24,12 +24,6 @@ class TeamMember extends ImageField
      */
     private $name;
 
-
-    /**
-     * @ORM\Column(type="string", length=255, nullable=true)
-     */
-    private $position;
-
     /**
      * @ORM\Column(type="text", nullable=true)
      */
@@ -58,7 +52,7 @@ class TeamMember extends ImageField
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $postitionEs;
+    private $positionEs;
 
     /**
      * @ORM\Column(type="string", length=255)
@@ -81,20 +75,6 @@ class TeamMember extends ImageField
 
         return $this;
     }
-
-    public function getPosition(): ?string
-    {
-        return $this->position;
-    }
-
-    public function setPosition(?string $position): self
-    {
-        $this->position = $position;
-
-        return $this;
-    }
-
-
 
 
     public function getDescriptionEn(): ?string
@@ -163,14 +143,14 @@ class TeamMember extends ImageField
         return $this;
     }
 
-    public function getPostitionEs(): ?string
+    public function getPositionEs(): ?string
     {
-        return $this->postitionEs;
+        return $this->positionEs;
     }
 
-    public function setPostitionEs(?string $postitionEs): self
+    public function setPositionEs(?string $positionEs): self
     {
-        $this->postitionEs = $postitionEs;
+        $this->positionEs = $positionEs;
 
         return $this;
     }
