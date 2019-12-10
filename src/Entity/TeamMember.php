@@ -55,7 +55,7 @@ class TeamMember extends ImageField
     private $positionEs;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $positionDe;
 

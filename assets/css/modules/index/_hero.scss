@@ -44,7 +44,7 @@
         & h1{
             left: 0;
             font-weight: 900;
-            margin: .25em auto;
+            margin: .25em 0;
 
             @include atLarge{
                 width: 60%;
@@ -53,7 +53,7 @@
 
         & h2{
             color: white;
-            margin: .25em auto;
+            margin: .25em 0;
 
             @include atLarge{
                 width: 60%;
