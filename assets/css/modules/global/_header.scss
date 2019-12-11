@@ -1,6 +1,6 @@
 .header {
     z-index: 2;
-    background: $mainDarkRed;
+    background: rgba($mainRed, .95);
     position: absolute;
     width: 100%;
     display: flex;
@@ -13,13 +13,14 @@
     @include atLarge{
         padding: 0 8em 0 4em;
         position: fixed;
+        background: linear-gradient(45deg, rgba(black, .95), rgba($mainRed, .95) 45%);
     }
 
     & .logo {
-        width: 4em;
+        width: 5.25em;
         margin: 0;
         position: absolute;
-        left: 1em;
+        left: .25em;
 
         @include atLarge{
             position: relative;
@@ -32,7 +33,7 @@
         width: 100%;
         position: absolute;
         top: 3.25em;
-        background: $mainDarkRed;
+        background: rgba($mainRed, .95);
 
         @include atLarge{
             position: relative;
@@ -165,7 +166,7 @@
             float: left;
 
             padding: .5em;
-            margin: auto .25em;
+            margin: auto .2em;
             position: relative;
             text-decoration: none;
             transition-duration: 0.5s;
