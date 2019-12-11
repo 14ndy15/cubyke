@@ -20,7 +20,7 @@
 
     &__member{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         width: 90%;
         margin-bottom: 1em;
@@ -30,6 +30,7 @@
             width: 16%;
             flex-wrap: wrap;
             margin-bottom: 2em;
+            justify-content: center;
         }
 
         &:hover{
@@ -57,7 +58,7 @@
         }
 
         &__name{
-            width: 48%;
+            width: 45%;
             text-align: center;
             order: 2;
 
