@@ -85,4 +85,53 @@
         </div>
     </div>
 
+    <div class="tripadvisor__reviews">
+        <div class="tripadvisor__reviews__widget">
+
+            <div class="lazyload" data-script="https://www.jscache.com/wejs?uniq=25&locationId=13485075&lang={{ lang }}&border=false&display_version=2&wtype=selfserveprop&rating=true&nreviews=4&writereviewlink=true&popIdx=true&iswide=false">
+                <div id="TA_selfserveprop25" class="TA_selfserveprop">
+                    <ul class="TA_links">
+                        <li>Reviews of <a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g147271-d13485075-Reviews-Cubyke-Havana_Ciudad_de_la_Habana_Province_Cuba.html">Cubyke</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="tripadvisor__reviews__review">
+            <div class="tripadvisor__reviews__review__image">
+                <picture>
+                    <source class="lazyload blur-up"
+                            media="(min-width: 1200px)"
+                            sizes="100vw"
+                            data-srcset="
+                                {{ asset('images/tours/review.jpg') | imagine_filter('min_width_1920') }} 1920w,
+                                {{ asset('images/tours/review.jpg') | imagine_filter('min_width_1200') }} 1200w,
+                                {{ asset('images/tours/review.jpg') | imagine_filter('min_width_1000') }} 1000w,
+                                {{ asset('images/tours/review.jpg') | imagine_filter('min_width_900') }} 900w,
+                                {{ asset('images/tours/review.jpg') | imagine_filter('min_width_800') }} 800w,
+                                {{ asset('images/tours/review.jpg') | imagine_filter('min_width_600') }} 600w
+                            ">
+
+                    {{ imgTagContent(
+                        asset('images/tours/review_portraid.jpg'),
+                        '',
+                        "(min-width: 1200px) 80vw, 100vw",
+                        1920
+                    ) | raw }}
+                </picture>
+            </div>
+            <div class="tripadvisor__reviews__review__content">
+                <blockquote>
+                    <p>{% trans %}index.tours.review{% endtrans %}</p>
+                    <footer>
+                        <cite>
+                            <a href="https://www.tripadvisor.com/Attraction_Review-g147271-d13485075-Reviews-Cubyke-Havana_Ciudad_de_la_Habana_Province_Cuba.html">
+                                TripAdvisor
+                            </a>
+                        </cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
 </section>

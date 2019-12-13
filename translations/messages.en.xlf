@@ -65,11 +65,11 @@
         <source>index.us.team.see_more</source>
         <target>See more</target>
       </trans-unit>
-      <trans-unit id="9r0DD02" resname="index.bike.title">
+      <trans-unit id="Q6TyR23" resname="index.bike.title">
         <source>index.bike.title</source>
         <target>Our bikes</target>
       </trans-unit>
-      <trans-unit id="jpobwUZ" resname="index.bike.description_1">
+      <trans-unit id="keF0mLe" resname="index.bike.description_1">
         <source>index.bike.description_1</source>
         <target>Our Cubykes are technically top-modern and unique
                 electric bikes that are handmade in Germany,
@@ -77,42 +77,42 @@
                 The engine assistance is sensor-controlled and
                 complies with the European guidelines for electric bicycles</target>
       </trans-unit>
-      <trans-unit id="xdpjXBQ" resname="index.bike.description_2">
+      <trans-unit id="rtPtusv" resname="index.bike.description_2">
         <source>index.bike.description_2</source>
         <target>Of course we also have classic trekking, city,
                 mountain bikes and compact bikes in stock.
                 Whatever you wish, in Cuba we are prepared
                 for you and your adventure.</target>
       </trans-unit>
-      <trans-unit id="nD1euuu" resname="index.bike.bike1.title">
+      <trans-unit id="MnCpVIN" resname="index.bike.bike1.title">
         <source>index.bike.bike1.title</source>
         <target>Cubyke Compañero</target>
       </trans-unit>
-      <trans-unit id="8rJG5pG" resname="index.bike.bike2.title">
+      <trans-unit id="zWpRdrs" resname="index.bike.bike2.title">
         <source>index.bike.bike2.title</source>
         <target>Cubyke Compañera</target>
       </trans-unit>
-      <trans-unit id="DF5RdeP" resname="index.bike.bike3.title">
+      <trans-unit id="K5SIHN7" resname="index.bike.bike3.title">
         <source>index.bike.bike3.title</source>
         <target>E - Gazelle Puur NL / Miss Grace </target>
       </trans-unit>
-      <trans-unit id="04Azk6q" resname="index.bike.bike4.title">
+      <trans-unit id="2tSG779" resname="index.bike.bike4.title">
         <source>index.bike.bike4.title</source>
         <target>E - Electra - Townie</target>
       </trans-unit>
-      <trans-unit id="N6FaYoD" resname="index.bike.bike5.title">
+      <trans-unit id="Bbv7VVg" resname="index.bike.bike5.title">
         <source>index.bike.bike5.title</source>
         <target>E - Raleigh - Urban</target>
       </trans-unit>
-      <trans-unit id="p96DB9q" resname="index.bike.bike6.title">
+      <trans-unit id="51x1_Qc" resname="index.bike.bike6.title">
         <source>index.bike.bike6.title</source>
         <target>E - BH - Rebel</target>
       </trans-unit>
-      <trans-unit id="OhHa8gA" resname="index.bike.bike7.title">
+      <trans-unit id="pfvJqec" resname="index.bike.bike7.title">
         <source>index.bike.bike7.title</source>
         <target>E - Gazelle - Orange C330 / C7 / C8</target>
       </trans-unit>
-      <trans-unit id="Ug5H1HO" resname="index.bikes.buy">
+      <trans-unit id="DxFHdV7" resname="index.bikes.buy">
         <source>index.bikes.buy</source>
         <target>If you are interested in purchasing an
                 exclusive Cubyke, please send us</target>
@@ -121,7 +121,7 @@
         <source>global.see_more</source>
         <target>See more</target>
       </trans-unit>
-      <trans-unit id="c1_Rr2s" resname="index.bikes.buy.link">
+      <trans-unit id="C4vM6il" resname="index.bikes.buy.link">
         <source>index.bikes.buy.link</source>
         <target>your request</target>
       </trans-unit>
@@ -280,6 +280,14 @@
       <trans-unit id="3piGqM7" resname="global.footer.represent_ecotur">
         <source>global.footer.represent_ecotur</source>
         <target>Represented in Cuba by Ecotur</target>
+      </trans-unit>
+      <trans-unit id="kCVmAUV" resname="index.tours.review">
+        <source>index.tours.review</source>
+        <target>We were first time visitors to Havana,
+                Cuba and we were fortunate to have booked a
+                private tour for 5 people with Cubyke.
+                There is no better way to see this amazing city,
+                than with our guide Alejandro and Cubyke.</target>
       </trans-unit>
     </body>
   </file>

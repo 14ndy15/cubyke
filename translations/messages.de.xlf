@@ -33,11 +33,11 @@
         <source>global.footer.patent</source>
         <target>Markenpatent </target>
       </trans-unit>
-      <trans-unit id="9r0DD02" resname="index.bike.title">
+      <trans-unit id="Q6TyR23" resname="index.bike.title">
         <source>index.bike.title</source>
         <target>Unsere Bikes</target>
       </trans-unit>
-      <trans-unit id="jpobwUZ" resname="index.bike.description_1">
+      <trans-unit id="keF0mLe" resname="index.bike.description_1">
         <source>index.bike.description_1</source>
         <target>Unsere Cubykes sind technisch hochmoderne
         und einzigartige Elektrofahrräder,
@@ -47,7 +47,7 @@
         und entspricht den europäischen Richtlinien
         für Elektrofahrräder</target>
       </trans-unit>
-      <trans-unit id="xdpjXBQ" resname="index.bike.description_2">
+      <trans-unit id="rtPtusv" resname="index.bike.description_2">
         <source>index.bike.description_2</source>
         <target>Natürlich haben wir auch klassische
         Trekking-, City-, Mountainbike- und
@@ -55,16 +55,16 @@
         Was auch immer du wünscht, in Kuba sind
         wir auf dich und dein Abenteuer vorbereitet.</target>
       </trans-unit>
-      <trans-unit id="nD1euuu" resname="index.bike.bike1.title">
+      <trans-unit id="MnCpVIN" resname="index.bike.bike1.title">
         <source>index.bike.bike1.title</source>
         <target>__index.bike.bike1.title</target>
       </trans-unit>
-      <trans-unit id="Ug5H1HO" resname="index.bikes.buy">
+      <trans-unit id="DxFHdV7" resname="index.bikes.buy">
         <source>index.bikes.buy</source>
         <target>Wenn du am Kauf eines außergewöhnlichen
         Cubykes interessiert bist, schick uns deine</target>
       </trans-unit>
-      <trans-unit id="c1_Rr2s" resname="index.bikes.buy.link">
+      <trans-unit id="C4vM6il" resname="index.bikes.buy.link">
         <source>index.bikes.buy.link</source>
         <target>Anfrage</target>
       </trans-unit>
@@ -206,6 +206,13 @@
       <trans-unit id="3piGqM7" resname="global.footer.represent_ecotur">
         <source>global.footer.represent_ecotur</source>
         <target>Vertreten in Kuba durch Ecotur</target>
+      </trans-unit>
+      <trans-unit id="kCVmAUV" resname="index.tours.review">
+        <source>index.tours.review</source>
+        <target>Wir waren einen Tag mit Jens in und um Havanna unterwegs!
+                Es war großartig: gute Laune, tolle Infos, super Räder...
+                können wir absolut empfehlen!
+                Der schönste Tag der ganzen Kuba Reise!</target>
       </trans-unit>
     </body>
   </file>
