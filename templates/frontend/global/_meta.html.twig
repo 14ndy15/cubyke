@@ -4,11 +4,17 @@
 <link rel="preconnect" href="https://www.googletagmanager.com">
 
 {% if app.request.get('_route')  in ['blog_entry','blog_entry_alternative'] %}
+    <link rel="canonical" href="{{ absolute_url(path('blog_entry', {'_locale': lang, '_id': id, '_name': name} )) }}" />
+
+
     <link rel="alternate" hreflang="en" href="{{ absolute_url(path('blog_entry', {'_locale': 'en', '_id': id, '_name': name} )) }}" />
     <link rel="alternate" hreflang="x-default" href="{{ absolute_url(path('blog_entry', {'_locale': 'en', '_id': id, '_name': name} )) }}" />
     <link rel="alternate" hreflang="de" href="{{ absolute_url(path('blog_entry', {'_locale': 'de', '_id': id, '_name': name} )) }}" />
     <link rel="alternate" hreflang="es" href="{{ absolute_url(path('blog_entry', {'_locale': 'es', '_id': id, '_name': name} )) }}" />
 {% else %}
+    <link rel="canonical" href="{{ absolute_url(path(app.request.get('_route'), {'_locale': lang } )) }}"/>
+
+
     <link rel="alternate" hreflang="en" href="{{ absolute_url(path(app.request.get('_route'), {'_locale': 'en'} )) }}" />
     <link rel="alternate" hreflang="x-default" href="{{ absolute_url(path(app.request.get('_route'), {'_locale': 'en'} )) }}" />
     <link rel="alternate" hreflang="de" href="{{ absolute_url(path(app.request.get('_route'), {'_locale': 'de'} )) }}" />
