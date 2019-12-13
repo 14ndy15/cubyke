@@ -33,23 +33,23 @@
         <source>global.footer.patent</source>
         <target>Patente</target>
       </trans-unit>
-      <trans-unit id="9r0DD02" resname="index.bike.title">
+      <trans-unit id="Q6TyR23" resname="index.bike.title">
         <source>index.bike.title</source>
         <target>Nuestras Bicis</target>
       </trans-unit>
-      <trans-unit id="jpobwUZ" resname="index.bike.description_1">
+      <trans-unit id="keF0mLe" resname="index.bike.description_1">
         <source>index.bike.description_1</source>
         <target>Nuestras Cubykes son bicicletas eléctricas con tecnología de punta y vanguardistas y únicas, fabricadas en Alemania, pero inspiradas en su diseño de Cuba. La asistencia del motor está controlada por sensores y cumple con las directrices europeas para bicicletas eléctricas</target>
       </trans-unit>
-      <trans-unit id="xdpjXBQ" resname="index.bike.description_2">
+      <trans-unit id="rtPtusv" resname="index.bike.description_2">
         <source>index.bike.description_2</source>
         <target>Por supuesto, también tenemos disponibles bicicletas de trekking, de ciudad, de montaña y compactas. Lo que desees, en Cuba estamos preparados para ti y tu aventura.</target>
       </trans-unit>
-      <trans-unit id="Ug5H1HO" resname="index.bikes.buy">
+      <trans-unit id="DxFHdV7" resname="index.bikes.buy">
         <source>index.bikes.buy</source>
         <target>Si estás interesado en comprar una Cubyke exclusiva, envíanos </target>
       </trans-unit>
-      <trans-unit id="c1_Rr2s" resname="index.bikes.buy.link">
+      <trans-unit id="C4vM6il" resname="index.bikes.buy.link">
         <source>index.bikes.buy.link</source>
         <target>tu solicitud</target>
       </trans-unit>
@@ -183,6 +183,13 @@
       <trans-unit id="V9gzmqp" resname="index.tour.inside_cuba.button">
         <source>index.tour.inside_cuba.button</source>
         <target>Reserva ahora!</target>
+      </trans-unit>
+      <trans-unit id="kCVmAUV" resname="index.tours.review">
+        <source>index.tours.review</source>
+        <target>Lo mejor que hecho en estos días ha sido este viaje.
+        Adoré cada minuto del recorrido. Fue genial viajar la Habana con Cubyke,
+        de ser posible lo haría cada semana.
+        El que desee relajarse y disfrutar de un Tour diferente debería intentarlo.</target>
       </trans-unit>
     </body>
   </file>
