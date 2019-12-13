@@ -214,6 +214,10 @@
                 können wir absolut empfehlen!
                 Der schönste Tag der ganzen Kuba Reise!</target>
       </trans-unit>
+      <trans-unit id="c2dZnOd" resname="global.footer.contact">
+        <source>global.footer.contact</source>
+        <target>Kontakt</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -191,6 +191,10 @@
         de ser posible lo haría cada semana.
         El que desee relajarse y disfrutar de un Tour diferente debería intentarlo.</target>
       </trans-unit>
+      <trans-unit id="c2dZnOd" resname="global.footer.contact">
+        <source>global.footer.contact</source>
+        <target>Contacto</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

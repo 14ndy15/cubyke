@@ -289,6 +289,10 @@
                 There is no better way to see this amazing city,
                 than with our guide Alejandro and Cubyke.</target>
       </trans-unit>
+      <trans-unit id="c2dZnOd" resname="global.footer.contact">
+        <source>global.footer.contact</source>
+        <target>Contact</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
