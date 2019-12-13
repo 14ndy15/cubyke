@@ -3,22 +3,23 @@
     "app": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/0.4cd941f5.js",
-        "/build/app.63585dbc.js"
+        "/build/0.b509bdcc.js",
+        "/build/2.4289be0e.js",
+        "/build/app.ec013022.js"
       ],
       "css": [
-        "/build/0.bfb2a68f.css",
+        "/build/2.bfb2a68f.css",
         "/build/app.721012cf.css"
       ]
     },
     "index": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/2.ee9f7d3a.js",
-        "/build/index.b9920622.js"
+        "/build/0.b509bdcc.js",
+        "/build/index.01f47f80.js"
       ],
       "css": [
-        "/build/index.8a1fd3f4.css"
+        "/build/index.b8e1d15f.css"
       ]
     },
     "tours": {
