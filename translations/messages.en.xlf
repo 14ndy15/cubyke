@@ -271,7 +271,7 @@
       </trans-unit>
       <trans-unit id="QkVlKbN" resname="global.footer.message">
         <source>global.footer.message</source>
-        <target>Message</target>
+        <target>Your message</target>
       </trans-unit>
       <trans-unit id="KUX74NO" resname="global.footer.send_message">
         <source>global.footer.send_message</source>
@@ -292,6 +292,35 @@
       <trans-unit id="c2dZnOd" resname="global.footer.contact">
         <source>global.footer.contact</source>
         <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="1glqETl" resname="global.citizen_info.title">
+        <source>global.citizen_info.title</source>
+        <target>Info for US citizens</target>
+      </trans-unit>
+      <trans-unit id="6W30LsN" resname="global.citizen_info.greeting">
+        <source>global.citizen_info.greeting</source>
+        <target>Dear Prospective US Citizen Customer</target>
+      </trans-unit>
+      <trans-unit id="Us8JFMN" resname="global.citizen_info.text_1">
+        <source>global.citizen_info.text_1</source>
+        <target>To the best of our knowledge, all of our experiences
+                allow you to travel to Cuba without conflicting with
+                the U.S. Department of State. They fall under the
+                Support for the Cuban People Category of Travel.</target>
+      </trans-unit>
+      <trans-unit id="e6JMA48" resname="global.citizen_info.text_2">
+        <source>global.citizen_info.text_2</source>
+        <target>None of our products include economic interactions
+                with the List of Restricted Entities and Associated with
+                Cuba as of July 26, 2019 from the Bureau of Economic and Business Affairs.</target>
+      </trans-unit>
+      <trans-unit id="Ex9FYT." resname="global.citizen_info.text_3">
+        <source>global.citizen_info.text_3</source>
+        <target>Likewise we are constantly checking the State Department updates and adjusting our tours accordingly.</target>
+      </trans-unit>
+      <trans-unit id="HBD7N69" resname="global.citizen_info.text_4">
+        <source>global.citizen_info.text_4</source>
+        <target>Please feel free to book our services without any problems. We will gladly provide you photos and text documentation about the itinerary during the trip for your records.</target>
       </trans-unit>
     </body>
   </file>

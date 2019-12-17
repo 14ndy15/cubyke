@@ -195,6 +195,45 @@
         <source>global.footer.contact</source>
         <target>Contacto</target>
       </trans-unit>
+      <trans-unit id="1glqETl" resname="global.citizen_info.title">
+        <source>global.citizen_info.title</source>
+        <target>Información para ciudadanos estadounidenses</target>
+      </trans-unit>
+      <trans-unit id="ohicB0W" resname="global.see_more">
+        <source>global.see_more</source>
+        <target>Ver más</target>
+      </trans-unit>
+      <trans-unit id="6W30LsN" resname="global.citizen_info.greeting">
+        <source>global.citizen_info.greeting</source>
+        <target>Estimado cliente con ciudadanía estadounidense:</target>
+      </trans-unit>
+      <trans-unit id="Us8JFMN" resname="global.citizen_info.text_1">
+        <source>global.citizen_info.text_1</source>
+        <target>Según nuestro conocimiento, todos nuestros servicios
+        le autorizan a viajar a Cuba sin que esto provoque conflictos
+        con el Departamento de Estado de los Estados Unidos.
+        Ellos se encuentran dentro de la categoría de viaje: Apoyo para el Pueblo Cubano.</target>
+      </trans-unit>
+      <trans-unit id="e6JMA48" resname="global.citizen_info.text_2">
+        <source>global.citizen_info.text_2</source>
+        <target>Ninguno de nuestros servicios constituye una violación
+        de las estipulaciones recogidas en la lista de Entidades
+        Restringidas y Subordinadas y Asociadas con Cuba de julio de 2019
+        de la Dirección de Asuntos Económicos y Empresariales
+        (List of Restricted Entities and Subenties and Associated with
+        Cuba as of July 26, 2019 from the bureau of economic and business affairs).</target>
+      </trans-unit>
+      <trans-unit id="Ex9FYT." resname="global.citizen_info.text_3">
+        <source>global.citizen_info.text_3</source>
+        <target>Asimismo, revisamos constantemente las actualizaciones del
+         departamente de Estado y ajustamos nuestros recorridos en concordancia.</target>
+      </trans-unit>
+      <trans-unit id="HBD7N69" resname="global.citizen_info.text_4">
+        <source>global.citizen_info.text_4</source>
+        <target>Por lo que puede reservar nuestros servicios sin preocupación alguna.
+        Con mucho gusto le proporcionamos además durante su
+        viaje información detallada acerca de su itinerario en Cuba.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

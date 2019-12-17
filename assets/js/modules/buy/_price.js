@@ -40,7 +40,7 @@ class Price {
             this.discountPhoto.setAttribute('disabled', '');
         }
 
-        this.labelPrice.innerHTML = price;
+        this.labelPrice.innerHTML = price.toFixed(2);
         this.animatePrice();
     }
 

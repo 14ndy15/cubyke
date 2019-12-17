@@ -2,25 +2,20 @@
     <aside class="US_Citizen">
 
         <div class="US_Citizen__info">
-            <h3><a href="#">Info for US citizens</a></h3>
-            <button class="btn btn--border">See more</button>
+            <h3><a href="#US_Citizen__content">{% trans %}global.citizen_info.title{% endtrans %}</a></h3>
+            <button class="btn btn--border">{% trans %}global.see_more{% endtrans %}</button>
         </div>
 
-        <div class="US_Citizen__content">
-            <h3>Dear Prospective US Citizen Customer</h3>
+        <div id="US_Citizen__content" class="US_Citizen__content">
+            <h3>{% trans %}global.citizen_info.greeting{% endtrans %}</h3>
 
-            <p>To the best of our knowledge, all of our experiences
-                allow you to travel to Cuba without conflicting with
-                the U.S. Department of State. They fall under the
-                Support for the Cuban People Category of Travel.</p>
+            <p>{% trans %}global.citizen_info.text_1{% endtrans %}</p>
 
-            <p>None of our products include economic interactions
-                with the List of Restricted Entities and Associated with
-                Cuba as of July 26, 2019 from the Bureau of Economic and Business Affairs.</p>
+            <p>{% trans %}global.citizen_info.text_2{% endtrans %}</p>
 
-            <p>Likewise we are constantly checking the State Department updates and adjusting our tours accordingly.</p>
+            <p>{% trans %}global.citizen_info.text_3{% endtrans %}</p>
 
-            <p>Please feel free to book our services without any problems. We will gladly provide you photos and text documentation about the itinerary during the trip for your records.</p>
+            <p>{% trans %}global.citizen_info.text_4{% endtrans %}</p>
         </div>
 
     </aside>

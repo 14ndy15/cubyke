@@ -9,7 +9,7 @@
       ],
       "css": [
         "/build/2.bfb2a68f.css",
-        "/build/app.64d53716.css"
+        "/build/app.fa4a352b.css"
       ]
     },
     "index": {
@@ -19,7 +19,7 @@
         "/build/index.605bfbb1.js"
       ],
       "css": [
-        "/build/index.b8e1d15f.css"
+        "/build/index.8e123933.css"
       ]
     },
     "tours": {
@@ -52,11 +52,11 @@
     "buy": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/1.f6e218c1.js",
-        "/build/buy.fd285921.js"
+        "/build/1.c631d3c2.js",
+        "/build/buy.89e1320a.js"
       ],
       "css": [
-        "/build/buy.0b64fa84.css"
+        "/build/buy.b615a9f1.css"
       ]
     },
     "blog": {
@@ -74,7 +74,7 @@
         "/build/blog_entry.d77a8f81.js"
       ],
       "css": [
-        "/build/blog_entry.4b030031.css"
+        "/build/blog_entry.3317f7e8.css"
       ]
     },
     "basic_page": {
