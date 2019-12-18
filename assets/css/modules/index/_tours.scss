@@ -297,10 +297,17 @@
                     }
 
                     & footer{
-                        & a{
-                            color: #00af87;
-                            text-decoration: underline;
-                            font-weight: 700;
+                        & cite {
+
+                            background-color: white;
+                            padding: .25em;
+                            border-radius: 2px;
+
+                            & a {
+                                color: #00af87;
+                                text-decoration: underline;
+                                font-weight: 700;
+                            }
                         }
                     }
                 }

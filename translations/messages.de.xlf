@@ -218,6 +218,42 @@
         <source>global.footer.contact</source>
         <target>Kontakt</target>
       </trans-unit>
+      <trans-unit id="O8MNQQD" resname="global.footer.sending">
+        <source>global.footer.sending</source>
+        <target>das senden</target>
+      </trans-unit>
+      <trans-unit id="1glqETl" resname="global.citizen_info.title">
+        <source>global.citizen_info.title</source>
+        <target>__global.citizen_info.title</target>
+      </trans-unit>
+      <trans-unit id="6W30LsN" resname="global.citizen_info.greeting">
+        <source>global.citizen_info.greeting</source>
+        <target>__global.citizen_info.greeting</target>
+      </trans-unit>
+      <trans-unit id="Us8JFMN" resname="global.citizen_info.text_1">
+        <source>global.citizen_info.text_1</source>
+        <target>__global.citizen_info.text_1</target>
+      </trans-unit>
+      <trans-unit id="e6JMA48" resname="global.citizen_info.text_2">
+        <source>global.citizen_info.text_2</source>
+        <target>__global.citizen_info.text_2</target>
+      </trans-unit>
+      <trans-unit id="Ex9FYT." resname="global.citizen_info.text_3">
+        <source>global.citizen_info.text_3</source>
+        <target>__global.citizen_info.text_3</target>
+      </trans-unit>
+      <trans-unit id="HBD7N69" resname="global.citizen_info.text_4">
+        <source>global.citizen_info.text_4</source>
+        <target>__global.citizen_info.text_4</target>
+      </trans-unit>
+      <trans-unit id="GgcucqJ" resname="global.footer.recived_message">
+        <source>global.footer.recived_message</source>
+        <target>__global.footer.recived_message</target>
+      </trans-unit>
+      <trans-unit id="cLrQ49n" resname="global.footer.error">
+        <source>global.footer.error</source>
+        <target>__global.footer.error</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

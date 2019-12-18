@@ -3,23 +3,23 @@
     "app": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/0.b509bdcc.js",
-        "/build/2.4289be0e.js",
-        "/build/app.ec013022.js"
+        "/build/0.1bcf9ca0.js",
+        "/build/1.ca4c5fde.js",
+        "/build/app.42d770bd.js"
       ],
       "css": [
-        "/build/2.bfb2a68f.css",
-        "/build/app.fa4a352b.css"
+        "/build/1.bfb2a68f.css",
+        "/build/app.c0445805.css"
       ]
     },
     "index": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/0.b509bdcc.js",
-        "/build/index.605bfbb1.js"
+        "/build/0.1bcf9ca0.js",
+        "/build/index.41c62a63.js"
       ],
       "css": [
-        "/build/index.8e123933.css"
+        "/build/index.3115d773.css"
       ]
     },
     "tours": {
@@ -52,8 +52,8 @@
     "buy": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/1.c631d3c2.js",
-        "/build/buy.89e1320a.js"
+        "/build/2.a357cdae.js",
+        "/build/buy.b24617cb.js"
       ],
       "css": [
         "/build/buy.b615a9f1.css"

@@ -234,6 +234,18 @@
         Con mucho gusto le proporcionamos además durante su
         viaje información detallada acerca de su itinerario en Cuba.</target>
       </trans-unit>
+      <trans-unit id="O8MNQQD" resname="global.footer.sending">
+        <source>global.footer.sending</source>
+        <target>Enviando...</target>
+      </trans-unit>
+      <trans-unit id="GgcucqJ" resname="global.footer.recived_message">
+        <source>global.footer.recived_message</source>
+        <target>Hemos recibido su mensaje, pronto nos estaremos en contacto :)</target>
+      </trans-unit>
+      <trans-unit id="cLrQ49n" resname="global.footer.error">
+        <source>global.footer.error</source>
+        <target>Upss! A ocurrido un error :(</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

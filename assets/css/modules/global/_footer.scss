@@ -51,14 +51,75 @@
     }
 
     & .form-contact{
+        position: relative;
+        overflow: hidden;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 80%;
+        width: 100%;
         z-index: 1;
 
         @include atLarge{
             width: 32%;
+        }
+
+        & form{
+            width: 80%;
+        }
+
+        &__sending{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            height: 100%;
+            border-radius: 2px;
+            background: linear-gradient(-45deg, rgba(black, .95), rgba($mainRed, .95) 75%);
+            z-index: 2;
+            transform: translateY(100%);
+            transition: transform .3s ease-in-out;
+
+            & h3{
+                color: white;
+                position: absolute;
+                opacity: 0;
+            }
+
+            &--visible{
+                transform: translateY(0);
+
+                &--sending{
+                    & h3.sending{
+                        opacity: 1;
+                    }
+
+                    & h3.error, & h3.received{
+                        opacity: 0;
+                    }
+                }
+
+                &--error{
+                    & h3.error{
+                        opacity: 1;
+                    }
+
+                    & h3.sending, & h3.received{
+                        opacity: 0;
+                    }
+                }
+
+                &--received{
+                    & h3.received{
+                        opacity: 1;
+                    }
+
+                    & h3.error, & h3.sending{
+                        opacity: 0;
+                    }
+                }
+            }
+
         }
     }
 

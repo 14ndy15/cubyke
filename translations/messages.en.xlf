@@ -322,6 +322,18 @@
         <source>global.citizen_info.text_4</source>
         <target>Please feel free to book our services without any problems. We will gladly provide you photos and text documentation about the itinerary during the trip for your records.</target>
       </trans-unit>
+      <trans-unit id="O8MNQQD" resname="global.footer.sending">
+        <source>global.footer.sending</source>
+        <target>sending...</target>
+      </trans-unit>
+      <trans-unit id="GgcucqJ" resname="global.footer.recived_message">
+        <source>global.footer.recived_message</source>
+        <target>We are receive your message, soon we will get in touch :)</target>
+      </trans-unit>
+      <trans-unit id="cLrQ49n" resname="global.footer.error">
+        <source>global.footer.error</source>
+        <target>Upps! something wrong has happen :(</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

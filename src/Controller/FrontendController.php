@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Controller;
-
+use Symfony\Component\HttpFoundation\Request;
 use App\Entity\BasicPage;
 use App\Entity\Bike;
 use App\Entity\BlogEntry;
@@ -14,6 +14,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class FrontendController extends AbstractController
 {
     use GeoIp;
+
     /**
      * @Route("/{_locale}",
      *     defaults={"_locale": "en"},
@@ -246,5 +247,30 @@ class FrontendController extends AbstractController
         return $this->render('frontend/global/_textUSCitizen.html.twig', [
             'show' => $isUs && $existCookie,
         ]);
+    }
+
+    /**
+     * @Route("/mail", name="mail")
+     */
+    public function mailContact(Request $request){
+
+        $name = $request->get('name');
+        $email = $request->get('email');
+        $message = $request->get('message');
+
+        $response = ['response'=>'error'];
+
+        if (filter_var($email, FILTER_VALIDATE_EMAIL))
+        {
+            mail('info@cubyke.com',
+                'Nuevo mensaje de contacto',
+                'Escribio: '.$name.'<br>'.
+                        'con correo: '.$email.'<br>'.
+                        'el mensaje: '.$message);
+
+            $response = ['response'=>'success'];
+        }
+
+        return $this->json($response);
     }
 }

@@ -60,21 +60,30 @@
         <form action="" class="form">
             <div class="form__item">
                 <label for="name">{% trans %}global.footer.index.name{% endtrans %}:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" required>
             </div>
             <div class="form__item">
                 <label for="email">{% trans %}global.footer.email{% endtrans %}:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
             </div>
             <div class="form__item">
                 <label for="message">{% trans %}global.footer.message{% endtrans %}:</label>
-                <textarea type="text" id="message" name="message" rows="4"></textarea>
+                <textarea type="text" id="message" name="message" rows="4" required></textarea>
             </div>
 
             <input data-sal="slide-up"
                    data-sal-delay="500"
-                   type="submit" class="btn btn--border" value="{% trans %}global.footer.send_message{% endtrans %}">
+                   type="submit"
+                   id="submit"
+                   class="btn btn--border" value="{% trans %}global.footer.send_message{% endtrans %}">
         </form>
+
+        <div class="form-contact__sending">
+            <h3 class="sending">{% trans %}global.footer.sending{% endtrans %}</h3>
+            <h3 class="received">{% trans %}global.footer.recived_message{% endtrans %}</h3>
+            <h3 class="error">{% trans %}global.footer.error{% endtrans %}</h3>
+        </div>
+
     </div>
 
     <div class="legal">
