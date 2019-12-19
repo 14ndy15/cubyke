@@ -201,10 +201,7 @@
         <source>index.us.description_1</source>
         <target>The name Cubyke was inspired by our passion for Cuba and cycling. We construct Cubykes because it is just fun to construct and ride them. Because we love everyone of our e-bikes. And because we consider it the most vital and sustainable way to experience many of the most beautiful places in the world.</target>
       </trans-unit>
-      <trans-unit id="WaTU2Wf" resname="index.us.description_2">
-        <source>index.us.description_2</source>
-        <target>We travel with you on our Cubykes through Cuba and its impressive landscapes with its impressive people and on impressive bikes ... of course we also drive to a lot of colonial cities such as Havana, Trinidad and Cienfuegos, but we also cross the beautiful cuban biosphere reserves in Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, Isla De La Juventud and more</target>
-      </trans-unit>
+
       <trans-unit id="GYct3n0" resname="index.us.description_3">
         <source>index.us.description_3</source>
         <target>Most of all, our tours with the Cubykes are fun, unique and unforgettable, taking you to places and streets, out of the usual tourist trails - that's how you experience the authentic Cuba. You will be fascinated by the variety of impressions you will receive and you will keep for a long time.</target>
@@ -316,7 +313,8 @@
       </trans-unit>
       <trans-unit id="Ex9FYT." resname="global.citizen_info.text_3">
         <source>global.citizen_info.text_3</source>
-        <target>Likewise we are constantly checking the State Department updates and adjusting our tours accordingly.</target>
+        <target>Likewise we are constantly checking the State Department
+        updates and adjusting our tours accordingly.</target>
       </trans-unit>
       <trans-unit id="HBD7N69" resname="global.citizen_info.text_4">
         <source>global.citizen_info.text_4</source>
@@ -328,11 +326,11 @@
       </trans-unit>
       <trans-unit id="GgcucqJ" resname="global.footer.recived_message">
         <source>global.footer.recived_message</source>
-        <target>We are receive your message, soon we will get in touch :)</target>
+        <target>We receive your message, we will get in touch soon :)</target>
       </trans-unit>
       <trans-unit id="cLrQ49n" resname="global.footer.error">
         <source>global.footer.error</source>
-        <target>Upps! something wrong has happen :(</target>
+        <target>Oops! something wrong has happened :(</target>
       </trans-unit>
     </body>
   </file>

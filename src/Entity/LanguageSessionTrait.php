@@ -17,6 +17,7 @@ trait LanguageSessionTrait
     public function getLocale($methodName)
     {
         $vars = get_object_vars($this);
+
         switch ($this->getSessionLang()) {
             case 'es':
                 $methodName .= 'Es';
@@ -30,8 +31,5 @@ trait LanguageSessionTrait
         }
         return $vars[$methodName];
     }
-
-
-
 
 }

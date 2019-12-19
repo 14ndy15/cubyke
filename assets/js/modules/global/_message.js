@@ -58,14 +58,14 @@ class SendContactMessage{
                         }, 5000);
                     }
                     else{
-                        this.notification.classList.remove('form-contact__sending--visible--sending');
-                        this.notification.classList.add('form-contact__sending--visible--error');
+                        that.notification.classList.remove('form-contact__sending--visible--sending');
+                        that.notification.classList.add('form-contact__sending--visible--error');
                     }
 
                 })
                 .catch(function (error) {
-                    this.notification.classList.remove('form-contact__sending--visible--sending');
-                    this.notification.classList.add('form-contact__sending--visible--error');
+                    that.notification.classList.remove('form-contact__sending--visible--sending');
+                    that.notification.classList.add('form-contact__sending--visible--error');
                 });
 
             this.notification.classList.add('form-contact__sending--visible');

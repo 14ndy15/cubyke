@@ -152,10 +152,6 @@
         <source>index.us.description_1</source>
         <target>El nombre Cubyke esta inspirado en nuestra pasión por Cuba y el ciclismo. Construimos Cubykes porque es divertido construirlas y montarlas. Porque las encontramos hermosas. Y porque consideramos que es la forma más vital y sostenible de experimentar muchos de los lugares más hermosos del mundo.</target>
       </trans-unit>
-      <trans-unit id="WaTU2Wf" resname="index.us.description_2">
-        <source>index.us.description_2</source>
-        <target>Viajamos contigo en nuestras Cubykes por Cuba, mostrándote sus impresionantes paisajes, conociendo a su gente alegre y solidaria, en bicicletas increíbles. Por supuesto vamos a muchas ciudades coloniales como a La Habana, Trinidad y Cienfuegos, pero también cruzamos las hermosas reservas de la bisofera como Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, la Isla de la Juventud y más</target>
-      </trans-unit>
       <trans-unit id="KBNkDzN" resname="global.footer.index.name">
         <source>global.footer.index.name</source>
         <target>Su nombre</target>

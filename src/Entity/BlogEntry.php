@@ -6,6 +6,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
+
 /**
  * @ORM\Entity(repositoryClass="App\Repository\BlogEntryRepository")
  * @ORM\HasLifecycleCallbacks
@@ -224,6 +225,23 @@ class BlogEntry extends ImageField
         return $this;
     }
 
+    public function getFormatDateEn(){
+        setlocale(LC_TIME, 'en.UTF-8');
+
+        return $this->datetime == null ? '' : strftime("%A, %B %d of %Y", strtotime($this->datetime->format('Y-m-d') ));
+    }
+
+    public function getFormatDateEs(){
+        setlocale(LC_TIME, 'es.UTF-8');
+
+        return $this->datetime == null ? '' : strftime("%A, %d de %B del %Y", strtotime($this->datetime->format('Y-m-d') ));
+    }
+
+    public function getFormatDateDe(){
+        setlocale(LC_TIME, 'de.UTF-8');
+
+        return $this->datetime == null ? '' : strftime("%A, %d %B %Y", strtotime($this->datetime->format('Y-m-d') ));
+    }
 
     function getUploadDir()
     {

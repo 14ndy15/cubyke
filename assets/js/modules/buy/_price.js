@@ -1,7 +1,6 @@
 class Price {
     constructor(){
-        this.elementPrice = document.querySelector('.build__price');
-        this.labelPrice = document.querySelector('.build__price span:first-child');
+        this.labelPrice = document.querySelector('.build__price span');
         this.inputs = document.querySelectorAll('.form__item input[data-price]');
         this.discountInputs = document.querySelectorAll('.form__item input[name="prefered_member"]');
         this.discountDate = document.querySelector('.form__item input[name="datum"]');
@@ -21,9 +20,7 @@ class Price {
         });
     }
 
-    computePrice(e){
-        this.elementPrice.classList.remove('build__price--animate');
-
+    computePrice(){
         let price = 0;
         this.inputs.forEach((input)=>{
             if(input.checked === true)
@@ -41,11 +38,6 @@ class Price {
         }
 
         this.labelPrice.innerHTML = price.toFixed(2);
-        this.animatePrice();
-    }
-
-    animatePrice(){
-        this.elementPrice.classList.add('build__price--animate');
     }
 
 }

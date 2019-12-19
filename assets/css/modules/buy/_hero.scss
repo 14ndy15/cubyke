@@ -4,9 +4,13 @@
     &__image{
         position: relative;
         width: auto;
-        height: 90vh;
+        height: 50vh;
         min-width: 100%;
         overflow: hidden;
+
+        @include atLarge{
+            height: 75vh;
+        }
 
         &:before{
             position: absolute;

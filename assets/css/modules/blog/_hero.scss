@@ -4,17 +4,20 @@
     &__image{
         position: relative;
         width: auto;
-        height: 90vh;
+        height: 50vh;
         min-width: 100%;
         overflow: hidden;
+
+        @include atLarge{
+            height: 75vh;
+        }
 
         &:before{
             position: absolute;
             content: '';
             height: 100%;
             width: 100%;
-            background: rgba(black, .25);
-            z-index: 1;
+            background: rgba(black, .1);
         }
     }
 
@@ -22,8 +25,8 @@
         display: flex;
         justify-content: center;
         position: absolute;
-        bottom: 2em;
         z-index: 1;
+        bottom: 2em;
 
         & h1{
             color: white;

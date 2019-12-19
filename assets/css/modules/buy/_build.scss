@@ -8,8 +8,9 @@
     }
 
     &__form{
-        width: 100%;
+        width: 95%;
         margin: auto;
+        padding-bottom: 2em;
 
         @include atLarge{
             width: 70%;
@@ -17,47 +18,36 @@
     }
 
     &__container_price{
-        height: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
         width: 100%;
         position: sticky;
-        top: 5em;
+        bottom: 0;
+
+        @include atLarge{
+            width: 75%;
+        }
     }
 
     &__price{
-        position: absolute;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        right: 1.5em;
-        top: 5em;
+        width: 100%;
         padding: 1em;
         border-radius: 2px;
-        background: rgba($mainRed, .9);
+        background: linear-gradient(45deg, rgba(black, .95), rgba($mainRed, .95) 45%);;
 
-        @keyframes showingUp {
-            0%{
-                transform: scale(1);
-            }
-            50%{
-                transform: scale(1.1);
-            }
-            100%{
-                transform: scale(1);
-            }
-
-        }
-
-        &--animate{
-            animation: showingUp 2s ease-in-out 1;
-        }
-
-        & span{
-            width: 100%;
+        & p {
+            margin: 0;
             color: white;
+
+            & span {
+                color: white;
+            }
         }
     }
 }

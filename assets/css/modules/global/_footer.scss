@@ -40,6 +40,10 @@
 
                 &:first-child{
                     margin-left: 0;
+
+                    @include atLarge{
+                        margin-left: 2em;
+                    }
                 }
 
                 & img{
@@ -77,7 +81,7 @@
             border-radius: 2px;
             background: linear-gradient(-45deg, rgba(black, .95), rgba($mainRed, .95) 75%);
             z-index: 2;
-            transform: translateY(100%);
+            transform: translateY(101%);
             transition: transform .3s ease-in-out;
 
             & h3{

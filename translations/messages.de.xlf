@@ -147,10 +147,6 @@
         <target>Der Name Cubyke entstand aus unserer Leidenschaft für Kuba und das Radfahren. Wir bauen Cubykes, weil es einfach Spaß macht sie zu bauen und zu fahren. Weil wir sie schön finden. Und weil wir es für die vitalste und nachhaltigste Art halten, viele der schönsten Orte der Welt zu erleben.
         </target>
       </trans-unit>
-      <trans-unit id="WaTU2Wf" resname="index.us.description_2">
-        <source>index.us.description_2</source>
-        <target>Wir fahren mit dir auf unseren Cubykes durch Kuba und seine beeindruckenden Landschaften mit beeindruckenden Menschen und auf beeindruckenden Rädern… natürlich steuern wir auch viele Kolonialstädte wie zum Beispiel Havanna, Trinidad und Cienfuegos an, aber wir durchqueren auch die wunderschönen Biosphärenreservate Cubas wie Viñales, Las Terrazas, El Nicho, Topes de Collantes, Las Escaleras de Jaruco, die Isla De La Juventud und mehr.</target>
-      </trans-unit>
       <trans-unit id="MKDj0aZ" resname="global.footer.in_cuba">
         <source>global.footer.in_cuba</source>
         <target>In Cuba</target>
@@ -224,35 +220,44 @@
       </trans-unit>
       <trans-unit id="1glqETl" resname="global.citizen_info.title">
         <source>global.citizen_info.title</source>
-        <target>__global.citizen_info.title</target>
+        <target>Info für US-Bürger</target>
       </trans-unit>
       <trans-unit id="6W30LsN" resname="global.citizen_info.greeting">
         <source>global.citizen_info.greeting</source>
-        <target>__global.citizen_info.greeting</target>
+        <target>Liebe Interessenten mit Staatangehörigkeit der USA.</target>
       </trans-unit>
       <trans-unit id="Us8JFMN" resname="global.citizen_info.text_1">
         <source>global.citizen_info.text_1</source>
-        <target>__global.citizen_info.text_1</target>
+        <target>Nach unserem Wissenstand erlauben alle
+        unsere Produkte Ihnen eine Reise nach Kuba,
+        ohne, dass Sie in einen Konflikt mit dem U.S.
+        Department of State geraten.</target>
       </trans-unit>
       <trans-unit id="e6JMA48" resname="global.citizen_info.text_2">
         <source>global.citizen_info.text_2</source>
-        <target>__global.citizen_info.text_2</target>
+        <target>In keinem unserer Produkte sind die
+        für US Bürger nicht erlaubten Punkte der „
+        List of Restricted Entities and Subenties
+        and Associated with Cuba as of July 26, 2019
+        from the bureau of economic and business affairs“ enthalten.</target>
       </trans-unit>
       <trans-unit id="Ex9FYT." resname="global.citizen_info.text_3">
         <source>global.citizen_info.text_3</source>
-        <target>__global.citizen_info.text_3</target>
+        <target></target>
       </trans-unit>
       <trans-unit id="HBD7N69" resname="global.citizen_info.text_4">
         <source>global.citizen_info.text_4</source>
-        <target>__global.citizen_info.text_4</target>
+        <target> Sie können also entspannt unsere Dienstleistungen buchen.
+        Gerne erstellen wir Ihnen während der Reise eine Bild- und
+        Textdokumentation über den Reiseverlauf.</target>
       </trans-unit>
       <trans-unit id="GgcucqJ" resname="global.footer.recived_message">
         <source>global.footer.recived_message</source>
-        <target>__global.footer.recived_message</target>
+        <target>Wir erhalten Ihre Nachricht, wir werden uns umgehend bei Ihnen melden :)</target>
       </trans-unit>
       <trans-unit id="cLrQ49n" resname="global.footer.error">
         <source>global.footer.error</source>
-        <target>__global.footer.error</target>
+        <target>Hoppla! etwas falsches ist passiert :(</target>
       </trans-unit>
     </body>
   </file>

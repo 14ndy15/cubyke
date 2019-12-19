@@ -8,19 +8,19 @@
     <div id="member-{{ member.id }}" class="team__member {% if loop.index % 2 == 0 %} team__member--inverse {% endif %}">
             <div class="team__member__image">
                 <a href="{{ path('team') }}#{{ member.name | url_encode }}">
-                {{ imgTagContent(
-                    member.webPath,
-                    member.name,
-                    "(min-width: 1200px) 33vw, 50vw",
-                    1920)
-                | raw
-                }}
+                    {{ imgTagContent(
+                        member.webPath,
+                        member.name,
+                        "(min-width: 1200px) 33vw, 50vw",
+                        1920)
+                    | raw
+                    }}
                 </a>
             </div>
             <div class="team__member__name">
-                <a href="{{ path('team') }}#{{ member.id }}">
-                <h4>{{ member.name }}</h4>
-                <span>{{ member.getLocale('position') | raw }}</span>
+                <a href="{{ path('team') }}#{{ member.name | url_encode }}">
+                    <h4>{{ member.name }}</h4>
+                    <span>{{ member.getLocale('position') | raw }}</span>
                 </a>
             </div>
         </div>
