@@ -1,6 +1,4 @@
-<section id="tours" class="section tours lazyload"
-        {#Start loading tripadvisor widget#}
-         data-script="https://www.jscache.com/wejs?uniq=25&locationId=13485075&lang={{ lang }}&border=false&display_version=2&wtype=selfserveprop&rating=true&nreviews=4&writereviewlink=true&popIdx=true&iswide=false">
+<section id="tours" class="section tours lazyload">
 
     <div class="tours__info">
         <div class="tours__title section__title">
@@ -43,7 +41,9 @@
     {% endfor %}
 
 
-    <div class="tours__inside_cuba">
+    <div class="tours__inside_cuba"
+         {#Start loading tripadvisor widget#}
+         data-script="https://www.jscache.com/wejs?uniq=25&locationId=13485075&lang={{ lang }}&border=false&display_version=2&wtype=selfserveprop&rating=true&nreviews=4&writereviewlink=true&popIdx=true&iswide=false">
         <div class="tours__inside_cuba__image">
 
             <picture class="gallery__item">

@@ -1,3 +1,5 @@
+import '../css/app_no_critical.scss';
+
 import sal from 'sal.js'
 import SmoothScroll from 'smooth-scroll';
 import MobileMenu from "./modules/global/_menuMobile";

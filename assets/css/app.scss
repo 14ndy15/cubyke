@@ -1,13 +1,11 @@
 @import "~normalize.css";
-@import "~sal.js/dist/sal.css";
 @import "base/variables";
 @import "base/mixins";
 @import "base/global";
 
+@import "modules/global/header";
 @import "modules/global/btn";
 @import "modules/global/section";
 @import "modules/global/USCitizen";
 @import "modules/global/gallery";
 @import "modules/global/form";
-@import "modules/global/header";
-@import "modules/global/footer";
