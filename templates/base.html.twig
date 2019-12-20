@@ -21,7 +21,7 @@
 
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
-            {{ encore_entry_link_tags('app_no_critical') | replace({'.css"': '.css" rel="preload"'}) | raw  }}
+            {{ encore_entry_link_tags('app_no_critical') | replace({'rel="stylesheet"': 'rel="preload" as="style"'}) | raw  }}
         {% endblock %}
     </head>
     <body>
