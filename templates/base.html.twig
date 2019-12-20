@@ -36,7 +36,7 @@
 
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
-            {{ encore_entry_script_tags('app_no_critical') | replace({'app_no_critical.js"': 'app_no_critical.js" async'}) | raw }}
+            {{ encore_entry_script_tags('app_no_critical') | replace({'.js"': '.js" async'}) | raw }}
         {% endblock %}
     </body>
 </html>
