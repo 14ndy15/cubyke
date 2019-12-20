@@ -1,7 +1,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="theme-color" content="#e23342">
-<link rel="preconnect" href="https://www.googletagmanager.com">
+
 
 {% if app.request.get('_route')  in ['blog_entry','blog_entry_alternative'] %}
     <link rel="canonical" href="{{ absolute_url(path('blog_entry', {'_locale': lang, '_id': id, '_name': name} )) }}" />
@@ -22,10 +22,20 @@
 {% endif %}
 
 <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/vnd.microsoft.icon" />
+
+<link rel="preconnect" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://stats.g.doubleclick.net">
 <link rel="preconnect" href="https://www.google.com">
 <link rel="preconnect" href="https://www.google-analytics.com">
+
+<link rel="preload"
+      href="https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2"
+      as="font" type="font/woff2" crossorigin>
+
+<link rel="preload"
+      href="https://fonts.gstatic.com/s/merriweather/v21/u-4n0qyriQwlOrhSvowK_l52_wFZWMf6.woff2"
+      as="font" type="font/woff2" crossorigin>
 
 <script type="application/ld+json">
     {
