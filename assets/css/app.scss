@@ -1,6 +1,9 @@
 @import "~normalize.css";
 @import "base/variables";
 @import "base/mixins";
-
 @import "base/global";
+
 @import "modules/global/header";
+@import "modules/global/btn";
+@import "modules/global/section";
+@import "modules/global/USCitizen";
