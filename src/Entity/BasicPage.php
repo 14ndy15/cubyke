@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -54,6 +56,16 @@ class BasicPage extends ImageField
      * @ORM\Column(type="string", length=255)
      */
     private $codeName;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\ImageFile")
+     */
+    private $imagesGallery;
+
+    public function __construct()
+    {
+        $this->imagesGallery = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -145,6 +157,32 @@ class BasicPage extends ImageField
     public function setCodeName(string $codeName): self
     {
         $this->codeName = $codeName;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|ImageFile[]
+     */
+    public function getImagesGallery(): Collection
+    {
+        return $this->imagesGallery;
+    }
+
+    public function addImagesGallery(ImageFile $imagesGallery): self
+    {
+        if (!$this->imagesGallery->contains($imagesGallery)) {
+            $this->imagesGallery[] = $imagesGallery;
+        }
+
+        return $this;
+    }
+
+    public function removeImagesGallery(ImageFile $imagesGallery): self
+    {
+        if ($this->imagesGallery->contains($imagesGallery)) {
+            $this->imagesGallery->removeElement($imagesGallery);
+        }
 
         return $this;
     }

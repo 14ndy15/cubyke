@@ -115,6 +115,7 @@ easy_admin:
                     - {property: contentEs, type: fos_ckeditor, label: 'Content in Spanish'}
                     - {property: contentDe, type: fos_ckeditor, label: 'Content in Deutsch'}
                     - {property: file, type: file, label: 'Image at Hero'}
+                    - {property: imagesGallery, label: 'Images galleries'}
             list:
                 title: 'Basic Pages'
                 fields:

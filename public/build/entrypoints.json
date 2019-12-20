@@ -3,20 +3,26 @@
     "app": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/0.1bcf9ca0.js",
-        "/build/1.ca4c5fde.js",
-        "/build/app.2a920248.js"
+        "/build/3.12476e54.js",
+        "/build/app.23a7a774.js"
       ],
       "css": [
-        "/build/1.bfb2a68f.css",
-        "/build/app.33d49c84.css"
+        "/build/3.bfb2a68f.css",
+        "/build/app.91d7b92f.css"
+      ]
+    },
+    "app_no_critical": {
+      "js": [
+        "/build/runtime.dca8fcdd.js",
+        "/build/0.d455e629.js",
+        "/build/app_no_critical.e86ff3aa.js"
       ]
     },
     "index": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/0.1bcf9ca0.js",
-        "/build/index.41c62a63.js"
+        "/build/2.147cc943.js",
+        "/build/index.74e77778.js"
       ],
       "css": [
         "/build/index.3115d773.css"
@@ -52,8 +58,8 @@
     "buy": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/2.a357cdae.js",
-        "/build/buy.5d71c679.js"
+        "/build/1.c631d3c2.js",
+        "/build/buy.24247182.js"
       ],
       "css": [
         "/build/buy.ffc9e227.css"

@@ -42,26 +42,34 @@ class AppRuntime implements RuntimeExtensionInterface
      * @param string $imagesPath, the relative path to image, ex: static/uploads/image/pic.jpg
      * @param string $alt the Alternative text
      * @param string $sizes, for the html img tag
-     * @param string $class, for the html img tag
+     * @param string $max_sizes, for the html img tag
+     * @param string $figcaption, for the html img tag
      * @return string|FilterTag[]
      */
     public function imgTagContent($imagePath,
                                   $alt = null,
                                   $sizes = '100vw',
-                                  $max_sizes = 800)
+                                  $max_sizes = 800,
+                                  $figcaption = false)
     {
-//        $img_thumbnail = file_get_contents($this->imagineCacheManager->getBrowserPath($imagePath, 'extrasmall_thumbnail'));
-        // Encode the image string data into base64
-//        $img_thumbnail = base64_encode($img_thumbnail);
+
         $img_thumbnail = $this->imagineCacheManager->getBrowserPath($imagePath, 'extrasmall_thumbnail');
 
-        $html ="<img class=\"lazyload blur-up\" sizes=\"$sizes\" ";
+        $html = '';
+        if ($figcaption)
+            $html = '<figure>';
 
-//        $html .= "src=\"data:image/jpeg;charset=utf-8;base64,$img_thumbnail\"";
+        $html .= "<img class=\"lazyload blur-up\" sizes=\"$sizes\" ";
+
         $html .= "src=\"$img_thumbnail\"";
 
         $html .= " data-srcset=\"".$this->filterSrcset($imagePath, $max_sizes)."\"
                          alt=\"$alt\">";
+
+        if ($figcaption)
+            $html .= "<figcaption>$alt</figcaption>
+                         </figure>";
+
         return $html;
     }
     

@@ -125,6 +125,34 @@ img, video{
     object-fit: cover;
 }
 
+figure{
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+    & img{
+        height: auto;
+        min-height: auto;
+    }
+
+    & figcaption{
+        background: white;
+        padding: .5em;
+        font-style: italic;
+        text-align: center;
+        border-radius: 2px;
+        box-shadow: 2px 2px 10px rgba(black, .2);
+        top: -.5em;
+        width: 80%;
+        position: relative;
+    }
+}
+
 .blur-up {
     filter: blur(8px);
     transition: filter 600ms;
@@ -139,7 +167,7 @@ img, video{
     background: rgba($mainRed, 0.7);
 }
 
-p, small, li, h2, h3, h4, h5, h6, input, label, span{
+p, small, li, h2, h3, h4, h5, h6, input, label, span, figcaption{
     color: $mainLightGrey;
 }
 
