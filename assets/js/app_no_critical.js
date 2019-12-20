@@ -1,7 +1,6 @@
 import '../css/app_no_critical.scss';
 
-import 'lazysizes';
-import sal from 'sal.js'
+import sal from 'sal.js';
 import SmoothScroll from 'smooth-scroll';
 import MobileMenu from "./modules/global/_menuMobile";
 

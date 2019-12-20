@@ -273,4 +273,5 @@ class FrontendController extends AbstractController
 
         return $this->json($response);
     }
+
 }
