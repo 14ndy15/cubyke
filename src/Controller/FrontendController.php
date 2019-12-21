@@ -298,5 +298,7 @@ class FrontendController extends AbstractController
             );
 
         $mailer->send($message);
+
+        return $this->render('email/mail_es.html.twig');
     }
 }
