@@ -279,25 +279,35 @@ class FrontendController extends AbstractController
      */
     public function SendMail(\Swift_Mailer $mailer){
 
-        $from = ['info@cubyke.com'=>'Cubyke'];
+//        print_r(urlencode('sales@cubyke.com'));
+//        print_r(urlencode('CubykeCUsales!!!'));
+//        exit();
+        $from = ['sales@cubyke.com'=>'Cubyke Sales'];
+        $users = ['14ndy15@gmail.com', 'orlando.martinez@cubyke.com', 'richard.grimm@cubyke.com', 'lisandraotero8@gmail.com'];
 
-        $message = (new \Swift_Message('Felices Fiestas'))
-            ->setFrom($from)
-            ->setTo('14ndy15@gmail.com')
-            ->setBody(
-                $this->renderView(
-                    'email/mail_es.html.twig'
-                ),
-                'text/html','UTF-8'
-            )
-            ->addPart(
-                $this->renderView(
-                    'email/mail_es.txt.twig'
-                ),
-                'text/plain','UTF-8'
-            );
+        for($i = 0; $i < sizeof($users); $i++){
+            $to = $users[$i];
 
-        $mailer->send($message);
+            $message = (new \Swift_Message('Mensaje de prueba'))
+                ->setFrom($from)
+                ->setTo($to)
+                ->setBody(
+                    $this->renderView(
+                        'email/mail_es.html.twig'
+                    ),
+                    'text/html','UTF-8'
+                )
+                ->addPart(
+                    $this->renderView(
+                        'email/mail_es.txt.twig'
+                    ),
+                    'text/plain','UTF-8'
+                );
+
+            $mailer->send($message);
+
+            echo 'send email to '.$to.'<br>';
+        }
 
         return $this->render('email/mail_es.html.twig');
     }
