@@ -112,26 +112,14 @@
     </div>
 
     <div class="image">
-        <picture>
-            <source class="lazyload blur-up"
-                    media="(min-width: 1200px)"
-                    sizes="100vw"
-                    data-srcset="
-                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1920') }} 1920w,
-                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1200') }} 1200w,
-                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_1000') }} 1000w,
-                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_900') }} 900w,
-                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_800') }} 800w,
-                                {{ asset('images/footer/footer.jpg') | imagine_filter('min_width_600') }} 600w
-                            ">
-
-            {{ imgTagContent(
-                asset('images/footer/footer_portraid.jpg'),
-                'Bikes in Havana bay',
-                "100vw",
-                1920)
-            | raw
-            }}
-        </picture>
+        {{ pictureImgTagContent(
+            asset('images/footer/footer_portraid.jpg'),
+            asset('images/footer/footer.jpg'),
+            '(min-width: 1200px)',
+            "100vw",
+            'Bikes in Havana bay',
+            1920)
+        | raw
+        }}
     </div>
 </footer>

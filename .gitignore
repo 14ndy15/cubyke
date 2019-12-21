@@ -31,5 +31,7 @@ yarn-error.log
 /docs/
 /public/video/
 /public/.htaccess
+/public/webp
+/public/webpL
 /.env
 /.idea

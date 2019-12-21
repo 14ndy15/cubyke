@@ -13,7 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class FrontendController extends AbstractController
 {
-    use GeoIp;
+    use Utils;
 
     /**
      * @Route("/{_locale}",
@@ -274,4 +274,11 @@ class FrontendController extends AbstractController
         return $this->json($response);
     }
 
+    /**
+     * @Route("/make_wepb")
+     */
+    public function makeWebPVersion()
+    {
+        $this->makeWebP();
+    }
 }
