@@ -274,4 +274,29 @@ class FrontendController extends AbstractController
         return $this->json($response);
     }
 
+    /**
+     * @Route("/send_mail", name="mail")
+     */
+    public function SendMail(\Swift_Mailer $mailer){
+
+        $from = ['info@cubyke.com'=>'Cubyke'];
+
+        $message = (new \Swift_Message('Felices Fiestas'))
+            ->setFrom($from)
+            ->setTo('14ndy15@gmail.com')
+            ->setBody(
+                $this->renderView(
+                    'email/mail_es.html.twig'
+                ),
+                'text/html','UTF-8'
+            )
+            ->addPart(
+                $this->renderView(
+                    'email/mail_es.txt.twig'
+                ),
+                'text/plain','UTF-8'
+            );
+
+        $mailer->send($message);
+    }
 }
