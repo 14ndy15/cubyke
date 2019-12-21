@@ -3,95 +3,93 @@
     "app": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/app.dfcfe42d.js"
+        "/build/3.12476e54.js",
+        "/build/app.23a7a774.js"
       ],
       "css": [
-        "/build/app.54471cf3.css"
+        "/build/3.bfb2a68f.css",
+        "/build/app.3a3d2a6b.css"
       ]
     },
     "app_no_critical": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/0.0429bee6.js",
-        "/build/app_no_critical.dc82ecce.js"
-      ],
-      "css": [
-        "/build/0.8cbf350a.css",
-        "/build/app_no_critical.254a9931.css"
+        "/build/0.d455e629.js",
+        "/build/app_no_critical.e86ff3aa.js"
       ]
     },
     "index": {
       "js": [
         "/build/runtime.dca8fcdd.js",
         "/build/2.147cc943.js",
-        "/build/index.063924b7.js"
+        "/build/index.74e77778.js"
       ],
       "css": [
-        "/build/index.0b923707.css"
+        "/build/index.83d1ab75.css"
       ]
     },
     "tours": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/tours.23dc62c3.js"
+        "/build/tours.4b465dc1.js"
       ],
       "css": [
-        "/build/tours.362db21a.css"
+        "/build/tours.12382a27.css"
       ]
     },
     "team": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/team.1a327cda.js"
+        "/build/team.cb386faf.js"
       ],
       "css": [
-        "/build/team.10ca5cc0.css"
+        "/build/team.86887b86.css"
       ]
     },
     "bikes": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/bikes.a13bee45.js"
+        "/build/bikes.e8b9acea.js"
       ],
       "css": [
-        "/build/bikes.e6688f12.css"
+        "/build/bikes.b47bbb7f.css"
       ]
     },
     "buy": {
       "js": [
         "/build/runtime.dca8fcdd.js",
         "/build/1.c631d3c2.js",
-        "/build/buy.56dbff80.js"
+        "/build/buy.24247182.js"
       ],
       "css": [
-        "/build/buy.a3b5f174.css"
+        "/build/buy.ffc9e227.css"
       ]
     },
     "blog": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/blog.436d6cf1.js"
+        "/build/blog.5b41378f.js"
       ],
       "css": [
-        "/build/blog.324d1e05.css"
+        "/build/blog.5a132814.css"
       ]
     },
     "blog_entry": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/blog_entry.3f208877.js"
+        "/build/blog_entry.d77a8f81.js"
       ],
       "css": [
-        "/build/blog_entry.c1689a40.css"
+        "/build/blog_entry.3317f7e8.css"
       ]
     },
     "basic_page": {
       "js": [
         "/build/runtime.dca8fcdd.js",
-        "/build/basic_page.f6241a55.js"
+        "/build/basic_page.1ef21694.js"
       ],
       "css": [
-        "/build/basic_page.dbf74ca6.css"
+        "/build/basic_page.ba99ff61.css"
       ]
     }
   }
