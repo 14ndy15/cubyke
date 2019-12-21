@@ -16,13 +16,14 @@
 
         {{ include('frontend/global/_meta.html.twig') }}
 
-        <title>{% block title %}{% endblock %} | Cubykess</title>
+        <title>{% block title %}{% endblock %} | Cubyke</title>
         {% block meta %}{% endblock %}
 
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
-            {{ encore_entry_link_tags('app_no_critical')
-            | replace({'rel="stylesheet"': 'rel="preload" as="style" onload="this.rel=\'stylesheet\'"'}) | raw  }}
+            {{ encore_entry_link_tags('app_no_critical') }}
+{#            {{ encore_entry_link_tags('app_no_critical')#}
+{#            | replace({'rel="stylesheet"': 'rel="preload" as="style" onload="this.rel=\'stylesheet\'"'}) | raw  }}#}
         {% endblock %}
     </head>
     <body>
