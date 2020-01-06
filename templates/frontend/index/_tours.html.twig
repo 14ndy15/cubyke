@@ -1,4 +1,6 @@
-<section id="tours" class="section tours lazyload">
+<section id="tours" class="section tours lazyload"
+        {#Start loading tripadvisor widget#}
+        data-script="https://www.jscache.com/wejs?uniq=25&locationId=13485075&lang={{ lang }}&border=false&display_version=2&wtype=selfserveprop&rating=true&nreviews=4&writereviewlink=true&popIdx=true&iswide=false">
 
     <div class="tours__info">
         <div class="tours__title section__title">
@@ -41,51 +43,49 @@
     {% endfor %}
 
 
-    <div class="tours__inside_cuba"
-         {#Start loading tripadvisor widget#}
-         data-script="https://www.jscache.com/wejs?uniq=25&locationId=13485075&lang={{ lang }}&border=false&display_version=2&wtype=selfserveprop&rating=true&nreviews=4&writereviewlink=true&popIdx=true&iswide=false">
-        <div class="tours__inside_cuba__image">
+{#    <div class="tours__inside_cuba">#}
+{#        <div class="tours__inside_cuba__image">#}
 
-            <picture class="gallery__item">
-                <source class="lazyload"
-                        media="(min-width: 1200px)"
-                        sizes="100vw"
-                        data-srcset="
-                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1920') }} 1920w,
-                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1200') }} 1200w,
-                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1000') }} 1000w,
-                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_900') }} 900w,
-                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_800') }} 800w,
-                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_600') }} 600w">
+{#            <picture class="gallery__item">#}
+{#                <source class="lazyload"#}
+{#                        media="(min-width: 1200px)"#}
+{#                        sizes="100vw"#}
+{#                        data-srcset="#}
+{#                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1920') }} 1920w,#}
+{#                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1200') }} 1200w,#}
+{#                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_1000') }} 1000w,#}
+{#                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_900') }} 900w,#}
+{#                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_800') }} 800w,#}
+{#                            {{ asset('images/tours/cuba.png') | imagine_filter('min_width_600') }} 600w">#}
 
-                {{ imgTagContent(
-                    asset('images/tours/cuba_portraid.png'),
-                    'Special New-Years offer',
-                    "100vw",
-                    1920)
-                | raw
-                }}
-            </picture>
-        </div>
-        <div class="tours__inside_cuba__content">
-            <div class="tours__inside_cuba__content__title">
-                <h3>{% trans %}index.tour.inside_cuba.title{% endtrans %} -25% <span>2464 EUR</span> </h3>
-            </div>
-            <div class="tours__inside_cuba__content__subtitle">
-                <h4>{% trans %}index.tour.inside_cuba.subtitle{% endtrans %}</h4>
-            </div>
-            <div class="tours__inside_cuba__content__action">
-                {% if app.request.locale == 'de' %}
-                    {% set url = 'https://cubyke.trekksoft.com/de/activity/219223/central-cuba' %}
-                {% elseif app.request.locale == 'es' %}
-                    {% set url = 'https://cubyke.trekksoft.com/es/activity/219223/central-cuba' %}
-                {% else %}
-                    {% set url = 'https://cubyke.trekksoft.com/en_GB/activity/219223/central-cuba' %}
-                {% endif %}
-                <a class="btn" href="{{ url }}">{% trans %}index.tour.inside_cuba.button{% endtrans %}</a>
-            </div>
-        </div>
-    </div>
+{#                {{ imgTagContent(#}
+{#                    asset('images/tours/cuba_portraid.png'),#}
+{#                    'Special New-Years offer',#}
+{#                    "100vw",#}
+{#                    1920)#}
+{#                | raw#}
+{#                }}#}
+{#            </picture>#}
+{#        </div>#}
+{#        <div class="tours__inside_cuba__content">#}
+{#            <div class="tours__inside_cuba__content__title">#}
+{#                <h3>{% trans %}index.tour.inside_cuba.title{% endtrans %} -25% <span>2464 EUR</span> </h3>#}
+{#            </div>#}
+{#            <div class="tours__inside_cuba__content__subtitle">#}
+{#                <h4>{% trans %}index.tour.inside_cuba.subtitle{% endtrans %}</h4>#}
+{#            </div>#}
+{#            <div class="tours__inside_cuba__content__action">#}
+{#                {% if app.request.locale == 'de' %}#}
+{#                    {% set url = 'https://cubyke.trekksoft.com/de/activity/219223/central-cuba' %}#}
+{#                {% elseif app.request.locale == 'es' %}#}
+{#                    {% set url = 'https://cubyke.trekksoft.com/es/activity/219223/central-cuba' %}#}
+{#                {% else %}#}
+{#                    {% set url = 'https://cubyke.trekksoft.com/en_GB/activity/219223/central-cuba' %}#}
+{#                {% endif %}#}
+{#                <a class="btn" href="{{ url }}">{% trans %}index.tour.inside_cuba.button{% endtrans %}</a>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
 
     <div class="tripadvisor__reviews">
         <div class="tripadvisor__reviews__widget">
