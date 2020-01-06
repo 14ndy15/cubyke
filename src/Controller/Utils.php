@@ -28,7 +28,7 @@ trait Utils
     }
 
     function makeWebP(){
-        $script = 'webp\bin\cwebp.exe';
+        $script = 'convert';
         $folders = ['media/'];
         $files = [];
         for($i = 0; $i < sizeof($folders); $i++) {
@@ -44,7 +44,8 @@ trait Utils
                         continue;
                     }
 
-                    $command = $script.' -q 85 '.$workingFolder.$file.' -o '.$workingFolder.$file.'.webp';
+                    $command = $script.' '.$workingFolder.$file.' -quality 50 -define webp:lossless=true '.$workingFolder.$file.'.webp';
+//                    $command = $script.' -q 85 '.$workingFolder.$file.' -o '.$workingFolder.$file.'.webp';
                     echo $command.'<br>';
                     exec($command);
                 }
