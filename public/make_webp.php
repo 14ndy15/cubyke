@@ -51,8 +51,10 @@ function deleteWebP(){
                 }
 
                 $ext = pathinfo($workingFolder.$file, PATHINFO_EXTENSION);
-                if ($ext == 'wepb')
+                if ($ext == 'wepb') {
                     unlink($workingFolder . $file);
+                    echo 'erase '.$workingFolder . $file.'<br>';
+                }
             }
     }
     closedir($dir);
