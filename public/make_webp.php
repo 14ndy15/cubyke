@@ -27,8 +27,8 @@ function makeWebP(){
                 }
 
             }
+        closedir($workingFolder);
     }
-    closedir($dir);
 
     print_r($files);
     exit();
@@ -36,7 +36,6 @@ function makeWebP(){
 
 function deleteWebP(){
     $folders = ['media/'];
-    $files = [];
     for($i = 0; $i < sizeof($folders); $i++) {
         $workingFolder= $folders[$i];
         if ($dir = opendir($workingFolder))
@@ -56,10 +55,9 @@ function deleteWebP(){
                     echo 'erase '.$workingFolder . $file.'<br>';
                 }
             }
+        closedir($workingFolder);
     }
-    closedir($dir);
 
-    print_r($files);
     exit();
 }
 
