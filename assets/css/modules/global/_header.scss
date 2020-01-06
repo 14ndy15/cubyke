@@ -214,16 +214,12 @@
  */
 @keyframes swing-in-top-bck {
     0% {
-        -webkit-transform: rotateX(70deg);
         transform: rotateX(70deg);
-        -webkit-transform-origin: top;
         transform-origin: top;
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotateX(0deg);
         transform: rotateX(0deg);
-        -webkit-transform-origin: top;
         transform-origin: top;
         opacity: 1;
     }
@@ -231,16 +227,12 @@
 
 @keyframes swing-out-top-bck {
     0% {
-        -webkit-transform: rotateX(0deg);
         transform: rotateX(0deg);
-        -webkit-transform-origin: top;
         transform-origin: top;
         opacity: 1;
     }
     100% {
-        -webkit-transform: rotateX(-100deg);
-        transform: rotateX(-100deg);
-        -webkit-transform-origin: top;
+        transform: rotateX(-90deg);
         transform-origin: top;
         opacity: 0;
     }

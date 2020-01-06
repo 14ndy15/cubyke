@@ -274,21 +274,25 @@ class FrontendController extends AbstractController
         return $this->json($response);
     }
 
+
     /**
      * @Route("/send_mail", name="mail")
      */
     public function SendMail(\Swift_Mailer $mailer){
 
-//        print_r(urlencode('sales@cubyke.com'));
-//        print_r(urlencode('CubykeCUsales!!!'));
-//        exit();
         $from = ['sales@cubyke.com'=>'Cubyke Sales'];
-        $users = ['14ndy15@gmail.com', 'orlando.martinez@cubyke.com', 'richard.grimm@cubyke.com', 'lisandraotero8@gmail.com'];
+        $users = [''];
 
         for($i = 0; $i < sizeof($users); $i++){
             $to = $users[$i];
 
-            $message = (new \Swift_Message('Mensaje de prueba'))
+            if (!filter_var($to, FILTER_VALIDATE_EMAIL))
+            {
+                echo '=========== wrong email address '.$to.'<br>';
+                continue;
+            }
+
+            $message = (new \Swift_Message('Happy new year! - Frohes neues Jahr! - ¡Feliz año nuevo!'))
                 ->setFrom($from)
                 ->setTo($to)
                 ->setBody(
