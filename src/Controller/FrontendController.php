@@ -275,7 +275,7 @@ class FrontendController extends AbstractController
     }
 
     /**
-     * @Route("/make_wepb")
+     * @Route("/make_webp")
      */
     public function makeWebPVersion()
     {
