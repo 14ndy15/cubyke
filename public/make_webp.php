@@ -27,7 +27,6 @@ function makeWebP(){
                 }
 
             }
-//        closedir($workingFolder);
     }
 
     print_r($files);
@@ -55,10 +54,10 @@ function deleteWebP(){
                     echo 'erase '.$workingFolder . $file.'<br>';
                 }
             }
-//        closedir($dir);
     }
 
     exit();
 }
 
-deleteWebP();
+makeWebP();
+//deleteWebP();
