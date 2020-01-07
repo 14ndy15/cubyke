@@ -315,20 +315,4 @@ class FrontendController extends AbstractController
 
         return $this->render('email/mail_es.html.twig');
     }
-
-    /**
-     * @Route("/make_webp")
-     */
-    public function makeWebPVersion()
-    {
-        $this->makeWebP();
-    }
-
-    /**
-     * @Route("/delete_webp")
-     */
-    public function deleteWebPVersion()
-    {
-        $this->deleteWebP();
-    }
 }

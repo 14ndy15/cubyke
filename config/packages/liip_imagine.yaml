@@ -80,8 +80,9 @@ liip_imagine:
             filters:
                 auto_rotate: ~
                 strip: ~
-                relative_resize:
-                    widen: 1920
+                downscale:
+                    # input 3960x2560px -> output 1980x1280px
+                    max: [1920, ]
 
         min_width_1200:
             jpeg_quality: 90
@@ -89,8 +90,9 @@ liip_imagine:
             filters:
                 auto_rotate: ~
                 strip: ~
-                relative_resize:
-                    widen: 1200
+                downscale:
+                    # input 3960x2560px -> output 1980x1280px
+                    max: [1200, ]
 
         min_width_1000:
             # set your image quality defaults
@@ -101,8 +103,9 @@ liip_imagine:
             filters:
                 auto_rotate: ~
                 strip: ~
-                relative_resize:
-                    widen: 1000
+                downscale:
+                    # input 3960x2560px -> output 1980x1280px
+                    max: [1000, ]
 
         min_width_900:
 
@@ -114,8 +117,9 @@ liip_imagine:
             filters:
                 auto_rotate: ~
                 strip: ~
-                relative_resize:
-                    widen: 900
+                downscale:
+                    # input 3960x2560px -> output 1980x1280px
+                    max: [900, ]
 
         min_width_800:
 
@@ -127,8 +131,9 @@ liip_imagine:
             filters:
                 auto_rotate: ~
                 strip: ~
-                relative_resize:
-                    widen: 800
+                downscale:
+                    # input 3960x2560px -> output 1980x1280px
+                    max: [800, ]
 
         min_width_600:
 
@@ -140,5 +145,6 @@ liip_imagine:
             filters:
                 auto_rotate: ~
                 strip: ~
-                relative_resize:
-                    widen: 600
+                downscale:
+                    # input 3960x2560px -> output 1980x1280px
+                    max: [600, ]

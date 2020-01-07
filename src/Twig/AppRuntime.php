@@ -20,8 +20,9 @@ class AppRuntime implements RuntimeExtensionInterface
      * @param array $sizes, the sizes, depends on the filters 'min_width_XXX' defined on liip_image config file
      * @return string|FilterTag[]
      */
-    public function filterSrcset($imagePath, $max_size = 800, $webp=false)
+    public function filterSrcset($imagePath, $max_size = 800, $webp = false)
     {
+
         $sizes = [1920, 1200, 1000, 900, 800, 600];
         $webp_ext = '';
         if ($webp)
@@ -51,14 +52,9 @@ class AppRuntime implements RuntimeExtensionInterface
      * @param string $figcaption, for the html img tag
      * @return string|FilterTag[]
      */
-    public function imgTagContent($imagePath,
-                                  $alt = null,
-                                  $sizes = '100vw',
-                                  $max_sizes = 800,
-                                  $webP = true,
-                                  $figcaption = false)
+    public function imgTagContent($imagePath, $alt = null,$sizes = '100vw',
+                                  $max_sizes = 800,$webP = true,$figcaption = false)
     {
-
         $html = '';
 
         if ($figcaption)
@@ -93,15 +89,9 @@ class AppRuntime implements RuntimeExtensionInterface
         return $html;
     }
 
-    public function pictureImgTagContent($imagePortraidPath,
-                                         $imageWidePath,
-                                         $media,
-                                         $sizes,
-                                         $alt = null,
-                                         $max_sizes = 800,
-                                         $webP = true,
-                                         $figcaption = false){
-
+    public function pictureImgTagContent($imagePortraidPath,$imageWidePath,$media,
+                                         $sizes,$alt = null,$max_sizes = 800,
+                                         $webP = true,$figcaption = false){
         $html = '';
 
         if ($figcaption)

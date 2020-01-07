@@ -2,7 +2,11 @@
 
     <div class="logo">
         <a href="{{ path('index') }}">
-            <img src="{{ asset('images/logo.png') }}" alt="Cubyke logo">
+            <picture>
+                <source srcset="{{ asset('images/logo.png.webp') }}" type="image/webp">
+                <img src="{{ asset('images/logo.png') }}" alt="Cubyke logo">
+            </picture>
+
         </a>
     </div>
 

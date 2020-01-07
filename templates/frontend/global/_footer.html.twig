@@ -95,7 +95,11 @@
         <ul>
             <li class="logo">
                 <a href="https://www.ecoturcuba.tur.cu/">
-                    <img class="lazyload blur-up" data-src="{{ asset('images/ecotur_logo.png') }}" alt="Ecotur logo">
+                    <picture>
+                        <source data-srcset="{{ asset('images/ecotur_logo.png.webp') }}" type="image/webp">
+                        <img class="lazyload blur-up" data-src="{{ asset('images/ecotur_logo.png') }}" alt="Ecotur logo">
+                    </picture>
+
                 </a>
                 <p><small>{% trans %}global.footer.represent_ecotur{% endtrans %}</small></p>
             </li>
