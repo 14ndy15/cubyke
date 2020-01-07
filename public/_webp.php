@@ -6,7 +6,7 @@ function makeWebP(){
     $options = ' -q 80 -resize ';
     if ($is_server) {
         $script = 'convert';
-        $options = ' -quality 80  -resize ';
+        $options = ' -quality 50 -define webp:lossless=true method=5 -strip -resize ';
     }
     $folders = ['uploads/', 'images/footer/', 'images/tours/'];
     $outputFolder = 'media/cache/';
