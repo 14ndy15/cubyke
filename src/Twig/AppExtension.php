@@ -24,6 +24,7 @@ class AppExtension extends AbstractExtension
         return [
             new TwigFunction('in_string', [$this, 'in_string']),
             new TwigFunction('imgTagContent', [AppRuntime::class, 'imgTagContent']),
+            new TwigFunction('pictureImgTagContent', [AppRuntime::class, 'pictureImgTagContent']),
         ];
     }
 

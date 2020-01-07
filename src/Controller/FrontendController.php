@@ -13,7 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class FrontendController extends AbstractController
 {
-    use GeoIp;
+    use Utils;
 
     /**
      * @Route("/{_locale}",
@@ -278,17 +278,17 @@ class FrontendController extends AbstractController
     /**
      * @Route("/send_mail", name="mail")
      */
-    public function SendMail(\Swift_Mailer $mailer){
+    public function SendMail(\Swift_Mailer $mailer)
+    {
 
-        $from = ['sales@cubyke.com'=>'Cubyke Sales'];
+        $from = ['sales@cubyke.com' => 'Cubyke Sales'];
         $users = [''];
 
-        for($i = 0; $i < sizeof($users); $i++){
+        for ($i = 0; $i < sizeof($users); $i++) {
             $to = $users[$i];
 
-            if (!filter_var($to, FILTER_VALIDATE_EMAIL))
-            {
-                echo '=========== wrong email address '.$to.'<br>';
+            if (!filter_var($to, FILTER_VALIDATE_EMAIL)) {
+                echo '=========== wrong email address ' . $to . '<br>';
                 continue;
             }
 
@@ -299,20 +299,36 @@ class FrontendController extends AbstractController
                     $this->renderView(
                         'email/mail_es.html.twig'
                     ),
-                    'text/html','UTF-8'
+                    'text/html', 'UTF-8'
                 )
                 ->addPart(
                     $this->renderView(
                         'email/mail_es.txt.twig'
                     ),
-                    'text/plain','UTF-8'
+                    'text/plain', 'UTF-8'
                 );
 
             $mailer->send($message);
 
-            echo 'send email to '.$to.'<br>';
+            echo 'send email to ' . $to . '<br>';
         }
 
         return $this->render('email/mail_es.html.twig');
+    }
+
+    /**
+     * @Route("/make_webp")
+     */
+    public function makeWebPVersion()
+    {
+        $this->makeWebP();
+    }
+
+    /**
+     * @Route("/delete_webp")
+     */
+    public function deleteWebPVersion()
+    {
+        $this->deleteWebP();
     }
 }
