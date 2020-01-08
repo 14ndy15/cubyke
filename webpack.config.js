@@ -26,6 +26,7 @@ Encore
     .addEntry('app', './assets/js/app.js')
     .addEntry('app_no_critical', './assets/js/app_no_critical.js')
     .addEntry('index', './assets/js/index.js')
+    .addEntry('index_no_critical', './assets/js/index_no_critical.js')
     .addEntry('tours', './assets/js/tours.js')
     .addEntry('team', './assets/js/team.js')
     .addEntry('bikes', './assets/js/bikes.js')

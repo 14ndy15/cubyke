@@ -13,6 +13,8 @@
 {% block stylesheets %}
     {{ parent() }}
     {{ encore_entry_link_tags('index') }}
+    {{ encore_entry_link_tags('index_no_critical')
+    | replace({'rel="stylesheet"': 'rel="preload" as="style" onload="this.onload=null;this.rel=\'stylesheet\'"'}) | raw  }}
 {% endblock %}
 
 {% block body %}
