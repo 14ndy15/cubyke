@@ -3,7 +3,9 @@
 
 {% block title %} {{ page.getLocale('title') }} {% endblock %}
 {% block meta %}
-    <meta name="description" content="{{ page.getLocale('content') | truncate_html(150, '...') | striptags }}">
+    {% if page.getLocale('content') %}
+        <meta name="description" content="{{ page.getLocale('content') | truncate_html(150, '...') | striptags }}">
+    {% endif %}
 {% endblock %}
 
 {% block stylesheets %}
