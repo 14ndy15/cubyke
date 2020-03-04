@@ -256,6 +256,10 @@
         <source>index.hero.youtube</source>
         <target>siehe auf Youtube</target>
       </trans-unit>
+      <trans-unit id="alLHMMz" resname="index.widget.inspirock">
+        <source>index.widget.inspirock</source>
+        <target>Sehen Sie die besten Orte in Havanna mit einem Plan einschließlich</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

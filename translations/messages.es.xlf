@@ -239,6 +239,10 @@
         <source>index.hero.youtube</source>
         <target>Ver en Youtube</target>
       </trans-unit>
+      <trans-unit id="alLHMMz" resname="index.widget.inspirock">
+        <source>index.widget.inspirock</source>
+        <target>See the best places to go in Havana with a plan including</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
