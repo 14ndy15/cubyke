@@ -1,0 +1,40 @@
+<section id="review" class="section reviews lazyload"
+    {#Start loading tripadvisor widget#}
+     data-script="https://www.tripadvisor.com/wejs?uniq=25&locationId=13485075&lang={{ lang }}&border=false&display_version=2&wtype=selfserveprop&rating=true&nreviews=4&writereviewlink=true&popIdx=true&iswide=false">
+
+    <div class="reviews__widget">
+        <div id="TA_selfserveprop25" class="TA_selfserveprop">
+            <ul class="TA_links">
+                <li>Reviews of <a href="https://www.tripadvisor.com/Attraction_Review-g147271-d13485075-Reviews-Cubyke-Havana_Ciudad_de_la_Habana_Province_Cuba.html">Cubyke</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="reviews__review gallery">
+        {% for review in reviews %}
+            <div class="gallery__item">
+                <div class="reviews__review__image">
+                    {{ imgTagContent(
+                        review.getWebPath,
+                        review.getLocale('review') | striptags | slice(0, 100),
+                        '(min-width: 1200px) 80vw, 100vw',
+                        1920)
+                    | raw
+                    }}
+                </div>
+                <div class="reviews__review__content">
+                <blockquote>
+                    {{ review.getLocale('review') | raw }}
+                    <footer>
+                        <cite>
+                            <a href="https://www.tripadvisor.com/Attraction_Review-g147271-d13485075-Reviews-Cubyke-Havana_Ciudad_de_la_Habana_Province_Cuba.html">
+                                TripAdvisor
+                            </a>
+                        </cite>
+                    </footer>
+                </blockquote>
+            </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

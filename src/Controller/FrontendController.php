@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controller;
+use App\Entity\Review;
 use Symfony\Component\HttpFoundation\Request;
 use App\Entity\BasicPage;
 use App\Entity\Bike;
@@ -35,6 +36,10 @@ class FrontendController extends AbstractController
             ->getRepository(Bike::class)
             ->findAll();
 
+        $reviews = $this->getDoctrine()
+            ->getRepository(Review::class)
+            ->getOrderByPos(5);
+
         $blog_entries = $this->getDoctrine()
             ->getRepository(BlogEntry::class)
             ->findMostRecent(3);
@@ -44,6 +49,7 @@ class FrontendController extends AbstractController
             'teamMembers' => $teamMembers,
             'bikes' => $bikes,
             'blog_entries' => $blog_entries,
+            'reviews' => $reviews,
         ]);
     }
 
