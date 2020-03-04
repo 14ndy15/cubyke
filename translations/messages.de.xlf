@@ -203,13 +203,6 @@
         <source>global.footer.represent_ecotur</source>
         <target>Vertreten in Kuba durch Ecotur</target>
       </trans-unit>
-      <trans-unit id="kCVmAUV" resname="index.tours.review">
-        <source>index.tours.review</source>
-        <target>Wir waren einen Tag mit Jens in und um Havanna unterwegs!
-                Es war großartig: gute Laune, tolle Infos, super Räder...
-                können wir absolut empfehlen!
-                Der schönste Tag der ganzen Kuba Reise!</target>
-      </trans-unit>
       <trans-unit id="c2dZnOd" resname="global.footer.contact">
         <source>global.footer.contact</source>
         <target>Kontakt</target>
@@ -258,6 +251,10 @@
       <trans-unit id="cLrQ49n" resname="global.footer.error">
         <source>global.footer.error</source>
         <target>Hoppla! etwas falsches ist passiert :(</target>
+      </trans-unit>
+      <trans-unit id="pXe2nBx" resname="index.hero.youtube">
+        <source>index.hero.youtube</source>
+        <target>siehe auf Youtube</target>
       </trans-unit>
     </body>
   </file>

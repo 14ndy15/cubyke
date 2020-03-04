@@ -180,13 +180,6 @@
         <source>index.tour.inside_cuba.button</source>
         <target>Reserva ahora!</target>
       </trans-unit>
-      <trans-unit id="kCVmAUV" resname="index.tours.review">
-        <source>index.tours.review</source>
-        <target>Lo mejor que hecho en estos días ha sido este viaje.
-        Adoré cada minuto del recorrido. Fue genial viajar la Habana con Cubyke,
-        de ser posible lo haría cada semana.
-        El que desee relajarse y disfrutar de un Tour diferente debería intentarlo.</target>
-      </trans-unit>
       <trans-unit id="c2dZnOd" resname="global.footer.contact">
         <source>global.footer.contact</source>
         <target>Contacto</target>
@@ -241,6 +234,10 @@
       <trans-unit id="cLrQ49n" resname="global.footer.error">
         <source>global.footer.error</source>
         <target>Upss! A ocurrido un error :(</target>
+      </trans-unit>
+      <trans-unit id="pXe2nBx" resname="index.hero.youtube">
+        <source>index.hero.youtube</source>
+        <target>Ver en Youtube</target>
       </trans-unit>
     </body>
   </file>

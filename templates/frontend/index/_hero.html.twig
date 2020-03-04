@@ -11,11 +11,24 @@
     <div class="hero__content">
         <h1>{% trans %}index.hero.title{% endtrans %}</h1>
         <h2>{% trans %}index.hero.subtitle{% endtrans %}</h2>
-        <div class="hero__content__action"
-             data-sal="slide-up"
-             data-sal-delay="500">
-            <a class="btn" href="{{ trekksoftLink }}">{% trans %}index.hero.tour{% endtrans %}</a>
+        <div class="hero__content__action">
+            <a class="btn" href="{{ trekksoftLink }}"
+               data-sal="slide-up"
+               data-sal-delay="500">
+                {% trans %}index.hero.tour{% endtrans %}
+            </a>
         </div>
+
+        <div class="hero__content__action">
+            <a class="btn btn--icon btn--transparent"
+               target="_blank"
+               href="https://www.youtube.com/watch?v=cfg91NVKTEs"
+               data-sal="slide-down"
+               data-sal-delay="500">
+                <img src="{{ asset('images/icons/youtube.svg') }}" alt="">
+                {% trans %}index.hero.youtube{% endtrans %}</a>
+        </div>
+
     </div>
 
     <div class="hero__scroll">

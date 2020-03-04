@@ -201,7 +201,6 @@
         <source>index.us.description_1</source>
         <target>The name Cubyke was inspired by our passion for Cuba and cycling. We construct Cubykes because it is just fun to construct and ride them. Because we love everyone of our e-bikes. And because we consider it the most vital and sustainable way to experience many of the most beautiful places in the world.</target>
       </trans-unit>
-
       <trans-unit id="GYct3n0" resname="index.us.description_3">
         <source>index.us.description_3</source>
         <target>Most of all, our tours with the Cubykes are fun, unique and unforgettable, taking you to places and streets, out of the usual tourist trails - that's how you experience the authentic Cuba. You will be fascinated by the variety of impressions you will receive and you will keep for a long time.</target>
@@ -278,14 +277,6 @@
         <source>global.footer.represent_ecotur</source>
         <target>Represented in Cuba by Ecotur</target>
       </trans-unit>
-      <trans-unit id="kCVmAUV" resname="index.tours.review">
-        <source>index.tours.review</source>
-        <target>We were first time visitors to Havana,
-                Cuba and we were fortunate to have booked a
-                private tour for 5 people with Cubyke.
-                There is no better way to see this amazing city,
-                than with our guide Alejandro and Cubyke.</target>
-      </trans-unit>
       <trans-unit id="c2dZnOd" resname="global.footer.contact">
         <source>global.footer.contact</source>
         <target>Contact</target>
@@ -331,6 +322,10 @@
       <trans-unit id="cLrQ49n" resname="global.footer.error">
         <source>global.footer.error</source>
         <target>Oops! something wrong has happened :(</target>
+      </trans-unit>
+      <trans-unit id="pXe2nBx" resname="index.hero.youtube">
+        <source>index.hero.youtube</source>
+        <target>See on Youtube</target>
       </trans-unit>
     </body>
   </file>
