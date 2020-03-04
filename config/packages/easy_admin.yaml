@@ -148,17 +148,15 @@ easy_admin:
                 title: 'Add or update a review'
                 fields:
                     - {property: 'file', type: file, label: 'Image at background'}
-                    - {property: reviewEn, type: fos_ckeditor, label: 'Review content (EN)'}
-                    - {property: reviewEs, type: fos_ckeditor, label: 'Review content (ES)'}
-                    - {property: reviewDe, type: fos_ckeditor, label: 'Review content (DE)'}
+                    - {property: review, type: fos_ckeditor, label: 'Review content'}
+                    - {property: language, type: 'choice', type_options: { choices: {'en':'EN', 'es':'ES',, 'de':'DE'} }, label: 'Language'}
                     - {property: position, label: 'Position', help: 'lower number goes first'}
             list:
                 title: 'Reviews'
                 fields:
                     - {property: 'getWebPath', type: image, label: 'Image'}
-                    - {property: reviewEn, label: 'Review content (EN)'}
-                    - {property: reviewEs, label: 'Review content (ES)'}
-                    - {property: reviewDe, label: 'Review content (DE)'}
+                    - {property: language, label: 'Language'}
+                    - {property: review, label: 'Review content'}
                     - {property: position, label: 'Position'}
 
         KeyValues:

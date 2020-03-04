@@ -22,7 +22,7 @@ class FrontendController extends AbstractController
      *     requirements={"_locale": "en|es|de"},
      *     name="index")
      */
-    public function index()
+    public function index($_locale)
     {
         $tours = $this->getDoctrine()
             ->getRepository(Tour::class)
@@ -38,7 +38,7 @@ class FrontendController extends AbstractController
 
         $reviews = $this->getDoctrine()
             ->getRepository(Review::class)
-            ->getOrderByPos(5);
+            ->getOrderByPos(5, $_locale);
 
         $blog_entries = $this->getDoctrine()
             ->getRepository(BlogEntry::class)

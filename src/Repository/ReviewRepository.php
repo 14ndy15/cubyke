@@ -36,11 +36,13 @@ class ReviewRepository extends ServiceEntityRepository
     }
     */
 
-    public function getOrderByPos($amount)
+    public function getOrderByPos($amount, $locale)
     {
         return $this->createQueryBuilder('r')
+            ->andWhere('r.language = :lang')
             ->orderBy('r.position', 'ASC')
             ->setMaxResults($amount)
+            ->setParameter('lang', $locale)
             ->getQuery()
             ->getResult()
             ;

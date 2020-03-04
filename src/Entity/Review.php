@@ -10,7 +10,6 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Review extends ImageField
 {
-    use LanguageSessionTrait;
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
@@ -21,63 +20,35 @@ class Review extends ImageField
     /**
      * @ORM\Column(type="text", nullable=true)
      */
-    private $reviewEn;
-
-    /**
-     * @ORM\Column(type="text", nullable=true)
-     */
-    private $reviewEs;
-
-    /**
-     * @ORM\Column(type="text", nullable=true)
-     */
-    private $reviewDe;
+    private $review;
 
     /**
      * @ORM\Column(type="integer", nullable=true)
      */
     private $position;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $language;
+
     public function getId(): ?int
     {
         return $this->id;
     }
 
-    public function getReviewEn(): ?string
+    public function getReview(): ?string
     {
-        return $this->reviewEn;
+        return $this->review;
     }
 
-    public function setReviewEn(?string $reviewEn): self
+    public function setReview(?string $review): self
     {
-        $this->reviewEn = $reviewEn;
+        $this->review = $review;
 
         return $this;
     }
 
-    public function getReviewEs(): ?string
-    {
-        return $this->reviewEs;
-    }
-
-    public function setReviewEs(?string $reviewEs): self
-    {
-        $this->reviewEs = $reviewEs;
-
-        return $this;
-    }
-
-    public function getReviewDe(): ?string
-    {
-        return $this->reviewDe;
-    }
-
-    public function setReviewDe(?string $reviewDe): self
-    {
-        $this->reviewDe = $reviewDe;
-
-        return $this;
-    }
 
     public function getPosition(): ?int
     {
@@ -94,5 +65,17 @@ class Review extends ImageField
     function getUploadDir()
     {
         return 'review';
+    }
+
+    public function getLanguage(): ?string
+    {
+        return $this->language;
+    }
+
+    public function setLanguage(?string $language): self
+    {
+        $this->language = $language;
+
+        return $this;
     }
 }
