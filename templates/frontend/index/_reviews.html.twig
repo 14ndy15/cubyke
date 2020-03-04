@@ -24,7 +24,7 @@
                 </div>
                 <div class="reviews__review__content">
                 <blockquote>
-                    {{ review.review | raw }}
+                    {{ review.review | truncate_html(150, '...') | raw }}
                     <footer>
                         <cite>
                             <a href="https://www.tripadvisor.com/Attraction_Review-g147271-d13485075-Reviews-Cubyke-Havana_Ciudad_de_la_Habana_Province_Cuba.html">
