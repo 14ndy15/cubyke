@@ -149,6 +149,7 @@ easy_admin:
                 fields:
                     - {property: 'file', type: file, label: 'Image at background'}
                     - {property: review, type: fos_ckeditor, label: 'Review content'}
+                    - {property: author, label: 'Author'}
                     - {property: language, type: 'choice', type_options: { choices: {'en':'EN', 'es':'ES',, 'de':'DE'} }, label: 'Language'}
                     - {property: position, label: 'Position', help: 'lower number goes first'}
             list:
@@ -157,6 +158,7 @@ easy_admin:
                     - {property: 'getWebPath', type: image, label: 'Image'}
                     - {property: language, label: 'Language'}
                     - {property: review, label: 'Review content'}
+                    - {property: author, label: 'Author nickname'}
                     - {property: position, label: 'Position'}
 
         KeyValues:

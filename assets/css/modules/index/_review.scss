@@ -99,11 +99,13 @@
                 }
 
                 & footer{
-                    & cite {
 
+                    & cite {
+                        color: $mainDark;
                         background-color: white;
                         padding: .5em;
                         border-radius: 2px;
+
 
                         & a {
                             color: #00604a;
