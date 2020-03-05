@@ -30,9 +30,8 @@ yarn-error.log
 /public/uploads/
 /docs/
 /public/video/
-/public/.htaccess
+public/.htaccess
 /public/webp
 /public/webpL
 /.env
 /.idea
-/public/webp
