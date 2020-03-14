@@ -239,9 +239,13 @@
         <source>index.hero.youtube</source>
         <target>Ver en Youtube</target>
       </trans-unit>
-      <trans-unit id="alLHMMz" resname="index.widget.inspirock">
+      <trans-unit id="V0.k4cg" resname="index.widget.inspirock">
         <source>index.widget.inspirock</source>
         <target>See the best places to go in Havana with a plan including</target>
+      </trans-unit>
+      <trans-unit id="YrhHVNT" resname="index.tours.coronavirus">
+        <source>index.tours.coronavirus</source>
+        <target>Condiciones especiales de cancelación debido al Coronavirus hasta el 30 de abril de 2020: reembolso del 100% por cancelaciones hasta 1 día antes del inicio del recorrido.</target>
       </trans-unit>
     </body>
   </file>

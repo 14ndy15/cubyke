@@ -327,9 +327,13 @@
         <source>index.hero.youtube</source>
         <target>See on Youtube</target>
       </trans-unit>
-      <trans-unit id="alLHMMz" resname="index.widget.inspirock">
+      <trans-unit id="V0.k4cg" resname="index.widget.inspirock">
         <source>index.widget.inspirock</source>
         <target>See the best places to go in Havana with a plan including</target>
+      </trans-unit>
+      <trans-unit id="YrhHVNT" resname="index.tours.coronavirus">
+        <source>index.tours.coronavirus</source>
+        <target>Special cancellation conditions due to the Corona virus until April 30th, 2020: 100% refund for cancellations up to 1 day before the start of the tour.</target>
       </trans-unit>
     </body>
   </file>
