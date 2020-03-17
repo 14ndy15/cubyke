@@ -1,12 +1,14 @@
 <section id="tours" class="section tours">
 
     <div class="tours__info">
+        <p class="info">{% trans %}index.tours.coronavirus{% endtrans %}</p>
+
         <div class="tours__title section__title">
             <h2>{% trans %}index.tours.title{% endtrans %}</h2>
         </div>
 
         <div class="tours__description">
-            <p class="info">{% trans %}index.tours.coronavirus{% endtrans %}</p>
+
             <p>{% trans %}index.tours.description{% endtrans %}...
                 <a href="{{ path('tours') }}">{% trans %}global.read_more{% endtrans %}</a>.
             </p>
