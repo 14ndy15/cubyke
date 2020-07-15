@@ -2,105 +2,109 @@
   "entrypoints": {
     "team": {
       "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/team.ec603e83.js"
+        "/build/runtime.js",
+        "/build/team.js"
       ],
       "css": [
-        "/build/team.aa838933.css"
-      ]
-    },
-    "app": {
-      "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/app.dfcfe42d.js"
-      ],
-      "css": [
-        "/build/app.a5377e0b.css"
-      ]
-    },
-    "index": {
-      "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/index.2c06ea3f.js"
-      ],
-      "css": [
-        "/build/index.7f89e833.css"
-      ]
-    },
-    "index_no_critical": {
-      "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/2.ee9f7d3a.js",
-        "/build/index_no_critical.cc79d081.js"
-      ],
-      "css": [
-        "/build/index_no_critical.9ae3494f.css"
-      ]
-    },
-    "tours": {
-      "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/tours.2293c753.js"
-      ],
-      "css": [
-        "/build/tours.b47bbb7f.css"
+        "/build/team.css"
       ]
     },
     "app_no_critical": {
       "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/0.0429bee6.js",
-        "/build/app_no_critical.665562c2.js"
+        "/build/runtime.js",
+        "/build/vendors~app_no_critical~buy~index_no_critical.js",
+        "/build/vendors~app_no_critical.js",
+        "/build/app_no_critical.js"
       ],
       "css": [
-        "/build/0.8cbf350a.css",
-        "/build/app_no_critical.3961a1de.css"
+        "/build/vendors~app_no_critical.css",
+        "/build/app_no_critical.css"
+      ]
+    },
+    "index": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors~app~index.js",
+        "/build/index.js"
+      ],
+      "css": [
+        "/build/index.css"
+      ]
+    },
+    "index_no_critical": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors~app_no_critical~buy~index_no_critical.js",
+        "/build/index_no_critical.js"
+      ],
+      "css": [
+        "/build/index_no_critical.css"
+      ]
+    },
+    "tours": {
+      "js": [
+        "/build/runtime.js",
+        "/build/tours.js"
+      ],
+      "css": [
+        "/build/tours.css"
+      ]
+    },
+    "app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors~app~index.js",
+        "/build/app.js"
+      ],
+      "css": [
+        "/build/app.css"
       ]
     },
     "bikes": {
       "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/bikes.b4600f87.js"
+        "/build/runtime.js",
+        "/build/bikes.js"
       ],
       "css": [
-        "/build/bikes.208c2e67.css"
+        "/build/bikes.css"
       ]
     },
     "buy": {
       "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/1.c631d3c2.js",
-        "/build/buy.2e19df44.js"
+        "/build/runtime.js",
+        "/build/vendors~app_no_critical~buy~index_no_critical.js",
+        "/build/vendors~buy.js",
+        "/build/buy.js"
       ],
       "css": [
-        "/build/buy.0df1570f.css"
+        "/build/buy.css"
       ]
     },
     "blog": {
       "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/blog.30a251f6.js"
+        "/build/runtime.js",
+        "/build/blog.js"
       ],
       "css": [
-        "/build/blog.634f7b1c.css"
+        "/build/blog.css"
       ]
     },
     "blog_entry": {
       "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/blog_entry.f76c94b4.js"
+        "/build/runtime.js",
+        "/build/blog_entry.js"
       ],
       "css": [
-        "/build/blog_entry.17ec7bd3.css"
+        "/build/blog_entry.css"
       ]
     },
     "basic_page": {
       "js": [
-        "/build/runtime.dca8fcdd.js",
-        "/build/basic_page.2b7fceee.js"
+        "/build/runtime.js",
+        "/build/basic_page.js"
       ],
       "css": [
-        "/build/basic_page.7d5751d8.css"
+        "/build/basic_page.css"
       ]
     }
   }
