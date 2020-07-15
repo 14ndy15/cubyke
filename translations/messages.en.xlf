@@ -335,6 +335,10 @@
         <source>index.tours.coronavirus</source>
         <target>Special cancellation conditions due to the Corona virus until May 31th, 2020: 100% refund for cancellations up to 1 day before the start of the tour.</target>
       </trans-unit>
+      <trans-unit id="ZQdbNUv" resname="index.tours.discount">
+        <source>index.tours.discount</source>
+        <target>Special offer for Cubans and foreigners residing in Cuba: 30% discount of our tours from 15.07.-30.09.2020</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

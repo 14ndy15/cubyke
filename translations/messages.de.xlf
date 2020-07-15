@@ -264,6 +264,10 @@
         <source>index.tours.coronavirus</source>
         <target>Sonder-Stornobedingungen aufgrund des Corona-Virus bis zum 31.05.2020: 100 % Erstattung bei Stornierungen bis 1 Tag vor Tourbeginn.</target>
       </trans-unit>
+      <trans-unit id="ZQdbNUv" resname="index.tours.discount">
+        <source>index.tours.discount</source>
+        <target>Sonderangebot für Kubaner und Ausländer mit Wohnsitz aus Kuba: 30% Rabatt auf unsere Ebike-Touren vom 15.07.-30.09.2020</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
