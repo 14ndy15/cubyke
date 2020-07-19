@@ -1,12 +1,16 @@
 <section id="tours" class="section tours">
 
     <div class="tours__info">
-	    <div class="tour__info__image">
-		    <img src="{{ asset('images/bici.svg') }}" alt="">
+
+	    <div class="tours__info__discount tours__info__discount--show">
+		    <div class="tours__info__discount__image">
+			    <img src="{{ asset('images/bici.svg') }}" alt="">
+		    </div>
+		    <div class="tours__info__discount__text">
+			    <p class="info">{% trans %}index.tours.discount{% endtrans %}</p>
+		    </div>
 	    </div>
-
-        <p class="info">{% trans %}index.tours.discount{% endtrans %}</p>
-
+	    
         <div class="tours__title section__title">
             <h2>{% trans %}index.tours.title{% endtrans %}</h2>
         </div>

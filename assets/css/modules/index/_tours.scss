@@ -23,15 +23,73 @@
 
     &__info{
         grid-area: title_description;
-        display: flex;
-        flex-wrap: wrap;
+	    display: flex;
+	    flex-wrap: wrap;
         justify-content: center;
         width: 80%;
         margin: auto;
+	    position: relative;
 
-	    &__image{
-		    
+
+	    &__discount{
+			transition: all .3s ease-in-out;
+		    position: relative;
+		    top: 0;
+
+		    &--show {
+			    position: absolute;
+			    top: -40%;
+			    background: white;
+			    width: 120%;
+			    border-radius: 2px;
+			    box-shadow: 2px 2px 10px #00000066;
+				z-index: 1;
+			    display: flex;
+			    justify-content: space-around;
+
+			    @keyframes showDiscount {
+				    0%{
+					    top: -25%;
+					    opacity: .4;
+				    }
+				    100%{
+					    top: -40%;
+					    opacity: 1;
+				    }
+			    }
+
+			    animation: showDiscount .5s ease-in-out;
+
+
+			    & .tours__info__discount__image{
+				    width: 30%;
+				    display: flex;
+				    justify-content: center;
+				    align-items: center;
+
+				    & img{
+				    }
+			    }
+
+			    & .tours__info__discount__text{
+				    width: 60%;
+			    }
+
+
+		    }
+
+		    &__image{
+			    transition: all .3s ease-in-out;
+			    width: 100%;
+		    }
+
+		    &__text{
+			    transition: all .3s ease-in-out;
+			    width: 100%;
+		    }
 	    }
+
+
     }
 
     &__title{
