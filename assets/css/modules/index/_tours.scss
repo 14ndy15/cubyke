@@ -48,7 +48,7 @@
 			    justify-content: space-around;
 
 			    @include atLarge{
-					top: -105%;
+					top: -95%;
 			    }
 
 			    @keyframes showDiscount {
@@ -83,6 +83,10 @@
 
 			    & .tours__info__discount__text{
 				    width: 60%;
+
+				    p{
+					    font-size: 1rem;
+				    }
 			    }
 
 
