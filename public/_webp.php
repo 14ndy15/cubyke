@@ -8,7 +8,7 @@ function makeWebP(){
         $script = 'convert';
         $options = ' -quality 50 -define webp:lossless=true method=5 -strip -resize ';
     }
-    $folders = ['uploads/', 'images/footer/', 'images/tours/'];
+    $folders = ['uploads/', 'images/footer/', 'images/tours/', 'images/discount/'];
     $outputFolder = 'media/cache/';
     $resolutions = [1920, 1200, 1000, 900, 800, 600];
 

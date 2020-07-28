@@ -38,7 +38,7 @@
 
 		    &--show {
 			    position: absolute;
-			    top: -45%;
+			    top: -40%;
 			    background: white;
 			    width: 120%;
 			    border-radius: 2px;
@@ -66,12 +66,14 @@
 
 
 			    & .tours__info__discount__image{
-				    width: 30%;
+				    width: 45%;
 				    display: flex;
 				    justify-content: center;
 				    align-items: center;
 
-				    & img{
+				    & picture{
+					    height: 100%;
+					    width: 100%;
 				    }
 
 				    @include atLarge{

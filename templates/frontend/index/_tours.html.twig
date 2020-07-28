@@ -5,7 +5,13 @@
 	    <div class="tours__info__discount tours__info__discount--show">
 		    <div class="tours__info__discount__image">
 {#			    <img src="{{ asset('images/bici.svg') }}" alt="">#}
-			    <img src="{{ asset('images/main_image.jpg') }}" alt="">
+			    {{ imgTagContent(
+				    asset('images/discount/main_image.jpg'),
+				    '',
+				    "(min-width: 1200px) 20vw, 90vw",
+				    1200)
+			    | raw
+			    }}
 		    </div>
 		    <div class="tours__info__discount__text">
 			    <p class="info">{% trans %}index.tours.discount{% endtrans %}</p>
