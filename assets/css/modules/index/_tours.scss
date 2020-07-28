@@ -38,7 +38,7 @@
 
 		    &--show {
 			    position: absolute;
-			    top: -40%;
+			    top: -45%;
 			    background: white;
 			    width: 120%;
 			    border-radius: 2px;
@@ -46,6 +46,10 @@
 				z-index: 1;
 			    display: flex;
 			    justify-content: space-around;
+
+			    @include atLarge{
+					top: -120%;
+			    }
 
 			    @keyframes showDiscount {
 				    0%{
@@ -68,6 +72,10 @@
 				    align-items: center;
 
 				    & img{
+				    }
+
+				    @include atLarge{
+					    width: 50%;
 				    }
 			    }
 

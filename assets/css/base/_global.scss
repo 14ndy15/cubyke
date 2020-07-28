@@ -192,9 +192,12 @@ p{
     font-weight: 400;
 
     &.info{
-        border: 2px solid $mainRed;
-        padding: .5em;
+        padding: .25em;
         font-weight: 700;
+
+	    @include atLarge{
+		    padding: .5em;
+	    }
     }
 }
 
