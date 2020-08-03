@@ -37,6 +37,12 @@ function makeWebP(){
                         $_resolution = min($resolution, $size[0]);
 
                         $outputFile = __DIR__ . '/' . $outputFolder . 'min_width_' .$resolution.'/'.$filename.'.webp';
+
+                        if(file_exists($outputFile)) {
+                            echo $outputFile . ' file exists<br><br>';
+                            continue;
+                        }
+
                         $path = pathinfo($outputFile)['dirname'];
                         if (!is_dir($path))
                             mkdir($path, 0777, true);
