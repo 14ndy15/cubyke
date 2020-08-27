@@ -1,7 +1,6 @@
 .header {
     z-index: 3;
-    //background: rgba($mainRed, .95);
-	background: linear-gradient(176deg, rgba(0, 0, 0, 0.95), rgba(197, 52, 66, 0.95) 54%);
+    background: rgba($mainRed, .95);
     position: absolute;
     width: 100%;
     display: grid;
@@ -21,7 +20,7 @@
 
         padding: 0 4em;
         position: fixed;
-        //background: linear-gradient(45deg, rgba(black, .95), rgba($mainRed, .95) 45%);
+        background: linear-gradient(45deg, rgba(black, .95), rgba($mainRed, .95) 45%);
     }
 
     & .logo {
