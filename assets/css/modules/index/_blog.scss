@@ -1,5 +1,7 @@
 .blog{
 
+	justify-content: space-around;
+
     @include atLarge{
         justify-content: space-around;
         width: 96%;
@@ -13,6 +15,10 @@
         width: 100%;
         margin-bottom: 2.5em;
         box-shadow: 2px 2px 10px rgba(black, .2);
+
+	    @include atMedium{
+		    width: 45%;
+	    }
 
         @include atLarge{
             width: 33%;

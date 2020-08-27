@@ -66,6 +66,10 @@
             position: relative;
             margin: 1.5em auto;
 
+	        @include atMedium{
+		        justify-content: start;
+	        }
+
             @include atLarge {
                 display: inline-flex;
                 justify-content: left;

@@ -1,46 +1,96 @@
 .header {
     z-index: 3;
-    background: rgba($mainRed, .95);
+    //background: rgba($mainRed, .95);
+	background: linear-gradient(176deg, rgba(0, 0, 0, 0.95), rgba(197, 52, 66, 0.95) 54%);
     position: absolute;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     top: 0;
     justify-content: space-between;
     align-items: center;
-    padding: .5em 0;
+    padding: .5em;
+
+
+	grid-template-areas: "logo lang menu"
+						  "nav nav nav";
+	grid-template-columns: 25% 60% 15%;
 
     @include atLarge{
-        padding: 0 8em 0 4em;
+	    grid-template-areas: "logo nav lang";
+	    grid-template-columns: 25% 50% 25%;
+
+        padding: 0 4em;
         position: fixed;
-        background: linear-gradient(45deg, rgba(black, .95), rgba($mainRed, .95) 45%);
+        //background: linear-gradient(45deg, rgba(black, .95), rgba($mainRed, .95) 45%);
     }
 
     & .logo {
-        width: 5.25em;
+	    grid-area: logo;
+
+	    display: flex;
+	    align-items: center;
+        width: auto;
         margin: 0;
-        position: absolute;
-        left: .25em;
+        position: relative;
+	    height: auto;
+
+	    @include atMedium{
+			height: 4em;
+	    }
 
         @include atLarge{
             position: relative;
             left: auto;
-            width: 8em;
+	        height: 3em;
         }
+
+	    & img{
+		    width: 100%;
+		    height: 100%;
+		    object-fit: contain;
+	    }
+
+	    & a{
+		    display: flex;
+		    width: 100%;
+		    height: 100%;
+	    }
+
+	    &__travel_choice_award {
+		    position: absolute;
+		    top: 3.25em;
+		    height: 7em;
+
+		    & > img{
+			    width: auto;
+		    }
+
+		    @include atMedium{
+			    position: relative;
+			    top: 0;
+			    height: auto;
+		    }
+	    }
     }
 
     & .nav {
-        width: 100%;
-        position: absolute;
-        top: 3.25em;
+	    grid-area: nav;
+	    display: block;
+	    position: absolute;
+
+        width: calc(1em + 100%);
+	    left: -.5em;
+
+        top: .49999em;
         background: rgba($mainRed, .95);
 	    z-index: 1;
 
         @include atLarge{
             position: relative;
             top: 0;
+	        left: 0;
+	        width: 100%;
             display: block;
-            width: auto;
             background: transparent;
         }
 
@@ -51,6 +101,10 @@
             align-items: center;
             justify-content: space-evenly;
             list-style: none;
+
+	        @include atLarge{
+		        justify-content: center;
+	        }
 
             & li {
                 padding: .5em;
@@ -74,79 +128,86 @@
 
     }
 
-    & .menu-icon{
-        order: 2;
-        width: 20px;
-        height: 19px;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: auto 1em;
-        right: 1em;
-        z-index: 3;
+	& .menu {
+		display: flex;
+		justify-content: center;
+		grid-area: menu;
 
-        @include atLarge {
-            display: none;
-            right: auto;
-        }
+		& .menu-icon {
+			order: 2;
+			width: 20px;
+			height: 19px;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: auto 1em;
+			z-index: 3;
 
-        &::before{
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 20px;
-            height: 3px;
-            background-color: white;
-            transform-origin: 0 0;
-            transition: transform .3s ease-out;
-        }
+			@include atLarge {
+				display: none;
+				right: auto;
+			}
 
-        &__middle{
-            position: absolute;
-            top: 8px;
-            left: 0;
-            width: 20px;
-            height: 3px;
-            background-color: white;
-            transition: all .3s ease-out;
-            transform-origin: 0 50%;
+			&::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 20px;
+				height: 3px;
+				background-color: white;
+				transform-origin: 0 0;
+				transition: transform .3s ease-out;
+			}
 
-        }
+			&__middle {
+				position: absolute;
+				top: 8px;
+				left: 0;
+				width: 20px;
+				height: 3px;
+				background-color: white;
+				transition: all .3s ease-out;
+				transform-origin: 0 50%;
 
-        &::after{
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 20px;
-            height: 3px;
-            background-color: white;
-            transform-origin: 0 100%;
-            transition: transform .3s ease-out;
-        }
+			}
 
-        &--close-x{
-            &::before{
-                transform: rotate(45deg) scaleX(1.25);
-            }
+			&::after {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 20px;
+				height: 3px;
+				background-color: white;
+				transform-origin: 0 100%;
+				transition: transform .3s ease-out;
+			}
 
-            .menu-icon__middle{
-                opacity: 0;
-                transform: scaleX(0);
-            }
+			&--close-x {
+				&::before {
+					transform: rotate(45deg) scaleX(1.25);
+				}
 
-            &::after{
-                transform: rotate(-45deg) scale(1.25) translateY(1px);
-            }
-        }
-    }
+				.menu-icon__middle {
+					opacity: 0;
+					transform: scaleX(0);
+				}
+
+				&::after {
+					transform: rotate(-45deg) scale(1.25) translateY(1px);
+				}
+			}
+		}
+	}
 
     & .lang{
+	    grid-area: lang;
+
         order: 1;
         display: flex;
-        width: 100%;
+        width: auto;
         justify-content: center;
         z-index: 2;
 
@@ -166,7 +227,7 @@
             display: block;
             float: left;
 
-            padding: .5em;
+            padding: .75em;
             margin: auto .2em;
             position: relative;
             text-decoration: none;
@@ -201,14 +262,6 @@
         }
 
     }
-
-	& .travel_choice_award{
-		position: absolute;
-		left: 1em;
-		top: 3.25em;
-		width: 6.5em;
-		height: 6.5em;
-	}
 }
 
 /* ----------------------------------------------

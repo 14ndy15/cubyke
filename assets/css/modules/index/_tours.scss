@@ -11,6 +11,16 @@
                             "review";
     grid-template-columns: 100%;
 
+	@include atMedium{
+		grid-template-areas:    "title_description title_description"
+		"tour_1 tour_2"
+		"tour_3 tour_4"
+		"media media"
+		"inside_cuba inside_cuba"
+		"review review";
+		grid-template-columns: 45% 45%;
+	}
+
     @include atLarge {
         grid-template-areas: "title_description     tour_1 tour_2"
                              "title_description     tour_3 tour_4"
@@ -36,6 +46,14 @@
 		    position: relative;
 		    top: 0;
 
+		    @include atMedium{
+			    display: flex;
+		    }
+
+		    @include atLarge{
+			    display: block;
+		    }
+
 		    &--show {
 			    position: absolute;
 			    top: -40%;
@@ -47,8 +65,14 @@
 			    display: flex;
 			    justify-content: space-around;
 
+			    @include atMedium{
+				    position: relative;
+				    width: 75%;
+			    }
+
 			    @include atLarge{
-					top: -95%;
+					top: -42%;
+				    width: 100%;
 			    }
 
 			    @keyframes showDiscount {
@@ -88,10 +112,24 @@
 			    }
 
 			    & .tours__info__discount__text{
+				    display: flex;
 				    width: 60%;
+				    justify-content: center;
+				    align-items: center;
+				    margin: .5em;
 
 				    p{
 					    font-size: 1rem;
+
+					    @include atMedium{
+						    text-align: center;
+					    }
+
+					    &.info{
+						    @include atLarge{
+							    padding: .25em;
+						    }
+					    }
 				    }
 			    }
 
@@ -106,6 +144,17 @@
 		    &__text{
 			    transition: all .3s ease-in-out;
 			    width: 100%;
+
+			    @include atMedium{
+				    display: flex;
+				    align-items: center;
+				    justify-content: center;
+				    padding: 1em;
+			    }
+
+			    @include atLarge{
+				    padding: 0;
+			    }
 		    }
 	    }
 

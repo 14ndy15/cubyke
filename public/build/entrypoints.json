@@ -15,7 +15,7 @@
         "/build/app.dfcfe42d.js"
       ],
       "css": [
-        "/build/app.7b69eef5.css"
+        "/build/app.1e9bcb65.css"
       ]
     },
     "index": {
@@ -25,7 +25,7 @@
         "/build/index.559b5bc3.js"
       ],
       "css": [
-        "/build/index.6ec0474e.css"
+        "/build/index.51c528f2.css"
       ]
     },
     "index_no_critical": {
@@ -35,7 +35,7 @@
         "/build/index_no_critical.cc79d081.js"
       ],
       "css": [
-        "/build/index_no_critical.af61c45f.css"
+        "/build/index_no_critical.e2454da3.css"
       ]
     },
     "tours": {
@@ -55,7 +55,7 @@
       ],
       "css": [
         "/build/0.8cbf350a.css",
-        "/build/app_no_critical.3961a1de.css"
+        "/build/app_no_critical.3ea98b37.css"
       ]
     },
     "bikes": {

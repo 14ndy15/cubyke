@@ -12,6 +12,7 @@
         width: 100%;
         z-index: 1;
 
+
         @include atLarge{
             width: 32%
         }
@@ -19,6 +20,11 @@
         &__info{
             width: 100%;
             margin-bottom: 0;
+
+	        @include atMedium{
+		        width: 45%;
+		        text-align: center;
+	        }
 
             @include atLarge{
                 width: 60%;
@@ -62,6 +68,10 @@
         justify-content: center;
         width: 100%;
         z-index: 1;
+
+	    @include atMedium{
+		    width: 60%;
+	    }
 
         @include atLarge{
             width: 32%;
@@ -133,6 +143,10 @@
         justify-content: center;
         width: 100%;
         z-index: 1;
+
+	    @include atMedium{
+		    width: 40%;
+	    }
 
         @include atLarge{
             width: 32%;

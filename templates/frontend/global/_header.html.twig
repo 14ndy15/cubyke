@@ -1,19 +1,26 @@
 <header class="header">
 
     <div class="logo">
-        <a href="{{ path('index') }}">
-            <picture>
-                <source srcset="{{ asset('images/logo.png.webp') }}" type="image/webp">
-                <img src="{{ asset('images/logo.png') }}" alt="Cubyke logo">
-            </picture>
+	    <a href="{{ path('index') }}">
+		    <picture>
+			    <source srcset="{{ asset('images/logo.png.webp') }}" type="image/webp">
+			    <img src="{{ asset('images/logo.png') }}" alt="Cubyke logo">
+		    </picture>
 
-        </a>
+		    <div class="logo__travel_choice_award"
+			    	         data-sal="zoom-in"
+			    	         data-sal-delay="1000"
+			    	         data-sal-easing="ease-out-back">
+			    <img class="lazyload" src="{{ asset('images/TC_L.svg') }}" alt="tripadvisor travel choice">
+		    </div>
+	    </a>
     </div>
 
-    <div class="menu-icon">
-        <div class="menu-icon__middle"></div>
-    </div>
-
+	<div class="menu">
+		<div class="menu-icon">
+			<div class="menu-icon__middle"></div>
+		</div>
+	</div>
 
     <nav class="nav swing-out-top-bck">
         <ul>
@@ -40,11 +47,6 @@
         </ul>
     </div>
 
-	<div class="travel_choice_award"
-	     data-sal="zoom-in"
-	     data-sal-delay="1000"
-	     data-sal-easing="ease-out-back">
-		<img class="lazyload" src="{{ asset('images/TC_L.svg') }}" alt="tripadvisor travel choice">
-	</div>
+
 
 </header>
