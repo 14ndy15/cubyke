@@ -9,3 +9,9 @@
         @content;
     }
 }
+
+@mixin atStrech {
+	@media (max-height: 660px) {
+		@content;
+	}
+}

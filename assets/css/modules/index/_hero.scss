@@ -49,6 +49,10 @@
             @include atLarge{
                 width: 60%;
             }
+
+	        @include atStrech{
+		        font-size: 1.25em;
+	        }
         }
 
         & h2{
@@ -58,6 +62,10 @@
             @include atLarge{
                 width: 60%;
             }
+
+	        @include atStrech{
+		        font-size: 1em;
+	        }
         }
 
         &__action{

@@ -69,6 +69,10 @@
 			    top: 0;
 			    height: auto;
 		    }
+
+		    @include atStrech{
+			    height: 4em;
+		    }
 	    }
     }
 
